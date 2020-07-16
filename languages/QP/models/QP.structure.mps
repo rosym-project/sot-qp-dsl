@@ -73,5 +73,10 @@
       </node>
     </node>
   </node>
+  <node concept="1TIwiD" id="6$QZRoVNkmL">
+    <property role="EcuMT" value="7581527905999340977" />
+    <property role="TrG5h" value="CartesianImpedance" />
+    <ref role="1TJDcQ" node="6$QZRoVNkmx" resolve="CartesianTask" />
+  </node>
 </model>
 

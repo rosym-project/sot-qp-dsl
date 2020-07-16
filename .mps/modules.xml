@@ -2,6 +2,8 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/LinearAlgebra/LinearAlgebra.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/LinearAlgebra/sandbox/LinearAlgebra.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/QP/QP.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/QP/sandbox/QP.sandbox.msd" folder="" />
     </projectModules>
