@@ -6,6 +6,8 @@
       <modulePath path="$PROJECT_DIR$/languages/LinearAlgebra/sandbox/LinearAlgebra.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/QP/QP.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/QP/sandbox/QP.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/SoT/SoT.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/SoT/sandbox/SoT.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>
