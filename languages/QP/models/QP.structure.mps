@@ -124,5 +124,17 @@
       <node concept="asaX9" id="6$QZRoVNq_x" role="lGtFl" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1Nc9ZPKv_EN">
+    <property role="EcuMT" value="2075077497778494131" />
+    <property role="TrG5h" value="JointSpaceRedundancyResolution" />
+    <ref role="1TJDcQ" node="6$QZRoVNkmu" resolve="QPTask" />
+    <node concept="1TJgyj" id="1Nc9ZPKv_EO" role="1TKVEi">
+      <property role="IQ2ns" value="2075077497778494132" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="desired_joint" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="lh09:6$QZRoVNkmU" resolve="Vector" />
+    </node>
+  </node>
 </model>
 
