@@ -14,3 +14,4 @@ generate, and above all compliant to CCR.
 
 # TODO
 1. Add feedback gains to tasks (are they in all tasks?)
+2. What about the situations where I have only one task? (regarding priority scheme)
