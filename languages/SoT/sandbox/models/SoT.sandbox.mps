@@ -25,34 +25,22 @@
       </concept>
     </language>
   </registry>
-  <node concept="1GGMi1" id="1Nc9ZPKwwOV">
-    <node concept="1GGMi6" id="1Nc9ZPKwTZF" role="1GGNQn">
-      <node concept="1GGMhY" id="1Nc9ZPKwTZO" role="1GGMhT">
-        <node concept="1GGNfq" id="1Nc9ZPKwTZU" role="1GGKIh">
-          <node concept="1GGYzn" id="1Nc9ZPKwTZW" role="1GGX3N">
-            <property role="1GGYzm" value="T1" />
-          </node>
-        </node>
-        <node concept="1GGNfq" id="1Nc9ZPKwU04" role="1GGKIh">
-          <node concept="1GGYzn" id="1Nc9ZPKwU06" role="1GGX3N">
-            <property role="1GGYzm" value="T2" />
-          </node>
-        </node>
-        <node concept="1GGNfq" id="1Nc9ZPKwU0i" role="1GGKIh">
-          <node concept="1GGYzn" id="1Nc9ZPKwU0k" role="1GGX3N">
-            <property role="1GGYzm" value="T3" />
-          </node>
+  <node concept="1GGMi1" id="1Nc9ZPKwW3G">
+    <node concept="1GGMi6" id="1Nc9ZPKwZrV" role="1GGNQn">
+      <node concept="1GGNfq" id="1Nc9ZPKwZs4" role="1GGMhT">
+        <node concept="1GGYzn" id="1Nc9ZPKwZs6" role="1GGX3N">
+          <property role="1GGYzm" value="T1" />
         </node>
       </node>
-      <node concept="1GGMhY" id="1Nc9ZPKwU0s" role="1GGMhV">
-        <node concept="1GGNfq" id="1Nc9ZPKwU0y" role="1GGKIh">
-          <node concept="1GGYzn" id="1Nc9ZPKwU0$" role="1GGX3N">
-            <property role="1GGYzm" value="T1" />
+      <node concept="1GGMhY" id="1Nc9ZPKwZsa" role="1GGMhV">
+        <node concept="1GGNfq" id="1Nc9ZPKwZsg" role="1GGKIh">
+          <node concept="1GGYzn" id="1Nc9ZPKwZsi" role="1GGX3N">
+            <property role="1GGYzm" value="T2" />
           </node>
         </node>
-        <node concept="1GGNfq" id="1Nc9ZPKwU0G" role="1GGKIh">
-          <node concept="1GGYzn" id="1Nc9ZPKwU0I" role="1GGX3N">
-            <property role="1GGYzm" value="T2" />
+        <node concept="1GGNfq" id="1Nc9ZPKwZsq" role="1GGKIh">
+          <node concept="1GGYzn" id="1Nc9ZPKwZss" role="1GGX3N">
+            <property role="1GGYzm" value="T3" />
           </node>
         </node>
       </node>
