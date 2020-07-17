@@ -11,3 +11,6 @@ generate, and above all compliant to CCR.
 1. The most interesting one is rethinking the priority concept. No longer priority is a property 
    of the task. Instead it is an atribute given by the SoT. This concept, however, doesn't easily
    scale up to Herman's notion of weighted priorities. Although it is still possible.
+
+# TODO
+1. Add feedback gains to tasks (are they in all tasks?)
