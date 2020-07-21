@@ -87,10 +87,7 @@
     <node concept="3EZMnI" id="1Nc9ZPKwOFV" role="2wV5jI">
       <node concept="2iRfu4" id="1Nc9ZPKwOFW" role="2iSdaV" />
       <node concept="3F0ifn" id="1Nc9ZPKwOFZ" role="3EZMnx">
-        <property role="3F0ifm" value="T: " />
-      </node>
-      <node concept="3F1sOY" id="1Nc9ZPKwOG4" role="3EZMnx">
-        <ref role="1NtTu8" to="it9v:1Nc9ZPKvZse" resolve="task" />
+        <property role="3F0ifm" value="T" />
       </node>
     </node>
   </node>
