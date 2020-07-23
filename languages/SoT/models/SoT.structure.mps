@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="ciel" ref="r:376fcad3-8eec-4dce-a957-10eb8db8f8db(DataSheets.structure)" implicit="true" />
     <import index="qg" ref="r:a682a1c0-0d60-49b5-8410-038f9048aa42(QP.structure)" implicit="true" />
   </imports>
   <registry>
@@ -98,6 +99,19 @@
         <node concept="t5JxF" id="49KWzzIQkFV" role="lGtFl">
           <property role="t5JxN" value="TODO is the boundary condition that can be done the same way..." />
         </node>
+      </node>
+    </node>
+    <node concept="1TJgyi" id="62gmtUC57Ei" role="1TKVEl">
+      <property role="IQ2nx" value="6958160237124942482" />
+      <property role="TrG5h" value="string_identifier" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="62gmtUC57Ey" role="1TKVEl">
+      <property role="IQ2nx" value="6958160237124942498" />
+      <property role="TrG5h" value="solver_backend" />
+      <ref role="AX2Wp" to="ciel:z5yWMlY7sw" resolve="SolverBackends" />
+      <node concept="t5JxF" id="62gmtUC57ET" role="lGtFl">
+        <property role="t5JxN" value="add qp library backend as well" />
       </node>
     </node>
   </node>

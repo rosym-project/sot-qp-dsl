@@ -24,6 +24,8 @@
         <child id="2075077497778547820" name="tasks" index="1GGKIh" />
       </concept>
       <concept id="2075077497778537340" name="SoT.structure.SoT" flags="ng" index="1GGMi1">
+        <property id="6958160237124942482" name="string_identifier" index="38x2dc" />
+        <property id="6958160237124942498" name="solver_backend" index="38x2dW" />
         <child id="2075077497778543210" name="task_tree" index="1GGNQn" />
       </concept>
       <concept id="2075077497778537339" name="SoT.structure.HardPriority" flags="ng" index="1GGMi6">
@@ -56,6 +58,8 @@
     </language>
   </registry>
   <node concept="1GGMi1" id="62gmtUC4VBf">
+    <property role="38x2dW" value="z5yWMlY7sx/OpenSoT" />
+    <property role="38x2dc" value="TestString" />
     <node concept="1GGMi6" id="62gmtUC52s7" role="1GGNQn">
       <node concept="1GGNfq" id="62gmtUC52sp" role="1GGMhT">
         <node concept="1iYVF7" id="62gmtUC52sv" role="1GGNfl">

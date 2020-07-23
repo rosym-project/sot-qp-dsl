@@ -39,6 +39,7 @@
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
+        <property id="1160590353935" name="usesFolding" index="S$Qs1" />
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
@@ -284,11 +285,18 @@
       <node concept="3F1sOY" id="1Nc9ZPKwEHd" role="3EZMnx">
         <ref role="1NtTu8" to="it9v:1Nc9ZPKvLDE" resolve="task_tree" />
       </node>
+      <node concept="3F0A7n" id="62gmtUC59qb" role="3EZMnx">
+        <ref role="1NtTu8" to="it9v:62gmtUC57Ey" resolve="solver_backend" />
+      </node>
+      <node concept="3F0A7n" id="62gmtUC59ql" role="3EZMnx">
+        <ref role="1NtTu8" to="it9v:62gmtUC57Ei" resolve="string_identifier" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="62gmtUC4MXD">
     <ref role="1XX52x" to="it9v:1Nc9ZPKvLgB" resolve="Task" />
     <node concept="3EZMnI" id="62gmtUC4OBH" role="2wV5jI">
+      <property role="S$Qs1" value="true" />
       <node concept="l2Vlx" id="62gmtUC4OBI" role="2iSdaV" />
       <node concept="3F0ifn" id="62gmtUC4OBJ" role="3EZMnx">
         <property role="3F0ifm" value="task" />
