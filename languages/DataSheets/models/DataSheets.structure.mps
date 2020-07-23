@@ -11,6 +11,15 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -54,12 +63,12 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="49KWzzIQxdP" resolve="DefaultParameters" />
     </node>
-    <node concept="1TJgyj" id="49KWzzIQxfh" role="1TKVEi">
-      <property role="IQ2ns" value="4787592730234196945" />
+    <node concept="1TJgyj" id="z5yWMlY7s_" role="1TKVEi">
+      <property role="IQ2ns" value="632065033521100581" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="solvers" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="49KWzzIQxf6" resolve="SolverParameters" />
+      <ref role="20lvS9" node="z5yWMlY7sv" resolve="Solver" />
     </node>
     <node concept="PrWs8" id="49KWzzIQxf4" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -109,6 +118,35 @@
       <property role="IQ2nx" value="4787592730234196940" />
       <property role="TrG5h" value="path" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="z5yWMlY7sv">
+    <property role="EcuMT" value="632065033521100575" />
+    <property role="TrG5h" value="Solver" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="z5yWMlY7sD" role="1TKVEl">
+      <property role="IQ2nx" value="632065033521100585" />
+      <property role="TrG5h" value="solver_id" />
+      <ref role="AX2Wp" node="z5yWMlY7sw" resolve="SolverBackends" />
+    </node>
+    <node concept="1TJgyj" id="z5yWMlY7sF" role="1TKVEi">
+      <property role="IQ2ns" value="632065033521100587" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="solver_parameters" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="49KWzzIQxf6" resolve="SolverParameters" />
+    </node>
+  </node>
+  <node concept="25R3W" id="z5yWMlY7sw">
+    <property role="3F6X1D" value="632065033521100576" />
+    <property role="TrG5h" value="SolverBackends" />
+    <node concept="25R33" id="z5yWMlY7sx" role="25R1y">
+      <property role="3tVfz5" value="632065033521100577" />
+      <property role="TrG5h" value="OpenSoT" />
+    </node>
+    <node concept="25R33" id="z5yWMlY7sy" role="25R1y">
+      <property role="3tVfz5" value="632065033521100578" />
+      <property role="TrG5h" value="XQP" />
     </node>
   </node>
 </model>
