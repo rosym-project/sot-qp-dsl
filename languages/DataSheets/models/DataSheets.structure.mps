@@ -81,17 +81,17 @@
     <node concept="1TJgyi" id="49KWzzIPFCU" role="1TKVEl">
       <property role="IQ2nx" value="4787592730233977402" />
       <property role="TrG5h" value="regularization_factor" />
-      <ref role="AX2Wp" to="tpee:4_5hYVHKxAU" resolve="_FloatNumberValue" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
     <node concept="1TJgyi" id="49KWzzIPFCW" role="1TKVEl">
       <property role="IQ2nx" value="4787592730233977404" />
       <property role="TrG5h" value="lambda_1" />
-      <ref role="AX2Wp" to="tpee:4_5hYVHKxAU" resolve="_FloatNumberValue" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
     <node concept="1TJgyi" id="49KWzzIPFCZ" role="1TKVEl">
       <property role="IQ2nx" value="4787592730233977407" />
       <property role="TrG5h" value="lambda_2" />
-      <ref role="AX2Wp" to="tpee:4_5hYVHKxAU" resolve="_FloatNumberValue" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
   </node>
   <node concept="1TIwiD" id="49KWzzIQxf6">
@@ -100,7 +100,12 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="49KWzzIQxf7" role="1TKVEl">
       <property role="IQ2nx" value="4787592730234196935" />
-      <property role="TrG5h" value="name" />
+      <property role="TrG5h" value="string_identifier" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="z5yWMlZcsB" role="1TKVEl">
+      <property role="IQ2nx" value="632065033521383207" />
+      <property role="TrG5h" value="task_namespace" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="49KWzzIQxf9" role="1TKVEi">

@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="ciel" ref="r:376fcad3-8eec-4dce-a957-10eb8db8f8db(DataSheets.structure)" implicit="true" />
     <import index="lh09" ref="r:611fdbf7-0180-465a-a354-b44c618a29b8(LinearAlgebra.structure)" implicit="true" />
   </imports>
   <registry>
@@ -56,6 +57,12 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6$QZRoVNkmv" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="z5yWMlZc7K" role="1TKVEi">
+      <property role="IQ2ns" value="632065033521381872" />
+      <property role="20kJfa" value="data_sheet" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="ciel:49KWzzIQxdO" resolve="DataSheet" />
     </node>
   </node>
   <node concept="1TIwiD" id="6$QZRoVNkmx">
