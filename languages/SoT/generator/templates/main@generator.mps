@@ -229,6 +229,77 @@
       </node>
       <node concept="356sEK" id="62gmtUC5QBF" role="383Ya9">
         <node concept="2EixSi" id="62gmtUC5QBH" role="2EinRH" />
+        <node concept="356sEF" id="2YQ4RMG8zd0" role="356sEH">
+          <property role="TrG5h" value="class " />
+        </node>
+        <node concept="356sEF" id="2YQ4RMG8zd2" role="356sEH">
+          <property role="TrG5h" value="map_SoT" />
+          <node concept="17Uvod" id="2YQ4RMG8zd8" role="lGtFl">
+            <property role="2qtEX9" value="name" />
+            <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+            <node concept="3zFVjK" id="2YQ4RMG8zd9" role="3zH0cK">
+              <node concept="3clFbS" id="2YQ4RMG8zda" role="2VODD2">
+                <node concept="3clFbF" id="2YQ4RMG8zhL" role="3cqZAp">
+                  <node concept="2OqwBi" id="2YQ4RMG8ztt" role="3clFbG">
+                    <node concept="30H73N" id="2YQ4RMG8zhK" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="2YQ4RMG8z$A" role="2OqNvi">
+                      <ref role="3TsBF5" to="it9v:62gmtUC57Ei" resolve="string_identifier" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="356sEF" id="2YQ4RMG8zGU" role="356sEH">
+          <property role="TrG5h" value=" {" />
+        </node>
+      </node>
+      <node concept="356sEK" id="2YQ4RMG8AGn" role="383Ya9">
+        <node concept="356sEF" id="2YQ4RMG8AGo" role="356sEH">
+          <property role="TrG5h" value="public:" />
+        </node>
+        <node concept="2EixSi" id="2YQ4RMG8AGp" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="2YQ4RMG8EuS" role="383Ya9">
+        <node concept="356sEQ" id="2YQ4RMG8EyE" role="356sEH">
+          <property role="333NGx" value="  " />
+          <node concept="356sEK" id="2YQ4RMG8HKn" role="383Ya9">
+            <node concept="356sEQ" id="2YQ4RMG8HKw" role="356sEH">
+              <property role="333NGx" value="  " />
+              <node concept="356sEK" id="2YQ4RMG8HKt" role="383Ya9">
+                <node concept="2EixSi" id="2YQ4RMG8HKv" role="2EinRH" />
+                <node concept="356sEF" id="2YQ4RMG8HKo" role="356sEH">
+                  <property role="TrG5h" value="map_SoT" />
+                  <node concept="17Uvod" id="2YQ4RMG8KBY" role="lGtFl">
+                    <property role="2qtEX9" value="name" />
+                    <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                    <node concept="3zFVjK" id="2YQ4RMG8KBZ" role="3zH0cK">
+                      <node concept="3clFbS" id="2YQ4RMG8KC0" role="2VODD2">
+                        <node concept="3clFbF" id="2YQ4RMG8KGB" role="3cqZAp">
+                          <node concept="2OqwBi" id="2YQ4RMG8KSj" role="3clFbG">
+                            <node concept="30H73N" id="2YQ4RMG8KGA" role="2Oq$k0" />
+                            <node concept="3TrcHB" id="2YQ4RMG8KZJ" role="2OqNvi">
+                              <ref role="3TsBF5" to="it9v:62gmtUC57Ei" resolve="string_identifier" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="356sEF" id="2YQ4RMG8L83" role="356sEH">
+                  <property role="TrG5h" value="(const XBot::ModelInterface::Ptr model);" />
+                </node>
+              </node>
+              <node concept="356sEK" id="2YQ4RMG8LMU" role="383Ya9">
+                <node concept="2EixSi" id="2YQ4RMG8LMW" role="2EinRH" />
+              </node>
+            </node>
+            <node concept="2EixSi" id="2YQ4RMG8HKp" role="2EinRH" />
+          </node>
+        </node>
+        <node concept="2EixSi" id="2YQ4RMG8EuU" role="2EinRH" />
       </node>
     </node>
     <node concept="n94m4" id="62gmtUC5bEG" role="lGtFl">
