@@ -127,7 +127,7 @@
         <node concept="1GGNfq" id="62gmtUC52u6" role="1GGKIh">
           <node concept="1GGBPe" id="62gmtUC52ut" role="1GGNfl">
             <property role="TrG5h" value="JointImp" />
-            <ref role="2tekCW" to="bxwr:z5yWMlYjsN" resolve="CartesianImpedanceAcceleration" />
+            <ref role="2tekCW" to="bxwr:fxXr8jd8o_" resolve="JointImpedance" />
             <node concept="1iYVFc" id="62gmtUC52uv" role="1GGBP9">
               <node concept="1iYVF1" id="62gmtUC52ux" role="1iYVF9">
                 <node concept="33vP2n" id="62gmtUC52uz" role="1iYVFe" />

@@ -72,5 +72,26 @@
       </node>
     </node>
   </node>
+  <node concept="2GEI5c" id="fxXr8jd8o_">
+    <property role="TrG5h" value="JointImpedance" />
+    <node concept="2GEI5d" id="fxXr8jd8oA" role="2GEI6n">
+      <property role="2GD$w2" value="0.001" />
+      <property role="2GD$w4" value="0.01" />
+      <property role="2GD$w7" value="0.1" />
+    </node>
+    <node concept="2tfvNj" id="fxXr8jd8oB" role="2tfvND">
+      <property role="2tfvN_" value="z5yWMlY7sx/OpenSoT" />
+      <node concept="2GEI7Y" id="fxXr8jd8oC" role="2tfvNB">
+        <property role="2GEI7Z" value="opensot" />
+        <property role="2tekNF" value="OpenSoT::Torque::JointImpedance" />
+        <node concept="2GEI7N" id="fxXr8jd8oD" role="2GEI7L">
+          <property role="2GEI7O" value="/OpenSoT/Tasks/Torque/Foo.h" />
+        </node>
+        <node concept="2GEI7N" id="fxXr8jd8oE" role="2GEI7L">
+          <property role="2GEI7O" value="/OpenSoT/Constraints/Bar.hpp" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
