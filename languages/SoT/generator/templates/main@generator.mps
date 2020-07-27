@@ -519,11 +519,53 @@
                   </node>
                 </node>
               </node>
+              <node concept="356sEK" id="fxXr8jd8yv" role="383Ya9">
+                <node concept="2EixSi" id="fxXr8jd8yx" role="2EinRH" />
+              </node>
+              <node concept="356sEK" id="fxXr8jd9ok" role="383Ya9">
+                <node concept="356sEF" id="fxXr8jd9ol" role="356sEH">
+                  <property role="TrG5h" value="// Make these dependant on the data-sheet" />
+                </node>
+                <node concept="2EixSi" id="fxXr8jd9om" role="2EinRH" />
+              </node>
+              <node concept="356sEK" id="fxXr8jd8UF" role="383Ya9">
+                <node concept="356sEF" id="fxXr8jd8UG" role="356sEH">
+                  <property role="TrG5h" value="AutoStack::Ptr stack;" />
+                </node>
+                <node concept="2EixSi" id="fxXr8jd8UH" role="2EinRH" />
+              </node>
+              <node concept="356sEK" id="fxXr8jd9iT" role="383Ya9">
+                <node concept="356sEF" id="fxXr8jd9iU" role="356sEH">
+                  <property role="TrG5h" value="QPOases_sot::Ptr iHQP;" />
+                </node>
+                <node concept="2EixSi" id="fxXr8jd9iV" role="2EinRH" />
+              </node>
+              <node concept="356sEK" id="fxXr8jd9KC" role="383Ya9">
+                <node concept="2EixSi" id="fxXr8jd9KE" role="2EinRH" />
+              </node>
+              <node concept="356sEK" id="fxXr8jdgLK" role="383Ya9">
+                <node concept="356sEF" id="fxXr8jdha9" role="356sEH">
+                  <property role="TrG5h" value="void update();" />
+                </node>
+                <node concept="2EixSi" id="fxXr8jdgLM" role="2EinRH" />
+              </node>
             </node>
             <node concept="2EixSi" id="2YQ4RMG8HKp" role="2EinRH" />
           </node>
         </node>
         <node concept="2EixSi" id="2YQ4RMG8EuU" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="fxXr8jdaq_" role="383Ya9">
+        <node concept="356sEF" id="fxXr8jdaJE" role="356sEH">
+          <property role="TrG5h" value="};" />
+        </node>
+        <node concept="2EixSi" id="fxXr8jdaqB" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="fxXr8jdaJG" role="383Ya9">
+        <node concept="356sEF" id="fxXr8jdaJH" role="356sEH">
+          <property role="TrG5h" value="#endif;" />
+        </node>
+        <node concept="2EixSi" id="fxXr8jdaJI" role="2EinRH" />
       </node>
     </node>
     <node concept="n94m4" id="62gmtUC5bEG" role="lGtFl">
