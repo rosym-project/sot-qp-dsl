@@ -8,6 +8,7 @@
   <imports>
     <import index="it9v" ref="r:76a2d845-165e-408d-95b2-0155ea32472e(SoT.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="25x5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.text(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -104,6 +105,13 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
   </registry>
@@ -337,13 +345,32 @@
               <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
               <node concept="3zFVjK" id="62gmtUC5g7y" role="3zH0cK">
                 <node concept="3clFbS" id="62gmtUC5g7z" role="2VODD2">
-                  <node concept="3clFbF" id="62gmtUC5pMu" role="3cqZAp">
-                    <node concept="2YIFZM" id="62gmtUC5q0A" role="3clFbG">
-                      <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-                      <ref role="37wK5l" to="wyt6:~String.valueOf(long)" resolve="valueOf" />
-                      <node concept="2YIFZM" id="62gmtUC5qov" role="37wK5m">
-                        <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
-                        <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                  <node concept="1X3_iC" id="2YQ4RMG8vAH" role="lGtFl">
+                    <property role="3V$3am" value="statement" />
+                    <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                    <node concept="3clFbF" id="62gmtUC5pMu" role="8Wnug">
+                      <node concept="2YIFZM" id="62gmtUC5q0A" role="3clFbG">
+                        <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                        <ref role="37wK5l" to="wyt6:~String.valueOf(long)" resolve="valueOf" />
+                        <node concept="2YIFZM" id="62gmtUC5qov" role="37wK5m">
+                          <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
+                          <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="2YQ4RMG8t7f" role="3cqZAp">
+                    <node concept="2OqwBi" id="2YQ4RMG8uqB" role="3clFbG">
+                      <node concept="2YIFZM" id="2YQ4RMG8tDh" role="2Oq$k0">
+                        <ref role="37wK5l" to="25x5:~DateFormat.getDateTimeInstance()" resolve="getDateTimeInstance" />
+                        <ref role="1Pybhc" to="25x5:~DateFormat" resolve="DateFormat" />
+                      </node>
+                      <node concept="liA8E" id="2YQ4RMG8v8P" role="2OqNvi">
+                        <ref role="37wK5l" to="25x5:~Format.format(java.lang.Object)" resolve="format" />
+                        <node concept="2YIFZM" id="2YQ4RMG8vmy" role="37wK5m">
+                          <ref role="37wK5l" to="wyt6:~System.currentTimeMillis()" resolve="currentTimeMillis" />
+                          <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                        </node>
                       </node>
                     </node>
                   </node>
