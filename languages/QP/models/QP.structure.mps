@@ -98,7 +98,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="feedforward_forces" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="lh09:6$QZRoVNkmU" resolve="Vector" />
+      <ref role="20lvS9" to="lh09:5K3G9oU6pWW" resolve="Settable" />
     </node>
     <node concept="1TJgyj" id="6$QZRoVNq_d" role="1TKVEi">
       <property role="IQ2ns" value="7581527905999366477" />

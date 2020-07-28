@@ -18,15 +18,28 @@
       <concept id="6820251943131810950" name="jetbrains.mps.lang.editor.structure.TableComponentStyleClassItem" flags="ln" index="2jF6I7">
         <property id="6820251943131810955" name="tableComponent" index="2jF6Ia" />
       </concept>
+      <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
+      <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
+      <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
+        <property id="1238091709220" name="labelName" index="1413C4" />
+      </concept>
       <concept id="1219226236603" name="jetbrains.mps.lang.editor.structure.DrawBracketsStyleClassItem" flags="ln" index="3vyZuw" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
+      </concept>
+      <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
+        <child id="1106270802874" name="cellLayout" index="2iSdaV" />
+        <child id="1073389446424" name="childCellModel" index="3EZMnx" />
+      </concept>
+      <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
+        <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
@@ -39,15 +52,33 @@
   </registry>
   <node concept="24kQdi" id="6$QZRoVNknO">
     <ref role="1XX52x" to="lh09:6$QZRoVNkmU" resolve="Vector" />
-    <node concept="3F2HdR" id="6$QZRoVNknQ" role="2wV5jI">
-      <ref role="1NtTu8" to="lh09:6$QZRoVNkmZ" resolve="data" />
-      <node concept="3vyZuw" id="6$QZRoVNknV" role="3F10Kt">
-        <property role="VOm3f" value="true" />
+    <node concept="3EZMnI" id="5K3G9oU6HDn" role="2wV5jI">
+      <node concept="l2Vlx" id="5K3G9oU6HDo" role="2iSdaV" />
+      <node concept="3F0ifn" id="5K3G9oU6HDG" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+        <node concept="11L4FC" id="5K3G9oU6HDH" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3mYdg7" id="5K3G9oU6HDI" role="3F10Kt">
+          <property role="1413C4" value="paren-data" />
+        </node>
+        <node concept="11LMrY" id="5K3G9oU6HDJ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
-      <node concept="2jF6I7" id="6$QZRoVNko0" role="3F10Kt">
-        <property role="2jF6Ia" value="5UApK7d2wMa/VERTICAL_COLLECTION" />
+      <node concept="3F2HdR" id="5K3G9oU6HDK" role="3EZMnx">
+        <ref role="1NtTu8" to="lh09:6$QZRoVNkmZ" resolve="data" />
+        <node concept="l2Vlx" id="5K3G9oU6HDL" role="2czzBx" />
       </node>
-      <node concept="fvoJi" id="6$QZRoVNko4" role="2czzBx" />
+      <node concept="3F0ifn" id="5K3G9oU6HDM" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+        <node concept="11L4FC" id="5K3G9oU6HDN" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3mYdg7" id="5K3G9oU6HDO" role="3F10Kt">
+          <property role="1413C4" value="paren-data" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="6$QZRoVNkom">
@@ -60,6 +91,16 @@
       </node>
       <node concept="2jF6I7" id="6$QZRoVNkoy" role="3F10Kt">
         <property role="2jF6Ia" value="5UApK7d2wMa/VERTICAL_COLLECTION" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5K3G9oU6Dfq">
+    <ref role="1XX52x" to="lh09:6$QZRoVNkmR" resolve="raw_array" />
+    <node concept="3EZMnI" id="5K3G9oU6Dfs" role="2wV5jI">
+      <node concept="l2Vlx" id="5K3G9oU6Dft" role="2iSdaV" />
+      <node concept="3F2HdR" id="5K3G9oU6DfC" role="3EZMnx">
+        <ref role="1NtTu8" to="lh09:6$QZRoVNkmS" resolve="data" />
+        <node concept="l2Vlx" id="5K3G9oU6DfD" role="2czzBx" />
       </node>
     </node>
   </node>
