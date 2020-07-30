@@ -61,7 +61,7 @@
   </registry>
   <node concept="1GGMi1" id="62gmtUC4VBf">
     <property role="38x2dW" value="z5yWMlY7sx/OpenSoT" />
-    <property role="38x2dc" value="TestString" />
+    <property role="38x2dc" value="teststring" />
     <node concept="1GGMi6" id="62gmtUC52s7" role="1GGNQn">
       <node concept="1GGNfq" id="62gmtUC52sp" role="1GGMhT">
         <node concept="1iYVF7" id="62gmtUC52sv" role="1GGNfl">
