@@ -88,14 +88,14 @@
           <node concept="2w0oBo" id="1q4naCfRTwV" role="1iYPoy">
             <property role="1A6yYF" value="true" />
             <property role="2wqb9l" value="Eigen::Vector" />
-            <property role="2w0rIP" value="6" />
+            <property role="2w0rIP" value="3" />
             <property role="2w0rIZ" value="1" />
           </node>
           <node concept="2w0oBo" id="1q4naCfRTwX" role="1iYPoJ">
             <property role="1A6yYF" value="true" />
-            <property role="2wqb9l" value="Eigen::Vector" />
-            <property role="2w0rIP" value="6" />
-            <property role="2w0rIZ" value="1" />
+            <property role="2wqb9l" value="Eigen::Matrix" />
+            <property role="2w0rIP" value="3" />
+            <property role="2w0rIZ" value="3" />
           </node>
         </node>
       </node>
@@ -137,14 +137,14 @@
             <node concept="2w0oBo" id="1q4naCfRTyX" role="1iYPoy">
               <property role="1A6yYF" value="true" />
               <property role="2wqb9l" value="Eigen::Vector" />
-              <property role="2w0rIP" value="6" />
+              <property role="2w0rIP" value="3" />
               <property role="2w0rIZ" value="1" />
             </node>
             <node concept="2w0oBo" id="1q4naCfRTyY" role="1iYPoJ">
               <property role="1A6yYF" value="true" />
               <property role="2wqb9l" value="Eigen::Vector" />
-              <property role="2w0rIP" value="6" />
-              <property role="2w0rIZ" value="1" />
+              <property role="2w0rIP" value="3" />
+              <property role="2w0rIZ" value="3" />
             </node>
           </node>
         </node>
