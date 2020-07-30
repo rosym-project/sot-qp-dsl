@@ -140,7 +140,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="desired_joint" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="lh09:6$QZRoVNkmU" resolve="Vector" />
+      <ref role="20lvS9" to="lh09:5K3G9oU6pWW" resolve="Settable" />
     </node>
   </node>
 </model>

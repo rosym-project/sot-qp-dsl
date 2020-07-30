@@ -28,6 +28,7 @@
         <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
         <dependency reexport="false">751b0b85-c6ee-41b8-9f8e-6d8bd95432ac(DataSheets)</dependency>
         <dependency reexport="false">f8222387-45de-4e0c-b2a1-3806db93dfd4(QP)</dependency>
+        <dependency reexport="false">f3a6ce70-c30b-4af7-bedf-86d01c544ebf(LinearAlgebra)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:990507d3-3527-4c54-bfe9-0ca3c9c6247a:com.dslfoundry.plaintextgen" version="0" />
@@ -52,6 +53,7 @@
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
         <module reference="751b0b85-c6ee-41b8-9f8e-6d8bd95432ac(DataSheets)" version="0" />
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
+        <module reference="f3a6ce70-c30b-4af7-bedf-86d01c544ebf(LinearAlgebra)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="f8222387-45de-4e0c-b2a1-3806db93dfd4(QP)" version="0" />

@@ -12,6 +12,9 @@
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
     </language>
     <language id="f3a6ce70-c30b-4af7-bedf-86d01c544ebf" name="LinearAlgebra">
       <concept id="7581527905999340983" name="LinearAlgebra.structure.raw_array" flags="ng" index="1iYVF1">
@@ -19,6 +22,9 @@
       </concept>
       <concept id="7581527905999340986" name="LinearAlgebra.structure.Vector" flags="ng" index="1iYVFc">
         <child id="7581527905999340991" name="data" index="1iYVF9" />
+      </concept>
+      <concept id="6630337235685842748" name="LinearAlgebra.structure.Settable" flags="ng" index="1A6yYE">
+        <property id="8959378637295888691" name="implementation_type" index="2wqb9l" />
       </concept>
     </language>
     <language id="daff74ff-0009-47ed-8f20-b151cf9054c8" name="SoT">
@@ -132,7 +138,78 @@
             <ref role="2tekCW" to="bxwr:fxXr8jd8o_" resolve="JointImpedance" />
             <node concept="1iYVFc" id="62gmtUC52uv" role="1GGBP9">
               <node concept="1iYVF1" id="62gmtUC52ux" role="1iYVF9">
-                <node concept="33vP2n" id="62gmtUC52uz" role="1iYVFe" />
+                <node concept="3cmrfG" id="7Lm6Qrshrx_" role="1iYVFe">
+                  <property role="3cmrfH" value="1" />
+                </node>
+              </node>
+              <node concept="1iYVF1" id="7Lm6QrshrxE" role="1iYVF9">
+                <node concept="3cmrfG" id="7Lm6QrshrxK" role="1iYVFe">
+                  <property role="3cmrfH" value="2" />
+                </node>
+              </node>
+              <node concept="1iYVF1" id="7Lm6QrshrxP" role="1iYVF9">
+                <node concept="3cmrfG" id="7Lm6QrshrxX" role="1iYVFe">
+                  <property role="3cmrfH" value="3" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1GGMi1" id="7Lm6QrshQZ6">
+    <property role="38x2dW" value="z5yWMlY7sx/OpenSoT" />
+    <property role="38x2dc" value="SoT2" />
+    <node concept="1GGMi6" id="7Lm6QrshQZ8" role="1GGNQn">
+      <node concept="1GGNfq" id="7Lm6QrshQZh" role="1GGMhT">
+        <node concept="1GGBPe" id="7Lm6Qrsja6B" role="1GGNfl">
+          <property role="TrG5h" value="Jnt1" />
+          <ref role="2tekCW" to="bxwr:fxXr8jd8o_" resolve="JointImpedance" />
+          <node concept="1iYVFc" id="7Lm6Qrsja6H" role="1GGBP9">
+            <property role="2wqb9l" value="Eigen::Vector&lt;double,0&gt; " />
+            <node concept="1iYVF1" id="7Lm6Qrsja6J" role="1iYVF9">
+              <node concept="3cmrfG" id="7Lm6Qrsja6Q" role="1iYVFe">
+                <property role="3cmrfH" value="1" />
+              </node>
+            </node>
+            <node concept="1iYVF1" id="7Lm6Qrsja6S" role="1iYVF9">
+              <node concept="3cmrfG" id="7Lm6Qrsja71" role="1iYVFe">
+                <property role="3cmrfH" value="1" />
+              </node>
+            </node>
+            <node concept="1iYVF1" id="7Lm6Qrsja73" role="1iYVF9">
+              <node concept="3cmrfG" id="7Lm6Qrsja7e" role="1iYVFe">
+                <property role="3cmrfH" value="1" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1GGNfq" id="7Lm6QrshR03" role="1GGMhV">
+        <node concept="1GGBPe" id="7Lm6QrshR09" role="1GGNfl">
+          <property role="TrG5h" value="jnt2" />
+          <ref role="2tekCW" to="bxwr:fxXr8jd8o_" resolve="JointImpedance" />
+          <node concept="1iYVFc" id="7Lm6QrshR0f" role="1GGBP9">
+            <property role="2wqb9l" value="Eigen::Vector&lt;double,0&gt; " />
+            <node concept="1iYVF1" id="7Lm6QrshR0h" role="1iYVF9">
+              <node concept="3cmrfG" id="7Lm6QrshR0o" role="1iYVFe">
+                <property role="3cmrfH" value="1" />
+              </node>
+            </node>
+            <node concept="1iYVF1" id="7Lm6QrshR0q" role="1iYVF9">
+              <node concept="3cmrfG" id="7Lm6QrshR0z" role="1iYVFe">
+                <property role="3cmrfH" value="2" />
+              </node>
+            </node>
+            <node concept="1iYVF1" id="7Lm6QrshR0_" role="1iYVF9">
+              <node concept="3cmrfG" id="7Lm6QrshR0K" role="1iYVFe">
+                <property role="3cmrfH" value="3" />
+              </node>
+            </node>
+            <node concept="1iYVF1" id="7Lm6QrshR0P" role="1iYVF9">
+              <node concept="3cmrfG" id="7Lm6QrshR0Z" role="1iYVFe">
+                <property role="3cmrfH" value="4" />
               </node>
             </node>
           </node>
