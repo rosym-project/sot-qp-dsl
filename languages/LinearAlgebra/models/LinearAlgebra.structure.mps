@@ -11,23 +11,14 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
-      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
-        <property id="7862711839422615217" name="text" index="t5JxN" />
-      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
-        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
-      </concept>
-      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
-        <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
-        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
         <property id="241647608299431129" name="propertyId" index="IQ2nx" />
@@ -42,9 +33,6 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
-      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -67,10 +55,7 @@
     <property role="EcuMT" value="7581527905999340986" />
     <property role="TrG5h" value="Vector" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" node="5K3G9oU6pWW" resolve="Settable" />
-    <node concept="PrWs8" id="6$QZRoVNkmV" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="6$QZRoVNkmX" role="1TKVEl">
       <property role="IQ2nx" value="7581527905999340989" />
       <property role="TrG5h" value="size" />
@@ -88,7 +73,7 @@
     <property role="EcuMT" value="7581527905999340993" />
     <property role="TrG5h" value="Matrix" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" node="5K3G9oU6pWW" resolve="Settable" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="6$QZRoVNkn2" role="1TKVEl">
       <property role="IQ2nx" value="7581527905999340994" />
       <property role="TrG5h" value="row_size" />
@@ -105,30 +90,6 @@
       <property role="20kJfa" value="data" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="6$QZRoVNkmU" resolve="Vector" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5K3G9oU6pWW">
-    <property role="EcuMT" value="6630337235685842748" />
-    <property role="TrG5h" value="Settable" />
-    <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5K3G9oU6pWX" role="1TKVEl">
-      <property role="IQ2nx" value="6630337235685842749" />
-      <property role="TrG5h" value="monitored" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="7Lm6QrsfE$N" role="1TKVEl">
-      <property role="IQ2nx" value="8959378637295888691" />
-      <property role="TrG5h" value="implementation_type" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="t5JxF" id="7Lm6QrsfE$Q" role="lGtFl">
-        <property role="t5JxN" value="This is an awefull place for this. Better mvoe it to datasheet..." />
-      </node>
-      <node concept="asaX9" id="7Lm6QrsfE_j" role="lGtFl" />
-    </node>
-    <node concept="asaX9" id="7Lm6QrsfE$S" role="lGtFl" />
-    <node concept="t5JxF" id="7Lm6QrsfE$U" role="lGtFl">
-      <property role="t5JxN" value="This is conceptually more suited for QP task but for inheritence sake I keep it here..." />
     </node>
   </node>
 </model>

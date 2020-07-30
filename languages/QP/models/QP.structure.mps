@@ -8,7 +8,6 @@
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="ciel" ref="r:376fcad3-8eec-4dce-a957-10eb8db8f8db(DataSheets.structure)" implicit="true" />
-    <import index="lh09" ref="r:611fdbf7-0180-465a-a354-b44c618a29b8(LinearAlgebra.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -47,6 +46,13 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
   </registry>
@@ -98,28 +104,28 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="feedforward_forces" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="lh09:5K3G9oU6pWW" resolve="Settable" />
+      <ref role="20lvS9" node="7Lm6QrslTaY" resolve="Settable" />
     </node>
     <node concept="1TJgyj" id="6$QZRoVNq_d" role="1TKVEi">
       <property role="IQ2ns" value="7581527905999366477" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="cartesian_stiffness" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="lh09:6$QZRoVNkmU" resolve="Vector" />
+      <ref role="20lvS9" node="7Lm6QrslTaY" resolve="Settable" />
     </node>
     <node concept="1TJgyj" id="6$QZRoVNq_g" role="1TKVEi">
       <property role="IQ2ns" value="7581527905999366480" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="cartesian_damping" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="lh09:6$QZRoVNkmU" resolve="Vector" />
+      <ref role="20lvS9" node="7Lm6QrslTaY" resolve="Settable" />
     </node>
     <node concept="1TJgyj" id="6$QZRoVNq_k" role="1TKVEi">
       <property role="IQ2ns" value="7581527905999366484" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="cartesian_position" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="lh09:6$QZRoVNkmU" resolve="Vector" />
+      <ref role="20lvS9" node="7Lm6QrslTaY" resolve="Settable" />
       <node concept="asaX9" id="6$QZRoVNq_v" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="6$QZRoVNq_p" role="1TKVEi">
@@ -127,7 +133,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="carteisan_orientation" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="lh09:6$QZRoVNkmU" resolve="Vector" />
+      <ref role="20lvS9" node="7Lm6QrslTaY" resolve="Settable" />
       <node concept="asaX9" id="6$QZRoVNq_x" role="lGtFl" />
     </node>
   </node>
@@ -140,7 +146,50 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="desired_joint" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="lh09:5K3G9oU6pWW" resolve="Settable" />
+      <ref role="20lvS9" node="7Lm6QrslTaY" resolve="Settable" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7Lm6QrslTaY">
+    <property role="EcuMT" value="8959378637297521342" />
+    <property role="TrG5h" value="Settable" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5K3G9oU6pWX" role="1TKVEl">
+      <property role="IQ2nx" value="6630337235685842749" />
+      <property role="TrG5h" value="monitored" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="7Lm6QrsfE$N" role="1TKVEl">
+      <property role="IQ2nx" value="8959378637295888691" />
+      <property role="TrG5h" value="implementation_type" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="t5JxF" id="7Lm6QrsfE$Q" role="lGtFl">
+        <property role="t5JxN" value="This is an awefull place for this. Better mvoe it to datasheet..." />
+      </node>
+      <node concept="asaX9" id="7Lm6QrsfE_j" role="lGtFl" />
+    </node>
+    <node concept="1TJgyi" id="7Lm6QrslU3j" role="1TKVEl">
+      <property role="IQ2nx" value="8959378637297524947" />
+      <property role="TrG5h" value="rows" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="7Lm6QrslU3p" role="1TKVEl">
+      <property role="IQ2nx" value="8959378637297524953" />
+      <property role="TrG5h" value="cols" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1X3_iC" id="7Lm6QrslYqv" role="lGtFl">
+      <property role="3V$3am" value="linkDeclaration" />
+      <property role="3V$3ak" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1169125787135/1071489727083" />
+      <node concept="1TJgyj" id="7Lm6QrslTUE" role="8Wnug">
+        <property role="IQ2ns" value="8959378637297524394" />
+        <property role="20lmBu" value="fLJjDmT/aggregation" />
+        <property role="20kJfa" value="data_sheet" />
+        <property role="20lbJX" value="fLJekj4/_1" />
+        <ref role="20lvS9" to="ciel:49KWzzIQxdO" resolve="DataSheet" />
+        <node concept="t5JxF" id="7Lm6QrslYqz" role="lGtFl">
+          <property role="t5JxN" value="Use the datasheet!" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
