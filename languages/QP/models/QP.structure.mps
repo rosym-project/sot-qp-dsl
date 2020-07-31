@@ -68,7 +68,7 @@
       <property role="IQ2ns" value="632065033521381872" />
       <property role="20kJfa" value="data_sheet" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" to="ciel:49KWzzIQxdO" resolve="DataSheet" />
+      <ref role="20lvS9" to="ciel:49KWzzIQxdO" resolve="TaskDataSheet" />
     </node>
   </node>
   <node concept="1TIwiD" id="6$QZRoVNkmx">
@@ -185,7 +185,7 @@
         <property role="20lmBu" value="fLJjDmT/aggregation" />
         <property role="20kJfa" value="data_sheet" />
         <property role="20lbJX" value="fLJekj4/_1" />
-        <ref role="20lvS9" to="ciel:49KWzzIQxdO" resolve="DataSheet" />
+        <ref role="20lvS9" to="ciel:49KWzzIQxdO" resolve="TaskDataSheet" />
         <node concept="t5JxF" id="7Lm6QrslYqz" role="lGtFl">
           <property role="t5JxN" value="Use the datasheet!" />
         </node>
