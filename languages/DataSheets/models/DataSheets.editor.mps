@@ -334,11 +334,48 @@
         </node>
       </node>
       <node concept="3F0ifn" id="1uFW$KrJO9j" role="3EZMnx">
+        <property role="3F0ifm" value="settables:" />
         <node concept="ljvvj" id="1uFW$KrJO9C" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F0ifn" id="1uFW$KrJO9Z" role="3EZMnx" />
+      <node concept="3F2HdR" id="7tjg6$Bf9d1" role="3EZMnx">
+        <ref role="1NtTu8" to="ciel:7tjg6$BeSDc" resolve="front_back_mapping" />
+        <node concept="l2Vlx" id="7tjg6$Bf9d4" role="2czzBx" />
+        <node concept="lj46D" id="7tjg6$Bf9dr" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7tjg6$Bf01Z">
+    <ref role="1XX52x" to="ciel:7tjg6$BeSD2" resolve="FrontBackMapping" />
+    <node concept="3EZMnI" id="7tjg6$Bf02N" role="2wV5jI">
+      <node concept="l2Vlx" id="7tjg6$Bf02O" role="2iSdaV" />
+      <node concept="lj46D" id="7tjg6$Bf02P" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="3F0A7n" id="7tjg6$Bf05G" role="3EZMnx">
+        <ref role="1NtTu8" to="ciel:7tjg6$BeSD3" resolve="settable_identifier" />
+      </node>
+      <node concept="3F0ifn" id="7tjg6$Bf05i" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F0A7n" id="7tjg6$Bf03S" role="3EZMnx">
+        <ref role="1NtTu8" to="ciel:7tjg6$BeSD5" resolve="backend_equivalant" />
+      </node>
+      <node concept="3F0ifn" id="7tjg6$Bf02R" role="3EZMnx">
+        <property role="3F0ifm" value=" implemented as" />
+        <node concept="11L4FC" id="7tjg6$Bf02S" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="7tjg6$Bf02T" role="3EZMnx">
+        <ref role="1NtTu8" to="ciel:7tjg6$BeSD8" resolve="data_type" />
+        <node concept="ljvvj" id="7tjg6$Bf02U" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

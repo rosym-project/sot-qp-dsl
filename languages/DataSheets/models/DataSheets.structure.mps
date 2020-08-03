@@ -115,6 +115,13 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="49KWzzIQxfb" resolve="HeaderFiles" />
     </node>
+    <node concept="1TJgyj" id="7tjg6$BeSDc" role="1TKVEi">
+      <property role="IQ2ns" value="8598286933954366028" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="front_back_mapping" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="7tjg6$BeSD2" resolve="FrontBackMapping" />
+    </node>
   </node>
   <node concept="1TIwiD" id="49KWzzIQxfb">
     <property role="TrG5h" value="HeaderFiles" />
@@ -152,6 +159,26 @@
     <node concept="25R33" id="z5yWMlY7sy" role="25R1y">
       <property role="3tVfz5" value="632065033521100578" />
       <property role="TrG5h" value="XQP" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7tjg6$BeSD2">
+    <property role="EcuMT" value="8598286933954366018" />
+    <property role="TrG5h" value="FrontBackMapping" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7tjg6$BeSD3" role="1TKVEl">
+      <property role="IQ2nx" value="8598286933954366019" />
+      <property role="TrG5h" value="settable_identifier" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7tjg6$BeSD5" role="1TKVEl">
+      <property role="IQ2nx" value="8598286933954366021" />
+      <property role="TrG5h" value="backend_equivalant" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7tjg6$BeSD8" role="1TKVEl">
+      <property role="IQ2nx" value="8598286933954366024" />
+      <property role="TrG5h" value="data_type" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

@@ -16,7 +16,7 @@
         <property id="632065033521100585" name="solver_id" index="2tfvN_" />
         <child id="632065033521100587" name="solver_parameters" index="2tfvNB" />
       </concept>
-      <concept id="4787592730234196852" name="DataSheets.structure.DataSheet" flags="ng" index="2GEI5c">
+      <concept id="4787592730234196852" name="DataSheets.structure.TaskDataSheet" flags="ng" index="2GEI5c">
         <child id="632065033521100581" name="solvers" index="2tfvND" />
         <child id="4787592730234196911" name="defaults" index="2GEI6n" />
       </concept>
@@ -32,6 +32,12 @@
         <property id="632065033521383207" name="task_namespace" index="2tekNF" />
         <property id="4787592730234196935" name="string_identifier" index="2GEI7Z" />
         <child id="4787592730234196937" name="headers" index="2GEI7L" />
+        <child id="8598286933954366028" name="front_back_mapping" index="1gqcC_" />
+      </concept>
+      <concept id="8598286933954366018" name="DataSheets.structure.FrontBackMapping" flags="ng" index="1gqcCF">
+        <property id="8598286933954366024" name="data_type" index="1gqcCx" />
+        <property id="8598286933954366019" name="settable_identifier" index="1gqcCE" />
+        <property id="8598286933954366021" name="backend_equivalant" index="1gqcCG" />
       </concept>
     </language>
   </registry>
@@ -53,6 +59,16 @@
         <node concept="2GEI7N" id="z5yWMlYjsS" role="2GEI7L">
           <property role="2GEI7O" value="/foo/bar/baz.hpp" />
         </node>
+        <node concept="1gqcCF" id="7tjg6$Bf01E" role="1gqcC_">
+          <property role="1gqcCE" value="ff" />
+          <property role="1gqcCG" value="ff" />
+          <property role="1gqcCx" value="ff" />
+        </node>
+        <node concept="1gqcCF" id="7tjg6$BfdKq" role="1gqcC_">
+          <property role="1gqcCE" value="fff" />
+          <property role="1gqcCG" value="fff" />
+          <property role="1gqcCx" value="fff" />
+        </node>
       </node>
     </node>
     <node concept="2tfvNj" id="z5yWMlYjsV" role="2tfvND">
@@ -68,6 +84,11 @@
         </node>
         <node concept="2GEI7N" id="z5yWMlYjt8" role="2GEI7L">
           <property role="2GEI7O" value="/thir/path/as/well.hpp" />
+        </node>
+        <node concept="1gqcCF" id="7tjg6$BfdJs" role="1gqcC_">
+          <property role="1gqcCE" value="ff" />
+          <property role="1gqcCG" value="ff" />
+          <property role="1gqcCx" value="ff" />
         </node>
       </node>
     </node>
@@ -89,6 +110,11 @@
         </node>
         <node concept="2GEI7N" id="fxXr8jd8oE" role="2GEI7L">
           <property role="2GEI7O" value="/OpenSoT/Constraints/Bar.hpp" />
+        </node>
+        <node concept="1gqcCF" id="7tjg6$Bf4CR" role="1gqcC_">
+          <property role="1gqcCE" value="CartesianBla" />
+          <property role="1gqcCG" value="setCartesianImpedance" />
+          <property role="1gqcCx" value="Eigen::VectorXf" />
         </node>
       </node>
     </node>
