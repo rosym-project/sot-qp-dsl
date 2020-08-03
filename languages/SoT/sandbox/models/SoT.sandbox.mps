@@ -34,9 +34,8 @@
         <property id="6630337235685842749" name="monitored" index="1A6yYF" />
       </concept>
       <concept id="7581527905999340977" name="QP.structure.CartesianImpedance" flags="ng" index="1iYVF7">
-        <child id="7581527905999366484" name="cartesian_position" index="1iYPoy" />
+        <child id="7581527905999366484" name="cartesian_pose" index="1iYPoy" />
         <child id="7581527905999366480" name="cartesian_damping" index="1iYPoA" />
-        <child id="7581527905999366489" name="carteisan_orientation" index="1iYPoJ" />
         <child id="7581527905999366477" name="cartesian_stiffness" index="1iYPoV" />
         <child id="7581527905999366475" name="feedforward_forces" index="1iYPoX" />
       </concept>
@@ -61,44 +60,6 @@
     <property role="38x2dW" value="z5yWMlY7sx/OpenSoT" />
     <property role="38x2dc" value="sot_string_identifier" />
     <node concept="1GGMi6" id="1q4naCfRTw6" role="1GGNQn">
-      <node concept="1GGNfq" id="1q4naCfRTwo" role="1GGMhT">
-        <node concept="1iYVF7" id="1q4naCfRTw_" role="1GGNfl">
-          <property role="TrG5h" value="CartImpedHigh" />
-          <property role="1iYVFk" value="base_link" />
-          <property role="1iYVFi" value="ee_link" />
-          <ref role="2tekCW" to="bxwr:z5yWMlYjsN" resolve="CartesianImpedanceAcceleration" />
-          <node concept="2w0oBo" id="1q4naCfRTwB" role="1iYPoX">
-            <property role="1A6yYF" value="true" />
-            <property role="2wqb9l" value="Eigen::Vector" />
-            <property role="2w0rIP" value="6" />
-            <property role="2w0rIZ" value="1" />
-          </node>
-          <node concept="2w0oBo" id="1q4naCfRTwR" role="1iYPoV">
-            <property role="1A6yYF" value="true" />
-            <property role="2wqb9l" value="Eigen::Vector" />
-            <property role="2w0rIP" value="6" />
-            <property role="2w0rIZ" value="1" />
-          </node>
-          <node concept="2w0oBo" id="1q4naCfRTwT" role="1iYPoA">
-            <property role="1A6yYF" value="true" />
-            <property role="2wqb9l" value="Eigen::Vector" />
-            <property role="2w0rIP" value="6" />
-            <property role="2w0rIZ" value="1" />
-          </node>
-          <node concept="2w0oBo" id="1q4naCfRTwV" role="1iYPoy">
-            <property role="1A6yYF" value="true" />
-            <property role="2wqb9l" value="Eigen::Vector" />
-            <property role="2w0rIP" value="3" />
-            <property role="2w0rIZ" value="1" />
-          </node>
-          <node concept="2w0oBo" id="1q4naCfRTwX" role="1iYPoJ">
-            <property role="1A6yYF" value="true" />
-            <property role="2wqb9l" value="Eigen::Matrix" />
-            <property role="2w0rIP" value="3" />
-            <property role="2w0rIZ" value="3" />
-          </node>
-        </node>
-      </node>
       <node concept="1GGMhY" id="1q4naCfRTwf" role="1GGMhV">
         <node concept="1GGNfq" id="1q4naCfRTwZ" role="1GGKIh">
           <node concept="1GGBPe" id="1q4naCfRTxU" role="1GGNfl">
@@ -112,40 +73,64 @@
             </node>
           </node>
         </node>
-        <node concept="1GGNfq" id="1q4naCfRTyS" role="1GGKIh">
-          <node concept="1iYVF7" id="1q4naCfRTyT" role="1GGNfl">
+        <node concept="1GGNfq" id="7tjg6$Bgpe$" role="1GGKIh">
+          <node concept="1iYVF7" id="7tjg6$BgpeV" role="1GGNfl">
             <property role="TrG5h" value="CartImpedLow" />
             <property role="1iYVFk" value="base_link" />
             <property role="1iYVFi" value="ee_link" />
             <ref role="2tekCW" to="bxwr:z5yWMlYjsN" resolve="CartesianImpedanceAcceleration" />
-            <node concept="2w0oBo" id="1q4naCfRTyU" role="1iYPoX">
+            <node concept="2w0oBo" id="7tjg6$BgpeX" role="1iYPoX">
               <property role="2wqb9l" value="Eigen::Vector" />
               <property role="2w0rIP" value="6" />
               <property role="2w0rIZ" value="1" />
             </node>
-            <node concept="2w0oBo" id="1q4naCfRTyV" role="1iYPoV">
-              <property role="1A6yYF" value="true" />
-              <property role="2wqb9l" value="Eigen::Vector" />
+            <node concept="2w0oBo" id="7tjg6$BgpeZ" role="1iYPoV">
+              <property role="2wqb9l" value="Eigen::Matrix" />
               <property role="2w0rIP" value="6" />
-              <property role="2w0rIZ" value="1" />
+              <property role="2w0rIZ" value="6" />
             </node>
-            <node concept="2w0oBo" id="1q4naCfRTyW" role="1iYPoA">
-              <property role="2wqb9l" value="Eigen::Vector" />
+            <node concept="2w0oBo" id="7tjg6$Bgpf1" role="1iYPoA">
+              <property role="2wqb9l" value="Eigen::Matrix" />
               <property role="2w0rIP" value="6" />
-              <property role="2w0rIZ" value="1" />
+              <property role="2w0rIZ" value="6" />
             </node>
-            <node concept="2w0oBo" id="1q4naCfRTyX" role="1iYPoy">
-              <property role="1A6yYF" value="true" />
-              <property role="2wqb9l" value="Eigen::Vector" />
-              <property role="2w0rIP" value="3" />
-              <property role="2w0rIZ" value="1" />
+            <node concept="2w0oBo" id="7tjg6$Bgpf3" role="1iYPoy">
+              <property role="2wqb9l" value="Eigen::Matrix" />
+              <property role="2w0rIP" value="4" />
+              <property role="2w0rIZ" value="4" />
             </node>
-            <node concept="2w0oBo" id="1q4naCfRTyY" role="1iYPoJ">
-              <property role="1A6yYF" value="true" />
-              <property role="2wqb9l" value="Eigen::Vector" />
-              <property role="2w0rIP" value="3" />
-              <property role="2w0rIZ" value="3" />
-            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1GGNfq" id="7tjg6$Bgpe7" role="1GGMhT">
+        <node concept="1iYVF7" id="7tjg6$Bgped" role="1GGNfl">
+          <property role="TrG5h" value="CartImpedHigh" />
+          <property role="1iYVFk" value="base_link" />
+          <property role="1iYVFi" value="ee_link" />
+          <ref role="2tekCW" to="bxwr:z5yWMlYjsN" resolve="CartesianImpedanceAcceleration" />
+          <node concept="2w0oBo" id="7tjg6$Bgpef" role="1iYPoX">
+            <property role="1A6yYF" value="true" />
+            <property role="2wqb9l" value="Eigen::Vecotr" />
+            <property role="2w0rIP" value="6" />
+            <property role="2w0rIZ" value="1" />
+          </node>
+          <node concept="2w0oBo" id="7tjg6$Bgpeh" role="1iYPoV">
+            <property role="1A6yYF" value="true" />
+            <property role="2wqb9l" value="Eigen::Matrix" />
+            <property role="2w0rIP" value="6" />
+            <property role="2w0rIZ" value="6" />
+          </node>
+          <node concept="2w0oBo" id="7tjg6$Bgpej" role="1iYPoA">
+            <property role="1A6yYF" value="true" />
+            <property role="2wqb9l" value="Eigen::Matrix" />
+            <property role="2w0rIZ" value="6" />
+            <property role="2w0rIP" value="6" />
+          </node>
+          <node concept="2w0oBo" id="7tjg6$Bgpel" role="1iYPoy">
+            <property role="1A6yYF" value="true" />
+            <property role="2wqb9l" value="Eigen::Matrix" />
+            <property role="2w0rIP" value="4" />
+            <property role="2w0rIZ" value="4" />
           </node>
         </node>
       </node>

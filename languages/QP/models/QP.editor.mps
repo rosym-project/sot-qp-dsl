@@ -302,7 +302,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="1q4naCfR_sK" role="3EZMnx">
-          <property role="3F0ifm" value="cartesian_position" />
+          <property role="3F0ifm" value="cartesian_pose" />
         </node>
         <node concept="3F0ifn" id="1q4naCfR_sL" role="3EZMnx">
           <property role="3F0ifm" value=":" />
@@ -314,37 +314,11 @@
           </node>
         </node>
         <node concept="3F1sOY" id="1q4naCfR_sO" role="3EZMnx">
-          <ref role="1NtTu8" to="qg:6$QZRoVNq_k" resolve="cartesian_position" />
+          <ref role="1NtTu8" to="qg:6$QZRoVNq_k" resolve="cartesian_pose" />
           <node concept="lj46D" id="1q4naCfR_sP" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
           <node concept="ljvvj" id="1q4naCfR_sQ" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1q4naCfR_sR" role="3EZMnx">
-          <node concept="ljvvj" id="1q4naCfR_sS" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1q4naCfR_sT" role="3EZMnx">
-          <property role="3F0ifm" value="carteisan_orientation" />
-        </node>
-        <node concept="3F0ifn" id="1q4naCfR_sU" role="3EZMnx">
-          <property role="3F0ifm" value=":" />
-          <node concept="11L4FC" id="1q4naCfR_sV" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="ljvvj" id="1q4naCfR_sW" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F1sOY" id="1q4naCfR_sX" role="3EZMnx">
-          <ref role="1NtTu8" to="qg:6$QZRoVNq_p" resolve="carteisan_orientation" />
-          <node concept="lj46D" id="1q4naCfR_sY" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="ljvvj" id="1q4naCfR_sZ" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>

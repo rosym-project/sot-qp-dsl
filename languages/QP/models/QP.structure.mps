@@ -123,18 +123,10 @@
     <node concept="1TJgyj" id="6$QZRoVNq_k" role="1TKVEi">
       <property role="IQ2ns" value="7581527905999366484" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="cartesian_position" />
+      <property role="20kJfa" value="cartesian_pose" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7Lm6QrslTaY" resolve="Settable" />
       <node concept="asaX9" id="6$QZRoVNq_v" role="lGtFl" />
-    </node>
-    <node concept="1TJgyj" id="6$QZRoVNq_p" role="1TKVEi">
-      <property role="IQ2ns" value="7581527905999366489" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="carteisan_orientation" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7Lm6QrslTaY" resolve="Settable" />
-      <node concept="asaX9" id="6$QZRoVNq_x" role="lGtFl" />
     </node>
   </node>
   <node concept="1TIwiD" id="1Nc9ZPKv_EN">
