@@ -61,12 +61,12 @@
         </node>
         <node concept="1gqcCF" id="7tjg6$Bf01E" role="1gqcC_">
           <property role="1gqcCE" value="feedforward_forces" />
-          <property role="1gqcCG" value="setFFForces" />
+          <property role="1gqcCG" value="setFeedForwardForces" />
           <property role="1gqcCx" value="Eigen::Vector" />
         </node>
         <node concept="1gqcCF" id="7tjg6$BfdKq" role="1gqcC_">
           <property role="1gqcCE" value="cartesian_stiffness" />
-          <property role="1gqcCG" value="setStifness" />
+          <property role="1gqcCG" value="setStiffness" />
           <property role="1gqcCx" value="Eigen::Matrix" />
         </node>
         <node concept="1gqcCF" id="7tjg6$BfR_I" role="1gqcC_">
@@ -76,7 +76,7 @@
         </node>
         <node concept="1gqcCF" id="7tjg6$BfR_M" role="1gqcC_">
           <property role="1gqcCE" value="cartesian_pose" />
-          <property role="1gqcCG" value="setPose" />
+          <property role="1gqcCG" value="setReference" />
           <property role="1gqcCx" value="Eigen::Matrix" />
         </node>
       </node>
@@ -123,7 +123,7 @@
         </node>
         <node concept="1gqcCF" id="7tjg6$Bf4CR" role="1gqcC_">
           <property role="1gqcCE" value="desired_joint" />
-          <property role="1gqcCG" value="setJointValues" />
+          <property role="1gqcCG" value="setReference" />
           <property role="1gqcCx" value="Eigen::Vector" />
         </node>
       </node>
