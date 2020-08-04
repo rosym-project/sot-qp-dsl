@@ -259,9 +259,7 @@
       <node concept="30G5F_" id="4Gmud$$xTMb" role="30HLyM">
         <node concept="3clFbS" id="4Gmud$$xTMc" role="2VODD2">
           <node concept="3clFbF" id="4Gmud$$xTM_" role="3cqZAp">
-            <node concept="3clFbT" id="4Gmud$$Hilg" role="3clFbG">
-              <property role="3clFbU" value="true" />
-            </node>
+            <node concept="3clFbT" id="4Gmud$$Hilg" role="3clFbG" />
           </node>
         </node>
       </node>
@@ -1532,7 +1530,7 @@
         <node concept="356sEK" id="4Gmud$$HcLT" role="383Ya9">
           <node concept="2EixSi" id="4Gmud$$HcLU" role="2EinRH" />
           <node concept="356sEF" id="4Gmud$$HcLV" role="356sEH">
-            <property role="TrG5h" value="input port data" />
+            <property role="TrG5h" value="input ports data" />
             <node concept="5jKBG" id="4Gmud$$HcLW" role="lGtFl">
               <ref role="v9R2y" node="4Gmud$$CEtc" resolve="splitter" />
               <node concept="Xl_RD" id="4Gmud$$HcLX" role="v9R3O">
@@ -1733,6 +1731,18 @@
         <node concept="356sEK" id="7Lm6QrsliOl" role="383Ya9">
           <node concept="2EixSi" id="7Lm6QrsliOn" role="2EinRH" />
         </node>
+        <node concept="356sEK" id="4Gmud$$I1$a" role="383Ya9">
+          <node concept="2EixSi" id="4Gmud$$I1$b" role="2EinRH" />
+          <node concept="356sEF" id="4Gmud$$I1$c" role="356sEH">
+            <property role="TrG5h" value="output ports" />
+            <node concept="5jKBG" id="4Gmud$$I1$d" role="lGtFl">
+              <ref role="v9R2y" node="4Gmud$$CEtc" resolve="splitter" />
+              <node concept="Xl_RD" id="4Gmud$$I1$e" role="v9R3O">
+                <property role="Xl_RC" value="output ports" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="356sEK" id="7Lm6Qrslk9b" role="383Ya9">
           <node concept="356sEF" id="7Lm6Qrslk9c" role="356sEH">
             <property role="TrG5h" value="RTT::OutputPort&lt;" />
@@ -1747,8 +1757,11 @@
                   <node concept="3clFbF" id="7Lm6Qrslk9h" role="3cqZAp">
                     <node concept="2OqwBi" id="7Lm6Qrslk9i" role="3clFbG">
                       <node concept="30H73N" id="7Lm6Qrslk9j" role="2Oq$k0" />
-                      <node concept="3TrcHB" id="1q4naCfS2KR" role="2OqNvi">
-                        <ref role="3TsBF5" to="qg:7Lm6QrsfE$N" resolve="implementation_type" />
+                      <node concept="2qgKlT" id="4Gmud$$IjAK" role="2OqNvi">
+                        <ref role="37wK5l" to="anl3:7tjg6$Bh7yF" resolve="getDataType" />
+                        <node concept="3cmrfG" id="4Gmud$$IjK5" role="37wK5m">
+                          <property role="3cmrfH" value="0" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -1856,12 +1869,13 @@
                           <property role="Xl_RC" value="_" />
                         </node>
                       </node>
-                      <node concept="2YIFZM" id="7Lm6Qrslk9z" role="3uHU7w">
-                        <ref role="37wK5l" to="wyt6:~String.valueOf(java.lang.Object)" resolve="valueOf" />
-                        <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-                        <node concept="2OqwBi" id="7Lm6Qrslk9$" role="37wK5m">
-                          <node concept="30H73N" id="7Lm6Qrslk9_" role="2Oq$k0" />
-                          <node concept="2NL2c5" id="7Lm6Qrslk9A" role="2OqNvi" />
+                      <node concept="2OqwBi" id="4Gmud$$IlBq" role="3uHU7w">
+                        <node concept="2OqwBi" id="4Gmud$$IkU1" role="2Oq$k0">
+                          <node concept="30H73N" id="4Gmud$$IkDp" role="2Oq$k0" />
+                          <node concept="2NL2c5" id="4Gmud$$IlgK" role="2OqNvi" />
+                        </node>
+                        <node concept="liA8E" id="4Gmud$$Im4x" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~Object.toString()" resolve="toString" />
                         </node>
                       </node>
                     </node>
@@ -1935,6 +1949,21 @@
             </node>
           </node>
         </node>
+        <node concept="356sEK" id="4Gmud$$Iz57" role="383Ya9">
+          <node concept="2EixSi" id="4Gmud$$Iz59" role="2EinRH" />
+        </node>
+        <node concept="356sEK" id="4Gmud$$ICqj" role="383Ya9">
+          <node concept="2EixSi" id="4Gmud$$ICqk" role="2EinRH" />
+          <node concept="356sEF" id="4Gmud$$ICql" role="356sEH">
+            <property role="TrG5h" value="output ports data" />
+            <node concept="5jKBG" id="4Gmud$$ICqm" role="lGtFl">
+              <ref role="v9R2y" node="4Gmud$$CEtc" resolve="splitter" />
+              <node concept="Xl_RD" id="4Gmud$$ICqn" role="v9R3O">
+                <property role="Xl_RC" value="output ports data" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="356sEK" id="7Lm6QrslD92" role="383Ya9">
           <node concept="356sEF" id="7Lm6QrslD93" role="356sEH">
             <property role="TrG5h" value="Data::Type" />
@@ -1946,8 +1975,11 @@
                   <node concept="3clFbF" id="7Lm6QrslD97" role="3cqZAp">
                     <node concept="2OqwBi" id="7Lm6QrslD98" role="3clFbG">
                       <node concept="30H73N" id="7Lm6QrslD99" role="2Oq$k0" />
-                      <node concept="3TrcHB" id="1q4naCfS30H" role="2OqNvi">
-                        <ref role="3TsBF5" to="qg:7Lm6QrsfE$N" resolve="implementation_type" />
+                      <node concept="2qgKlT" id="4Gmud$$IGhX" role="2OqNvi">
+                        <ref role="37wK5l" to="anl3:7tjg6$Bh7yF" resolve="getDataType" />
+                        <node concept="3cmrfG" id="4Gmud$$ITnR" role="37wK5m">
+                          <property role="3cmrfH" value="0" />
+                        </node>
                       </node>
                     </node>
                   </node>
