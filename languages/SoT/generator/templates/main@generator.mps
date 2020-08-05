@@ -221,7 +221,9 @@
       <node concept="30G5F_" id="7Lm6QrseI_x" role="30HLyM">
         <node concept="3clFbS" id="7Lm6QrseI_y" role="2VODD2">
           <node concept="3clFbF" id="7Lm6QrseIDu" role="3cqZAp">
-            <node concept="3clFbT" id="7Lm6QrseIDt" role="3clFbG" />
+            <node concept="3clFbT" id="3zFGDPGei2z" role="3clFbG">
+              <property role="3clFbU" value="true" />
+            </node>
           </node>
         </node>
       </node>
@@ -245,9 +247,7 @@
       <node concept="30G5F_" id="2QU2W9uJfSj" role="30HLyM">
         <node concept="3clFbS" id="2QU2W9uJfSk" role="2VODD2">
           <node concept="3clFbF" id="2QU2W9uJfSH" role="3cqZAp">
-            <node concept="3clFbT" id="5lB$PnvYCRR" role="3clFbG">
-              <property role="3clFbU" value="true" />
-            </node>
+            <node concept="3clFbT" id="3zFGDPGehQG" role="3clFbG" />
           </node>
         </node>
       </node>
@@ -259,9 +259,7 @@
       <node concept="30G5F_" id="4Gmud$$xTMb" role="30HLyM">
         <node concept="3clFbS" id="4Gmud$$xTMc" role="2VODD2">
           <node concept="3clFbF" id="4Gmud$$xTM_" role="3cqZAp">
-            <node concept="3clFbT" id="5lB$PnvYCNH" role="3clFbG">
-              <property role="3clFbU" value="true" />
-            </node>
+            <node concept="3clFbT" id="3zFGDPGehYp" role="3clFbG" />
           </node>
         </node>
       </node>
@@ -390,7 +388,7 @@
           </node>
         </node>
         <node concept="356sEF" id="fxXr8jd1jg" role="356sEH">
-          <property role="TrG5h" value="&gt;;" />
+          <property role="TrG5h" value="&gt;" />
         </node>
         <node concept="2EixSi" id="fxXr8jcTvk" role="2EinRH" />
         <node concept="1WS0z7" id="fxXr8jcV9k" role="lGtFl">
@@ -521,11 +519,99 @@
                   </node>
                 </node>
                 <node concept="356sEF" id="2YQ4RMG8L83" role="356sEH">
-                  <property role="TrG5h" value="(const XBot::ModelInterface::Ptr model);" />
+                  <property role="TrG5h" value="(const XBot::ModelInterface::Ptr model) {" />
                 </node>
               </node>
-              <node concept="356sEK" id="2YQ4RMG8LMU" role="383Ya9">
-                <node concept="2EixSi" id="2YQ4RMG8LMW" role="2EinRH" />
+              <node concept="356WMU" id="3zFGDPGeGTo" role="383Ya9">
+                <node concept="356sEQ" id="3zFGDPGeGTt" role="383Ya9">
+                  <property role="333NGx" value="    " />
+                  <node concept="356sEK" id="3zFGDPGeGTp" role="383Ya9">
+                    <node concept="356sEF" id="3zFGDPGjQ9s" role="356sEH">
+                      <property role="TrG5h" value="constructors" />
+                      <node concept="5jKBG" id="3zFGDPGjQe8" role="lGtFl">
+                        <ref role="v9R2y" node="4Gmud$$CEtc" resolve="splitter" />
+                        <node concept="Xl_RD" id="3zFGDPGjQeb" role="v9R3O">
+                          <property role="Xl_RC" value="constructors" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2EixSi" id="3zFGDPGeGTs" role="2EinRH" />
+                  </node>
+                  <node concept="356sEK" id="3zFGDPGgTMa" role="383Ya9">
+                    <node concept="2EixSi" id="3zFGDPGgTMc" role="2EinRH" />
+                    <node concept="356sEF" id="3zFGDPGgUAa" role="356sEH">
+                      <property role="TrG5h" value="back end dependent task constructor;" />
+                      <node concept="17Uvod" id="3zFGDPGgUZ4" role="lGtFl">
+                        <property role="2qtEX9" value="name" />
+                        <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                        <node concept="3zFVjK" id="3zFGDPGgUZ5" role="3zH0cK">
+                          <node concept="3clFbS" id="3zFGDPGgUZ6" role="2VODD2">
+                            <node concept="3clFbF" id="3zFGDPGgUZw" role="3cqZAp">
+                              <node concept="2OqwBi" id="3zFGDPGgVAx" role="3clFbG">
+                                <node concept="2OqwBi" id="3zFGDPGgVca" role="2Oq$k0">
+                                  <node concept="30H73N" id="3zFGDPGgUZv" role="2Oq$k0" />
+                                  <node concept="3TrEf2" id="3zFGDPGgVnV" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="it9v:1Nc9ZPKvLgC" resolve="task" />
+                                  </node>
+                                </node>
+                                <node concept="2qgKlT" id="3zFGDPGgVLH" role="2OqNvi">
+                                  <ref role="37wK5l" to="anl3:3zFGDPGeS9J" resolve="getConstructor" />
+                                  <node concept="3cmrfG" id="3zFGDPGgVQU" role="37wK5m">
+                                    <property role="3cmrfH" value="0" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="1WS0z7" id="3zFGDPGgUAd" role="lGtFl">
+                      <node concept="3JmXsc" id="3zFGDPGgUAg" role="3Jn$fo">
+                        <node concept="3clFbS" id="3zFGDPGgUAh" role="2VODD2">
+                          <node concept="3clFbF" id="3zFGDPGgUBY" role="3cqZAp">
+                            <node concept="2OqwBi" id="3zFGDPGgUBZ" role="3clFbG">
+                              <node concept="2OqwBi" id="3zFGDPGgUC0" role="2Oq$k0">
+                                <node concept="3TrEf2" id="3zFGDPGgUC1" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="it9v:1Nc9ZPKvLDE" resolve="task_tree" />
+                                </node>
+                                <node concept="30H73N" id="3zFGDPGgUC2" role="2Oq$k0" />
+                              </node>
+                              <node concept="2Rf3mk" id="3zFGDPGgUC3" role="2OqNvi">
+                                <node concept="1xMEDy" id="3zFGDPGgUC4" role="1xVPHs">
+                                  <node concept="chp4Y" id="3zFGDPGgUC5" role="ri$Ld">
+                                    <ref role="cht4Q" to="it9v:1Nc9ZPKvLgB" resolve="Task" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="356sEK" id="3zFGDPGk2Qq" role="383Ya9">
+                    <node concept="356sEF" id="3zFGDPGk2Qr" role="356sEH">
+                      <property role="TrG5h" value="initializations" />
+                      <node concept="5jKBG" id="3zFGDPGk37c" role="lGtFl">
+                        <ref role="v9R2y" node="4Gmud$$CEtc" resolve="splitter" />
+                        <node concept="Xl_RD" id="3zFGDPGk37g" role="v9R3O">
+                          <property role="Xl_RC" value="initializations" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2EixSi" id="3zFGDPGk2Qs" role="2EinRH" />
+                  </node>
+                </node>
+              </node>
+              <node concept="356sEK" id="3zFGDPGeFZQ" role="383Ya9">
+                <node concept="356sEF" id="3zFGDPGeGmS" role="356sEH">
+                  <property role="TrG5h" value="}" />
+                </node>
+                <node concept="2EixSi" id="3zFGDPGeFZS" role="2EinRH" />
+              </node>
+              <node concept="356sEK" id="3zFGDPGeGmY" role="383Ya9">
+                <node concept="2EixSi" id="3zFGDPGeGn0" role="2EinRH" />
               </node>
               <node concept="356sEK" id="fxXr8jcsky" role="383Ya9">
                 <node concept="356sEF" id="fxXr8jcskz" role="356sEH">
@@ -938,6 +1024,12 @@
           <property role="TrG5h" value="#include &lt;rtt/TaskContext.hpp&gt;" />
         </node>
         <node concept="2EixSi" id="7Lm6QrseOPz" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="3zFGDPGdPAD" role="383Ya9">
+        <node concept="356sEF" id="3zFGDPGdSt1" role="356sEH">
+          <property role="TrG5h" value="#include &lt;XBotInterface/ModelInterface.h&gt;" />
+        </node>
+        <node concept="2EixSi" id="3zFGDPGdPAF" role="2EinRH" />
       </node>
       <node concept="356sEK" id="7Lm6Qrsf32y" role="383Ya9">
         <node concept="356sEF" id="7Lm6Qrsf32z" role="356sEH">
@@ -2315,6 +2407,12 @@
             <property role="TrG5h" value="QPOases_sot::Ptr iHQP;" />
           </node>
           <node concept="2EixSi" id="1q4naCfTcgP" role="2EinRH" />
+        </node>
+        <node concept="356sEK" id="3zFGDPGdTa$" role="383Ya9">
+          <node concept="356sEF" id="3zFGDPGdVPA" role="356sEH">
+            <property role="TrG5h" value="XBot::ModelInterface::Ptr model;" />
+          </node>
+          <node concept="2EixSi" id="3zFGDPGdTaA" role="2EinRH" />
         </node>
         <node concept="356sEK" id="1q4naCfS_G3" role="383Ya9">
           <node concept="2EixSi" id="1q4naCfS_G5" role="2EinRH" />
