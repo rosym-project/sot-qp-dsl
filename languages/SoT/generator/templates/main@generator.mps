@@ -20,6 +20,7 @@
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
+      <concept id="1153422105332" name="jetbrains.mps.baseLanguage.structure.RemExpression" flags="nn" index="2dk9JS" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
@@ -4143,7 +4144,7 @@
                                 <node concept="3cmrfG" id="4Gmud$$E315" role="3uHU7w">
                                   <property role="3cmrfH" value="2" />
                                 </node>
-                                <node concept="1eOMI4" id="4Gmud$$E316" role="3uHU7B">
+                                <node concept="1eOMI4" id="3zFGDPGrXPL" role="3uHU7B">
                                   <node concept="3cpWsd" id="4Gmud$$FCZK" role="1eOMHV">
                                     <node concept="2OqwBi" id="4Gmud$$FDoo" role="3uHU7w">
                                       <node concept="v3LJS" id="4Gmud$$FD5l" role="2Oq$k0">
@@ -4153,8 +4154,25 @@
                                         <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
                                       </node>
                                     </node>
-                                    <node concept="3cmrfG" id="4Gmud$$GnZz" role="3uHU7B">
-                                      <property role="3cmrfH" value="76" />
+                                    <node concept="1eOMI4" id="3zFGDPGrXPG" role="3uHU7B">
+                                      <node concept="3cpWs3" id="3zFGDPGrXT6" role="1eOMHV">
+                                        <node concept="2dk9JS" id="3zFGDPGs0hi" role="3uHU7w">
+                                          <node concept="3cmrfG" id="3zFGDPGs0ho" role="3uHU7w">
+                                            <property role="3cmrfH" value="2" />
+                                          </node>
+                                          <node concept="2OqwBi" id="3zFGDPGrYk9" role="3uHU7B">
+                                            <node concept="v3LJS" id="3zFGDPGrXVC" role="2Oq$k0">
+                                              <ref role="v3LJV" node="4Gmud$$DmND" resolve="splitter_title" />
+                                            </node>
+                                            <node concept="liA8E" id="3zFGDPGrYDD" role="2OqNvi">
+                                              <ref role="37wK5l" to="wyt6:~String.length()" resolve="length" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="3cmrfG" id="4Gmud$$GnZz" role="3uHU7B">
+                                          <property role="3cmrfH" value="76" />
+                                        </node>
+                                      </node>
                                     </node>
                                   </node>
                                 </node>
