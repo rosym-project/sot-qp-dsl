@@ -20,6 +20,11 @@
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
+      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
+        <child id="1068498886297" name="rValue" index="37vLTx" />
+        <child id="1068498886295" name="lValue" index="37vLTJ" />
+      </concept>
+      <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="1153422105332" name="jetbrains.mps.baseLanguage.structure.RemExpression" flags="nn" index="2dk9JS" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
@@ -42,6 +47,7 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -75,6 +81,9 @@
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -670,6 +679,135 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="356sEK" id="3zFGDPGseNC" role="383Ya9">
+                    <node concept="2EixSi" id="3zFGDPGseNE" role="2EinRH" />
+                  </node>
+                  <node concept="356sEK" id="3zFGDPGsdJ4" role="383Ya9">
+                    <node concept="356sEF" id="3zFGDPGsekl" role="356sEH">
+                      <property role="TrG5h" value="joint limits" />
+                      <node concept="5jKBG" id="3zFGDPGsekm" role="lGtFl">
+                        <ref role="v9R2y" node="4Gmud$$CEtc" resolve="splitter" />
+                        <node concept="Xl_RD" id="3zFGDPGsekn" role="v9R3O">
+                          <property role="Xl_RC" value="joint limits" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2EixSi" id="3zFGDPGsdJ6" role="2EinRH" />
+                  </node>
+                  <node concept="356sEK" id="3zFGDPGsiMG" role="383Ya9">
+                    <node concept="356sEF" id="3zFGDPGsjoB" role="356sEH">
+                      <property role="TrG5h" value="auto joint limits" />
+                      <node concept="1W57fq" id="3zFGDPGsjoE" role="lGtFl">
+                        <node concept="3IZrLx" id="3zFGDPGsjoH" role="3IZSJc">
+                          <node concept="3clFbS" id="3zFGDPGsjoI" role="2VODD2">
+                            <node concept="3clFbF" id="3zFGDPGsjoO" role="3cqZAp">
+                              <node concept="2OqwBi" id="3zFGDPGsjoJ" role="3clFbG">
+                                <node concept="3TrcHB" id="3zFGDPGsjoM" role="2OqNvi">
+                                  <ref role="3TsBF5" to="it9v:3zFGDPGrRT4" resolve="auto_joint_limits" />
+                                </node>
+                                <node concept="30H73N" id="3zFGDPGsjoN" role="2Oq$k0" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="17Uvod" id="3zFGDPGsjtn" role="lGtFl">
+                        <property role="2qtEX9" value="name" />
+                        <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                        <node concept="3zFVjK" id="3zFGDPGsjto" role="3zH0cK">
+                          <node concept="3clFbS" id="3zFGDPGsjtp" role="2VODD2">
+                            <node concept="3cpWs8" id="3zFGDPGsjIy" role="3cqZAp">
+                              <node concept="3cpWsn" id="3zFGDPGsjI_" role="3cpWs9">
+                                <property role="TrG5h" value="ret" />
+                                <node concept="17QB3L" id="3zFGDPGsjIx" role="1tU5fm" />
+                              </node>
+                            </node>
+                            <node concept="3clFbF" id="3zFGDPGsjNH" role="3cqZAp">
+                              <node concept="37vLTI" id="3zFGDPGsjOw" role="3clFbG">
+                                <node concept="Xl_RD" id="3zFGDPGsjTv" role="37vLTx">
+                                  <property role="Xl_RC" value="Eigen::VectorXd qmin, qmax;\n\t\t" />
+                                </node>
+                                <node concept="37vLTw" id="3zFGDPGsjNF" role="37vLTJ">
+                                  <ref role="3cqZAo" node="3zFGDPGsjI_" resolve="ret" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbF" id="3zFGDPGsk41" role="3cqZAp">
+                              <node concept="d57v9" id="3zFGDPGskdy" role="3clFbG">
+                                <node concept="Xl_RD" id="3zFGDPGskeh" role="37vLTx">
+                                  <property role="Xl_RC" value="model-&gt;getJointLimits (qmin, qmax);\n\t\t" />
+                                </node>
+                                <node concept="37vLTw" id="3zFGDPGsk3Z" role="37vLTJ">
+                                  <ref role="3cqZAo" node="3zFGDPGsjI_" resolve="ret" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbF" id="3zFGDPGskwF" role="3cqZAp">
+                              <node concept="d57v9" id="3zFGDPGskF9" role="3clFbG">
+                                <node concept="Xl_RD" id="3zFGDPGskG3" role="37vLTx">
+                                  <property role="Xl_RC" value="joint_lims.reset(new JointLimits(q, qmax, qmin));\n\t\t" />
+                                </node>
+                                <node concept="37vLTw" id="3zFGDPGskwD" role="37vLTJ">
+                                  <ref role="3cqZAo" node="3zFGDPGsjI_" resolve="ret" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbF" id="3zFGDPGsl3S" role="3cqZAp">
+                              <node concept="d57v9" id="3zFGDPGslj0" role="3clFbG">
+                                <node concept="Xl_RD" id="3zFGDPGslp4" role="37vLTx">
+                                  <property role="Xl_RC" value="joint_vel_lims.reset(new VelocityLimits(3., dT, q.size()));" />
+                                </node>
+                                <node concept="37vLTw" id="3zFGDPGsl3Q" role="37vLTJ">
+                                  <ref role="3cqZAo" node="3zFGDPGsjI_" resolve="ret" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3cpWs6" id="3zFGDPGslsQ" role="3cqZAp">
+                              <node concept="37vLTw" id="3zFGDPGslvm" role="3cqZAk">
+                                <ref role="3cqZAo" node="3zFGDPGsjI_" resolve="ret" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2EixSi" id="3zFGDPGsiMI" role="2EinRH" />
+                  </node>
+                  <node concept="356sEK" id="3zFGDPGsmek" role="383Ya9">
+                    <node concept="356sEF" id="3zFGDPGsmel" role="356sEH">
+                      <property role="TrG5h" value="no auto joint limits" />
+                      <node concept="1W57fq" id="3zFGDPGsmAS" role="lGtFl">
+                        <node concept="3IZrLx" id="3zFGDPGsmAV" role="3IZSJc">
+                          <node concept="3clFbS" id="3zFGDPGsmAW" role="2VODD2">
+                            <node concept="3clFbF" id="3zFGDPGsmB2" role="3cqZAp">
+                              <node concept="3fqX7Q" id="3zFGDPGsYkl" role="3clFbG">
+                                <node concept="2OqwBi" id="3zFGDPGsYkn" role="3fr31v">
+                                  <node concept="3TrcHB" id="3zFGDPGsYko" role="2OqNvi">
+                                    <ref role="3TsBF5" to="it9v:3zFGDPGrRT4" resolve="auto_joint_limits" />
+                                  </node>
+                                  <node concept="30H73N" id="3zFGDPGsYkp" role="2Oq$k0" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="17Uvod" id="3zFGDPGsmEb" role="lGtFl">
+                        <property role="2qtEX9" value="name" />
+                        <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                        <node concept="3zFVjK" id="3zFGDPGsmEc" role="3zH0cK">
+                          <node concept="3clFbS" id="3zFGDPGsmEd" role="2VODD2">
+                            <node concept="3cpWs6" id="3zFGDPGsmOI" role="3cqZAp">
+                              <node concept="Xl_RD" id="3zFGDPGsmPg" role="3cqZAk">
+                                <property role="Xl_RC" value="ERROR! This feature is not implemented yet :(" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2EixSi" id="3zFGDPGsmem" role="2EinRH" />
+                  </node>
                 </node>
               </node>
               <node concept="356sEK" id="3zFGDPGeFZQ" role="383Ya9">
@@ -801,6 +939,39 @@
                   <property role="TrG5h" value="QPOases_sot::Ptr iHQP;" />
                 </node>
                 <node concept="2EixSi" id="fxXr8jd9iV" role="2EinRH" />
+              </node>
+              <node concept="356sEK" id="3zFGDPGsfNC" role="383Ya9">
+                <node concept="356sEF" id="3zFGDPGsgix" role="356sEH">
+                  <property role="TrG5h" value="auto joint limits" />
+                  <node concept="17Uvod" id="3zFGDPGtbsU" role="lGtFl">
+                    <property role="2qtEX9" value="name" />
+                    <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                    <node concept="3zFVjK" id="3zFGDPGtbsV" role="3zH0cK">
+                      <node concept="3clFbS" id="3zFGDPGtbsW" role="2VODD2">
+                        <node concept="3clFbF" id="3zFGDPGtbxA" role="3cqZAp">
+                          <node concept="Xl_RD" id="3zFGDPGtbx_" role="3clFbG">
+                            <property role="Xl_RC" value="JointLimits::Ptr joint_lims;\n\tVelocityLimits::Ptr joint_vel_lims;" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2EixSi" id="3zFGDPGsfNE" role="2EinRH" />
+                <node concept="1W57fq" id="3zFGDPGtbmB" role="lGtFl">
+                  <node concept="3IZrLx" id="3zFGDPGtbmE" role="3IZSJc">
+                    <node concept="3clFbS" id="3zFGDPGtbmF" role="2VODD2">
+                      <node concept="3clFbF" id="3zFGDPGtbmL" role="3cqZAp">
+                        <node concept="2OqwBi" id="3zFGDPGtbmG" role="3clFbG">
+                          <node concept="3TrcHB" id="3zFGDPGtbmJ" role="2OqNvi">
+                            <ref role="3TsBF5" to="it9v:3zFGDPGrRT4" resolve="auto_joint_limits" />
+                          </node>
+                          <node concept="30H73N" id="3zFGDPGtbmK" role="2Oq$k0" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
               <node concept="356sEK" id="fxXr8jd9KC" role="383Ya9">
                 <node concept="2EixSi" id="fxXr8jd9KE" role="2EinRH" />
