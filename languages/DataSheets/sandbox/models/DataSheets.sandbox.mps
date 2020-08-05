@@ -45,7 +45,7 @@
     <property role="TrG5h" value="CartesianImpedanceAcceleration" />
     <node concept="2GEI5d" id="z5yWMlYjsO" role="2GEI6n">
       <property role="2GD$w2" value="0.001" />
-      <property role="2GD$w4" value="0.01" />
+      <property role="2GD$w4" value="0.5" />
       <property role="2GD$w7" value="0.0" />
     </node>
     <node concept="2tfvNj" id="z5yWMlYjsP" role="2tfvND">

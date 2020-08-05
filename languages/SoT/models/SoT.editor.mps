@@ -285,11 +285,23 @@
       <node concept="3F1sOY" id="1Nc9ZPKwEHd" role="3EZMnx">
         <ref role="1NtTu8" to="it9v:1Nc9ZPKvLDE" resolve="task_tree" />
       </node>
+      <node concept="3F0ifn" id="3zFGDPGrUot" role="3EZMnx">
+        <property role="3F0ifm" value="using" />
+      </node>
       <node concept="3F0A7n" id="62gmtUC59qb" role="3EZMnx">
         <ref role="1NtTu8" to="it9v:62gmtUC57Ey" resolve="solver_backend" />
       </node>
+      <node concept="3F0ifn" id="3zFGDPGrUoJ" role="3EZMnx">
+        <property role="3F0ifm" value="as" />
+      </node>
       <node concept="3F0A7n" id="62gmtUC59ql" role="3EZMnx">
         <ref role="1NtTu8" to="it9v:62gmtUC57Ei" resolve="string_identifier" />
+      </node>
+      <node concept="3F0ifn" id="3zFGDPGrRTf" role="3EZMnx">
+        <property role="3F0ifm" value="with auto-joint-limits" />
+      </node>
+      <node concept="3F0A7n" id="3zFGDPGrRTt" role="3EZMnx">
+        <ref role="1NtTu8" to="it9v:3zFGDPGrRT4" resolve="auto_joint_limits" />
       </node>
     </node>
   </node>

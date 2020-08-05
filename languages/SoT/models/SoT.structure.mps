@@ -114,6 +114,11 @@
         <property role="t5JxN" value="add qp library backend as well" />
       </node>
     </node>
+    <node concept="1TJgyi" id="3zFGDPGrRT4" role="1TKVEl">
+      <property role="IQ2nx" value="4101568274849824324" />
+      <property role="TrG5h" value="auto_joint_limits" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1Nc9ZPKvKe3">
     <property role="EcuMT" value="2075077497778537347" />

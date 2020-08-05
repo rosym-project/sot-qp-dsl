@@ -16,6 +16,7 @@
       <concept id="2075077497778537340" name="SoT.structure.SoT" flags="ng" index="1GGMi1">
         <property id="6958160237124942482" name="string_identifier" index="38x2dc" />
         <property id="6958160237124942498" name="solver_backend" index="38x2dW" />
+        <property id="4101568274849824324" name="auto_joint_limits" index="1kxcNp" />
         <child id="2075077497778543210" name="task_tree" index="1GGNQn" />
       </concept>
       <concept id="2075077497778537339" name="SoT.structure.HardPriority" flags="ng" index="1GGMi6">
@@ -38,6 +39,7 @@
         <child id="7581527905999366480" name="cartesian_damping" index="1iYPoA" />
         <child id="7581527905999366477" name="cartesian_stiffness" index="1iYPoV" />
         <child id="7581527905999366475" name="feedforward_forces" index="1iYPoX" />
+        <child id="4101568274847821950" name="lambad" index="1kIObz" />
       </concept>
       <concept id="7581527905999340961" name="QP.structure.CartesianTask" flags="ng" index="1iYVFn">
         <property id="7581527905999340964" name="ee_link" index="1iYVFi" />
@@ -46,7 +48,11 @@
       <concept id="7581527905999340958" name="QP.structure.QPTask" flags="ng" index="1iYVFC">
         <reference id="632065033521381872" name="data_sheet" index="2tekCW" />
       </concept>
+      <concept id="4101568274847821947" name="QP.structure.TaskParameter" flags="ng" index="1kIObA">
+        <property id="4101568274847821948" name="value" index="1kIObx" />
+      </concept>
       <concept id="2075077497778494131" name="QP.structure.JointSpaceRedundancyResolution" flags="ng" index="1GGBPe">
+        <child id="4101568274847821971" name="lambda" index="1kIO8e" />
         <child id="2075077497778494132" name="desired_joint" index="1GGBP9" />
       </concept>
     </language>
@@ -58,18 +64,22 @@
   </registry>
   <node concept="1GGMi1" id="1q4naCfQY1e">
     <property role="38x2dW" value="z5yWMlY7sx/OpenSoT" />
-    <property role="38x2dc" value="sot_string_identifier" />
+    <property role="38x2dc" value="opensot_ik" />
+    <property role="1kxcNp" value="true" />
     <node concept="1GGMi6" id="1q4naCfRTw6" role="1GGNQn">
       <node concept="1GGMhY" id="1q4naCfRTwf" role="1GGMhV">
-        <node concept="1GGNfq" id="1q4naCfRTwZ" role="1GGKIh">
-          <node concept="1GGBPe" id="1q4naCfRTxU" role="1GGNfl">
-            <property role="TrG5h" value="JntSpaceRedRes" />
+        <node concept="1GGNfq" id="3zFGDPGlwq9" role="1GGKIh">
+          <node concept="1GGBPe" id="3zFGDPGlwqC" role="1GGNfl">
+            <property role="TrG5h" value="JntImped" />
             <ref role="2tekCW" to="bxwr:fxXr8jd8o_" resolve="JointImpedance" />
-            <node concept="2w0oBo" id="1q4naCfRTxW" role="1GGBP9">
+            <node concept="2w0oBo" id="3zFGDPGlwqE" role="1GGBP9">
               <property role="1A6yYF" value="true" />
               <property role="2wqb9l" value="Eigen::Vector" />
               <property role="2w0rIP" value="7" />
               <property role="2w0rIZ" value="1" />
+            </node>
+            <node concept="1kIObA" id="3zFGDPGlRQD" role="1kIO8e">
+              <property role="1kIObx" value="0.01" />
             </node>
           </node>
         </node>
@@ -99,6 +109,7 @@
               <property role="2w0rIP" value="4" />
               <property role="2w0rIZ" value="4" />
             </node>
+            <node concept="1kIObA" id="3zFGDPGlRWk" role="1kIObz" />
           </node>
         </node>
       </node>
@@ -131,6 +142,9 @@
             <property role="2wqb9l" value="Eigen::Matrix" />
             <property role="2w0rIP" value="4" />
             <property role="2w0rIZ" value="4" />
+          </node>
+          <node concept="1kIObA" id="3zFGDPGlRWi" role="1kIObz">
+            <property role="1kIObx" value="0.01" />
           </node>
         </node>
       </node>

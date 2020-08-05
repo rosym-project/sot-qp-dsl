@@ -164,6 +164,9 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7504436213544206332" name="jetbrains.mps.lang.smodel.structure.Node_ContainingLinkOperation" flags="nn" index="2NL2c5" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1966870290088668512" name="jetbrains.mps.lang.smodel.structure.Enum_MemberLiteral" flags="ng" index="2ViDtV">
+        <reference id="1966870290088668516" name="memberDeclaration" index="2ViDtZ" />
+      </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -176,6 +179,9 @@
       </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
+      </concept>
+      <concept id="5779574625830813396" name="jetbrains.mps.lang.smodel.structure.EnumerationIdRefExpression" flags="ng" index="1XH99k">
+        <reference id="5779574625830813397" name="enumDeclaration" index="1XH99l" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -590,6 +596,9 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="356sEK" id="3zFGDPGrGM7" role="383Ya9">
+                    <node concept="2EixSi" id="3zFGDPGrGM9" role="2EinRH" />
+                  </node>
                   <node concept="356sEK" id="3zFGDPGk2Qq" role="383Ya9">
                     <node concept="356sEF" id="3zFGDPGk2Qr" role="356sEH">
                       <property role="TrG5h" value="initializations" />
@@ -601,6 +610,64 @@
                       </node>
                     </node>
                     <node concept="2EixSi" id="3zFGDPGk2Qs" role="2EinRH" />
+                  </node>
+                  <node concept="356sEK" id="3zFGDPGkeY4" role="383Ya9">
+                    <node concept="356sEF" id="3zFGDPGkQAi" role="356sEH">
+                      <property role="TrG5h" value="initializers" />
+                      <node concept="17Uvod" id="3zFGDPGkRx9" role="lGtFl">
+                        <property role="2qtEX9" value="name" />
+                        <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                        <node concept="3zFVjK" id="3zFGDPGkRxa" role="3zH0cK">
+                          <node concept="3clFbS" id="3zFGDPGkRxb" role="2VODD2">
+                            <node concept="3clFbF" id="3zFGDPGkR_M" role="3cqZAp">
+                              <node concept="2OqwBi" id="3zFGDPGkSks" role="3clFbG">
+                                <node concept="2OqwBi" id="3zFGDPGkRMH" role="2Oq$k0">
+                                  <node concept="30H73N" id="3zFGDPGkR_L" role="2Oq$k0" />
+                                  <node concept="3TrEf2" id="3zFGDPGkS5Q" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="it9v:1Nc9ZPKvLgC" resolve="task" />
+                                  </node>
+                                </node>
+                                <node concept="2qgKlT" id="3zFGDPGkSvj" role="2OqNvi">
+                                  <ref role="37wK5l" to="anl3:3zFGDPGkqMg" resolve="getTaskParameters" />
+                                  <node concept="2OqwBi" id="3zFGDPGkTpV" role="37wK5m">
+                                    <node concept="1XH99k" id="3zFGDPGkS$k" role="2Oq$k0">
+                                      <ref role="1XH99l" to="ciel:z5yWMlY7sw" resolve="SolverBackends" />
+                                    </node>
+                                    <node concept="2ViDtV" id="3zFGDPGkTBV" role="2OqNvi">
+                                      <ref role="2ViDtZ" to="ciel:z5yWMlY7sx" resolve="OpenSoT" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2EixSi" id="3zFGDPGkeY6" role="2EinRH" />
+                    <node concept="1WS0z7" id="3zFGDPGkR8n" role="lGtFl">
+                      <node concept="3JmXsc" id="3zFGDPGkR8q" role="3Jn$fo">
+                        <node concept="3clFbS" id="3zFGDPGkR8r" role="2VODD2">
+                          <node concept="3clFbF" id="3zFGDPGkRdT" role="3cqZAp">
+                            <node concept="2OqwBi" id="3zFGDPGkRdU" role="3clFbG">
+                              <node concept="2OqwBi" id="3zFGDPGkRdV" role="2Oq$k0">
+                                <node concept="3TrEf2" id="3zFGDPGkRdW" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="it9v:1Nc9ZPKvLDE" resolve="task_tree" />
+                                </node>
+                                <node concept="30H73N" id="3zFGDPGkRdX" role="2Oq$k0" />
+                              </node>
+                              <node concept="2Rf3mk" id="3zFGDPGkRdY" role="2OqNvi">
+                                <node concept="1xMEDy" id="3zFGDPGkRdZ" role="1xVPHs">
+                                  <node concept="chp4Y" id="3zFGDPGkRe0" role="ri$Ld">
+                                    <ref role="cht4Q" to="it9v:1Nc9ZPKvLgB" resolve="Task" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
