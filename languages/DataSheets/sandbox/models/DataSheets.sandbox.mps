@@ -45,19 +45,16 @@
     <property role="TrG5h" value="CartesianImpedanceAcceleration" />
     <node concept="2GEI5d" id="z5yWMlYjsO" role="2GEI6n">
       <property role="2GD$w2" value="0.001" />
-      <property role="2GD$w4" value="0.5" />
-      <property role="2GD$w7" value="0.0" />
+      <property role="2GD$w4" value="0.05" />
+      <property role="2GD$w7" value="0." />
     </node>
     <node concept="2tfvNj" id="z5yWMlYjsP" role="2tfvND">
       <property role="2tfvN_" value="z5yWMlY7sx/OpenSoT" />
       <node concept="2GEI7Y" id="z5yWMlYjsQ" role="2tfvNB">
-        <property role="2GEI7Z" value="opensot" />
-        <property role="2tekNF" value="OpenSoT::Cartesian::Acceleration" />
-        <node concept="2GEI7N" id="z5yWMlYjsR" role="2GEI7L">
-          <property role="2GEI7O" value="/foo/bar.hpp" />
-        </node>
-        <node concept="2GEI7N" id="z5yWMlYjsS" role="2GEI7L">
-          <property role="2GEI7O" value="/foo/bar/baz.hpp" />
+        <property role="2GEI7Z" value="CartesianImpedanceCtrl" />
+        <property role="2tekNF" value="OpenSoT::tasks::torque" />
+        <node concept="2GEI7N" id="3NGwEYWD8$U" role="2GEI7L">
+          <property role="2GEI7O" value="OpenSoT/tasks/torque/CartesianImpedanceCtrl.h" />
         </node>
         <node concept="1gqcCF" id="7tjg6$Bf01E" role="1gqcC_">
           <property role="1gqcCE" value="feedforward_forces" />
@@ -87,7 +84,7 @@
         <property role="2GEI7Z" value="xqp" />
         <property role="2tekNF" value="XQP::Task" />
         <node concept="2GEI7N" id="z5yWMlYjsX" role="2GEI7L">
-          <property role="2GEI7O" value="/path/to/header.h" />
+          <property role="2GEI7O" value="OpenSoT/tasks/torque/CartesianImpedanceCtrl.h" />
         </node>
         <node concept="2GEI7N" id="z5yWMlYjt5" role="2GEI7L">
           <property role="2GEI7O" value="/second/path.h" />
@@ -107,19 +104,16 @@
     <property role="TrG5h" value="JointImpedance" />
     <node concept="2GEI5d" id="fxXr8jd8oA" role="2GEI6n">
       <property role="2GD$w2" value="0.001" />
-      <property role="2GD$w4" value="0.01" />
-      <property role="2GD$w7" value="0.1" />
+      <property role="2GD$w4" value="0.001" />
+      <property role="2GD$w7" value="0." />
     </node>
     <node concept="2tfvNj" id="fxXr8jd8oB" role="2tfvND">
       <property role="2tfvN_" value="z5yWMlY7sx/OpenSoT" />
       <node concept="2GEI7Y" id="fxXr8jd8oC" role="2tfvNB">
-        <property role="2GEI7Z" value="opensot" />
-        <property role="2tekNF" value="OpenSoT::Torque::JointImpedance" />
+        <property role="2GEI7Z" value="JointImpedanceCtrl" />
+        <property role="2tekNF" value="OpenSoT::constraints::torque" />
         <node concept="2GEI7N" id="fxXr8jd8oD" role="2GEI7L">
-          <property role="2GEI7O" value="/OpenSoT/Tasks/Torque/Foo.h" />
-        </node>
-        <node concept="2GEI7N" id="fxXr8jd8oE" role="2GEI7L">
-          <property role="2GEI7O" value="/OpenSoT/Constraints/Bar.hpp" />
+          <property role="2GEI7O" value="OpenSoT/tasks/torque/JointImpedanceCtrl.h" />
         </node>
         <node concept="1gqcCF" id="7tjg6$Bf4CR" role="1gqcC_">
           <property role="1gqcCE" value="desired_joint" />
