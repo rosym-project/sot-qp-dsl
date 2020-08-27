@@ -806,6 +806,7 @@
                   <node concept="17Uvod" id="10TZNkdgk2l" role="lGtFl">
                     <property role="2qtEX9" value="name" />
                     <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                    <property role="34cw8o" value="class" />
                     <node concept="3zFVjK" id="10TZNkdgk2m" role="3zH0cK">
                       <node concept="3clFbS" id="10TZNkdgk2n" role="2VODD2">
                         <node concept="3SKdUt" id="10TZNkdlvRC" role="3cqZAp">
@@ -1026,8 +1027,8 @@
                                 <ref role="3Tt5mk" to="ciel:z5yWMlY7sF" resolve="solver_parameters" />
                               </node>
                             </node>
-                            <node concept="3TrcHB" id="fxXr8jcy2M" role="2OqNvi">
-                              <ref role="3TsBF5" to="ciel:z5yWMlZcsB" resolve="task_namespace" />
+                            <node concept="3TrcHB" id="4kYDuJHgNxO" role="2OqNvi">
+                              <ref role="3TsBF5" to="ciel:49KWzzIQxf7" resolve="string_identifier" />
                             </node>
                           </node>
                         </node>
@@ -1100,7 +1101,7 @@
                   <node concept="5jKBG" id="10TZNkdnCjy" role="lGtFl">
                     <ref role="v9R2y" node="4Gmud$$CEtc" resolve="splitter" />
                     <node concept="Xl_RD" id="10TZNkdnCj_" role="v9R3O">
-                      <property role="Xl_RC" value="solver settings Produces a sequence that is a concatenation of all sequences, which are all the results of applying the" />
+                      <property role="Xl_RC" value="solver settings" />
                     </node>
                   </node>
                 </node>
@@ -1112,6 +1113,7 @@
                   <node concept="17Uvod" id="10TZNkdmME7" role="lGtFl">
                     <property role="2qtEX9" value="name" />
                     <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                    <property role="34cw8o" value="get" />
                     <node concept="3zFVjK" id="10TZNkdmME8" role="3zH0cK">
                       <node concept="3clFbS" id="10TZNkdmME9" role="2VODD2">
                         <node concept="3clFbF" id="10TZNkdmMIK" role="3cqZAp">
@@ -1142,6 +1144,7 @@
                   <node concept="17Uvod" id="10TZNkdmOpU" role="lGtFl">
                     <property role="2qtEX9" value="name" />
                     <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                    <property role="34cw8o" value="get" />
                     <node concept="3zFVjK" id="10TZNkdmOpV" role="3zH0cK">
                       <node concept="3clFbS" id="10TZNkdmOpW" role="2VODD2">
                         <node concept="3clFbF" id="10TZNkdmOqm" role="3cqZAp">
