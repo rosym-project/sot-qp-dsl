@@ -971,7 +971,7 @@
           <node concept="3clFbS" id="10TZNkdmFwT" role="3clFbx">
             <node concept="3cpWs6" id="10TZNkdmFwU" role="3cqZAp">
               <node concept="Xl_RD" id="10TZNkdmFwV" role="3cqZAk">
-                <property role="Xl_RC" value="QPOases_sot::Ptr iHQP;" />
+                <property role="Xl_RC" value="OpenSoT::solvers::iHQP::Ptr iHQP;" />
               </node>
             </node>
           </node>
