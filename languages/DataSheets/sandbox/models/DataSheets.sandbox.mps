@@ -132,12 +132,12 @@
       <property role="2tfvN_" value="z5yWMlY7sx/OpenSoT" />
       <node concept="2GEI7Y" id="FHWRYa2buH" role="2tfvNB">
         <property role="2GEI7Z" value="iHQP" />
-        <property role="2tekNF" value="OpenSoT::Something::Else" />
+        <property role="2tekNF" value="OpenSoT::solvers::iHQP::Ptr" />
         <node concept="2GEI7N" id="FHWRYa2buI" role="2GEI7L">
-          <property role="2GEI7O" value="OpenSoT/something/else" />
+          <property role="2GEI7O" value="OpenSoT/solvers/QPOasesBackEnd.h" />
         </node>
         <node concept="2GEI7N" id="FHWRYa2jge" role="2GEI7L">
-          <property role="2GEI7O" value="OpenSoT/something/more" />
+          <property role="2GEI7O" value="OpenSoT/utils/AutoStack.h" />
         </node>
         <node concept="1gqcCF" id="FHWRYa2buJ" role="1gqcC_" />
       </node>

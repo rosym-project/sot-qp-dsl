@@ -827,7 +827,7 @@
               </node>
             </node>
             <node concept="Xl_RD" id="3zFGDPGjoH1" role="3uHU7w">
-              <property role="Xl_RC" value=".reset(new JointImpedanceCtrl(q, *model);" />
+              <property role="Xl_RC" value=".reset(new JointImpedanceCtrl(q, *model));" />
             </node>
           </node>
         </node>
@@ -867,7 +867,7 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="3zFGDPGjbmd" role="3uHU7w">
-                  <property role="Xl_RC" value=".reset(new JointImpedanceCtrl(q, *model);" />
+                  <property role="Xl_RC" value=".reset(new JointImpedanceCtrl(q, *model));" />
                 </node>
               </node>
             </node>

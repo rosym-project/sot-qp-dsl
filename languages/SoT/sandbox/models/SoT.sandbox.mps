@@ -65,7 +65,7 @@
   </registry>
   <node concept="1GGMi1" id="1q4naCfQY1e">
     <property role="38x2dW" value="z5yWMlY7sx/OpenSoT" />
-    <property role="38x2dc" value="opensot_ik" />
+    <property role="38x2dc" value="ihqp" />
     <property role="1kxcNp" value="true" />
     <ref role="20SfXC" to="bxwr:FHWRYa2buF" resolve="IHQP" />
     <node concept="1GGMi6" id="1q4naCfRTw6" role="1GGNQn">
