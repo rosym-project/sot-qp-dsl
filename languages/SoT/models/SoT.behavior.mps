@@ -929,7 +929,7 @@
           <node concept="3clFbS" id="10TZNkdm$sB" role="3clFbx">
             <node concept="3cpWs6" id="10TZNkdm_BR" role="3cqZAp">
               <node concept="Xl_RD" id="10TZNkdm_Cl" role="3cqZAk">
-                <property role="Xl_RC" value="AutoStack::Ptr stack;" />
+                <property role="Xl_RC" value="OpenSoT::AutoStack::Ptr stack;" />
               </node>
             </node>
           </node>

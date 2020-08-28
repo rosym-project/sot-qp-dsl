@@ -54,7 +54,7 @@
     <node concept="2tfvNj" id="z5yWMlYjsP" role="2tfvND">
       <property role="2tfvN_" value="z5yWMlY7sx/OpenSoT" />
       <node concept="2GEI7Y" id="z5yWMlYjsQ" role="2tfvNB">
-        <property role="2GEI7Z" value="CartesianImpedanceCtrl" />
+        <property role="2GEI7Z" value="CartesianImpedanceCtrl::Ptr" />
         <property role="2tekNF" value="OpenSoT::tasks::torque" />
         <node concept="2GEI7N" id="3NGwEYWD8$U" role="2GEI7L">
           <property role="2GEI7O" value="OpenSoT/tasks/torque/CartesianImpedanceCtrl.h" />
@@ -113,7 +113,7 @@
     <node concept="2tfvNj" id="fxXr8jd8oB" role="2tfvND">
       <property role="2tfvN_" value="z5yWMlY7sx/OpenSoT" />
       <node concept="2GEI7Y" id="fxXr8jd8oC" role="2tfvNB">
-        <property role="2GEI7Z" value="JointImpedanceCtrl" />
+        <property role="2GEI7Z" value="JointImpedanceCtrl::Ptr" />
         <property role="2tekNF" value="OpenSoT::constraints::torque" />
         <node concept="2GEI7N" id="fxXr8jd8oD" role="2GEI7L">
           <property role="2GEI7O" value="OpenSoT/tasks/torque/JointImpedanceCtrl.h" />
