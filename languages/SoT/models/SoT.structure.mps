@@ -7,8 +7,8 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="ciel" ref="r:376fcad3-8eec-4dce-a957-10eb8db8f8db(DataSheets.structure)" implicit="true" />
     <import index="qg" ref="r:a682a1c0-0d60-49b5-8410-038f9048aa42(QP.structure)" implicit="true" />
+    <import index="ciel" ref="r:376fcad3-8eec-4dce-a957-10eb8db8f8db(DataSheets.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -100,6 +100,13 @@
           <property role="t5JxN" value="TODO is the boundary condition that can be done the same way..." />
         </node>
       </node>
+    </node>
+    <node concept="1TJgyj" id="FHWRYag3z_" role="1TKVEi">
+      <property role="IQ2ns" value="787553238965565669" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="global_constraints" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" to="qg:FHWRYaf4XD" resolve="GlobalConstraint" />
     </node>
     <node concept="1TJgyi" id="62gmtUC57Ei" role="1TKVEl">
       <property role="IQ2nx" value="6958160237124942482" />

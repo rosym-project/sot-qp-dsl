@@ -209,5 +209,25 @@
       <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
     </node>
   </node>
+  <node concept="1TIwiD" id="FHWRYaf4XD">
+    <property role="EcuMT" value="787553238965309289" />
+    <property role="TrG5h" value="GlobalConstraint" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="FHWRYaf4XE" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="FHWRYaf4XG">
+    <property role="EcuMT" value="787553238965309292" />
+    <property role="TrG5h" value="JointLimits" />
+    <ref role="1TJDcQ" node="FHWRYaf4XD" resolve="GlobalConstraint" />
+    <node concept="1TJgyj" id="FHWRYaf4XH" role="1TKVEi">
+      <property role="IQ2ns" value="787553238965309293" />
+      <property role="20kJfa" value="data_sheet" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="ciel:49KWzzIQxdO" resolve="TaskDataSheet" />
+    </node>
+  </node>
 </model>
 

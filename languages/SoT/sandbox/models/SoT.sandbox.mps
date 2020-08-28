@@ -18,6 +18,7 @@
         <property id="6958160237124942498" name="solver_backend" index="38x2dW" />
         <property id="4101568274849824324" name="auto_joint_limits" index="1kxcNp" />
         <reference id="787553238962211863" name="data_sheet" index="20SfXC" />
+        <child id="787553238965565669" name="global_constraints" index="20FsIq" />
         <child id="2075077497778543210" name="task_tree" index="1GGNQn" />
       </concept>
       <concept id="2075077497778537339" name="SoT.structure.HardPriority" flags="ng" index="1GGMi6">
@@ -29,6 +30,9 @@
       </concept>
     </language>
     <language id="f8222387-45de-4e0c-b2a1-3806db93dfd4" name="QP">
+      <concept id="787553238965309292" name="QP.structure.JointLimits" flags="ng" index="20OrKj">
+        <reference id="787553238965309293" name="data_sheet" index="20OrKi" />
+      </concept>
       <concept id="8959378637297521342" name="QP.structure.Settable" flags="ng" index="2w0oBo">
         <property id="8959378637297524947" name="rows" index="2w0rIP" />
         <property id="8959378637297524953" name="cols" index="2w0rIZ" />
@@ -150,6 +154,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="20OrKj" id="FHWRYag$b3" role="20FsIq">
+      <property role="TrG5h" value="joint_lims" />
+      <ref role="20OrKi" to="bxwr:FHWRYag$aX" resolve="JointLimits" />
     </node>
   </node>
 </model>

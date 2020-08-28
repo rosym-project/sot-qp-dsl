@@ -17,6 +17,7 @@
         <child id="928328222691832421" name="separatorTextQuery" index="2gpyvW" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
+      <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
@@ -46,6 +47,7 @@
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <property id="1160590353935" name="usesFolding" index="S$Qs1" />
+        <property id="1139416841293" name="usesBraces" index="1ayjP4" />
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
@@ -291,6 +293,17 @@
       <node concept="3F1sOY" id="1Nc9ZPKwEHd" role="3EZMnx">
         <ref role="1NtTu8" to="it9v:1Nc9ZPKvLDE" resolve="task_tree" />
       </node>
+      <node concept="3EZMnI" id="FHWRYaghIe" role="3EZMnx">
+        <property role="1ayjP4" value="true" />
+        <node concept="3F0ifn" id="FHWRYaghIC" role="3EZMnx">
+          <property role="3F0ifm" value="Global Constraints" />
+        </node>
+        <node concept="3F2HdR" id="FHWRYaghIW" role="3EZMnx">
+          <ref role="1NtTu8" to="it9v:FHWRYag3z_" resolve="global_constraints" />
+          <node concept="2iRkQZ" id="FHWRYaghIY" role="2czzBx" />
+        </node>
+        <node concept="2iRkQZ" id="FHWRYagvyh" role="2iSdaV" />
+      </node>
       <node concept="3F0ifn" id="3zFGDPGrUot" role="3EZMnx">
         <property role="3F0ifm" value="using" />
       </node>
@@ -315,7 +328,7 @@
       <node concept="1iCGBv" id="FHWRYa3JCl" role="3EZMnx">
         <ref role="1NtTu8" to="it9v:FHWRYa3gKn" resolve="data_sheet" />
         <node concept="1sVBvm" id="FHWRYa3JCn" role="1sWHZn">
-          <node concept="3F0A7n" id="FHWRYa3JHj" role="2wV5jI">
+          <node concept="3F0A7n" id="FHWRYaf5n2" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>

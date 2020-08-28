@@ -143,5 +143,23 @@
       </node>
     </node>
   </node>
+  <node concept="2GEI5c" id="FHWRYag$aX">
+    <property role="TrG5h" value="JointLimits" />
+    <node concept="2GEI5d" id="FHWRYag$aY" role="2GEI6n">
+      <property role="2GD$w2" value="0." />
+      <property role="2GD$w4" value="0." />
+    </node>
+    <node concept="2tfvNj" id="FHWRYag$aZ" role="2tfvND">
+      <property role="2tfvN_" value="z5yWMlY7sx/OpenSoT" />
+      <node concept="2GEI7Y" id="FHWRYag$b0" role="2tfvNB">
+        <property role="2GEI7Z" value="JointLimits::Ptr" />
+        <property role="2tekNF" value="using namespace OpenSoT::constraints::torque" />
+        <node concept="2GEI7N" id="FHWRYag$b1" role="2GEI7L">
+          <property role="2GEI7O" value="OpenSoT/constraints/torque/JointLimits.h" />
+        </node>
+        <node concept="1gqcCF" id="FHWRYag$b2" role="1gqcC_" />
+      </node>
+    </node>
+  </node>
 </model>
 
