@@ -291,10 +291,10 @@
         <property role="VOm3f" value="true" />
       </node>
       <node concept="3F0ifn" id="1uFW$KrJezc" role="3EZMnx">
-        <property role="3F0ifm" value="task_namespace:" />
+        <property role="3F0ifm" value="namespace:" />
       </node>
       <node concept="3F0A7n" id="1uFW$KrJezf" role="3EZMnx">
-        <ref role="1NtTu8" to="ciel:z5yWMlZcsB" resolve="task_namespace" />
+        <ref role="1NtTu8" to="ciel:z5yWMlZcsB" resolve="namespace" />
         <node concept="ljvvj" id="1uFW$KrJezg" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>

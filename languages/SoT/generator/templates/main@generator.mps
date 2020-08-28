@@ -762,7 +762,7 @@
                                         </node>
                                       </node>
                                       <node concept="3TrcHB" id="4kYDuJHeZ$_" role="2OqNvi">
-                                        <ref role="3TsBF5" to="ciel:z5yWMlZcsB" resolve="task_namespace" />
+                                        <ref role="3TsBF5" to="ciel:z5yWMlZcsB" resolve="namespace" />
                                       </node>
                                     </node>
                                   </node>
@@ -2783,7 +2783,7 @@
                         </node>
                       </node>
                       <node concept="3TrcHB" id="1q4naCfSPaI" role="2OqNvi">
-                        <ref role="3TsBF5" to="ciel:z5yWMlZcsB" resolve="task_namespace" />
+                        <ref role="3TsBF5" to="ciel:z5yWMlZcsB" resolve="namespace" />
                       </node>
                     </node>
                   </node>

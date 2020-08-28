@@ -105,7 +105,7 @@
     </node>
     <node concept="1TJgyi" id="z5yWMlZcsB" role="1TKVEl">
       <property role="IQ2nx" value="632065033521383207" />
-      <property role="TrG5h" value="task_namespace" />
+      <property role="TrG5h" value="namespace" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="49KWzzIQxf9" role="1TKVEi">
