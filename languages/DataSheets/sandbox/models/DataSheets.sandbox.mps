@@ -12,8 +12,9 @@
       </concept>
     </language>
     <language id="751b0b85-c6ee-41b8-9f8e-6d8bd95432ac" name="DataSheets">
-      <concept id="787553238961518252" name="" flags="ng" index="20VSnj">
-        <child id="632065033521100581" name="" index="2tfvND" />
+      <concept id="787553238961926201" name="DataSheets.structure.SoTDataSheet" flags="ng" index="20Tkd6" />
+      <concept id="787553238961518252" name="DataSheets.structure.DataSheet" flags="ng" index="20VSnj">
+        <child id="632065033521100581" name="solvers" index="2tfvND" />
       </concept>
       <concept id="632065033521100575" name="DataSheets.structure.Solver" flags="ng" index="2tfvNj">
         <property id="632065033521100585" name="solver_id" index="2tfvN_" />
@@ -122,6 +123,23 @@
           <property role="1gqcCG" value="setReference" />
           <property role="1gqcCx" value="Eigen::Vector" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="20Tkd6" id="FHWRYa2buF">
+    <property role="TrG5h" value="IHQP" />
+    <node concept="2tfvNj" id="FHWRYa2buG" role="2tfvND">
+      <property role="2tfvN_" value="z5yWMlY7sx/OpenSoT" />
+      <node concept="2GEI7Y" id="FHWRYa2buH" role="2tfvNB">
+        <property role="2GEI7Z" value="iHQP" />
+        <property role="2tekNF" value="OpenSoT::Something::Else" />
+        <node concept="2GEI7N" id="FHWRYa2buI" role="2GEI7L">
+          <property role="2GEI7O" value="OpenSoT/something/else" />
+        </node>
+        <node concept="2GEI7N" id="FHWRYa2jge" role="2GEI7L">
+          <property role="2GEI7O" value="OpenSoT/something/more" />
+        </node>
+        <node concept="1gqcCF" id="FHWRYa2buJ" role="1gqcC_" />
       </node>
     </node>
   </node>
