@@ -119,6 +119,12 @@
       <property role="TrG5h" value="auto_joint_limits" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyj" id="FHWRYa3gKn" role="1TKVEi">
+      <property role="IQ2ns" value="787553238962211863" />
+      <property role="20kJfa" value="data_sheet" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="ciel:FHWRYa2b0T" resolve="SoTDataSheet" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1Nc9ZPKvKe3">
     <property role="EcuMT" value="2075077497778537347" />
