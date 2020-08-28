@@ -12,12 +12,14 @@
       </concept>
     </language>
     <language id="751b0b85-c6ee-41b8-9f8e-6d8bd95432ac" name="DataSheets">
+      <concept id="787553238961518252" name="" flags="ng" index="20VSnj">
+        <child id="632065033521100581" name="" index="2tfvND" />
+      </concept>
       <concept id="632065033521100575" name="DataSheets.structure.Solver" flags="ng" index="2tfvNj">
         <property id="632065033521100585" name="solver_id" index="2tfvN_" />
         <child id="632065033521100587" name="solver_parameters" index="2tfvNB" />
       </concept>
       <concept id="4787592730234196852" name="DataSheets.structure.TaskDataSheet" flags="ng" index="2GEI5c">
-        <child id="632065033521100581" name="solvers" index="2tfvND" />
         <child id="4787592730234196911" name="defaults" index="2GEI6n" />
       </concept>
       <concept id="4787592730234196853" name="DataSheets.structure.DefaultParameters" flags="ng" index="2GEI5d">
@@ -29,7 +31,7 @@
         <property id="4787592730234196940" name="path" index="2GEI7O" />
       </concept>
       <concept id="4787592730234196934" name="DataSheets.structure.SolverParameters" flags="ng" index="2GEI7Y">
-        <property id="632065033521383207" name="task_namespace" index="2tekNF" />
+        <property id="632065033521383207" name="namespace" index="2tekNF" />
         <property id="4787592730234196935" name="string_identifier" index="2GEI7Z" />
         <child id="4787592730234196937" name="headers" index="2GEI7L" />
         <child id="8598286933954366028" name="front_back_mapping" index="1gqcC_" />

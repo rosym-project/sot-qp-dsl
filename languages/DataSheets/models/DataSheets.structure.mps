@@ -22,6 +22,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -55,23 +56,13 @@
     <property role="EcuMT" value="4787592730234196852" />
     <property role="TrG5h" value="TaskDataSheet" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="FHWRYa0BqG" resolve="DataSheet" />
     <node concept="1TJgyj" id="49KWzzIQxeJ" role="1TKVEi">
       <property role="IQ2ns" value="4787592730234196911" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="defaults" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="49KWzzIQxdP" resolve="DefaultParameters" />
-    </node>
-    <node concept="1TJgyj" id="z5yWMlY7s_" role="1TKVEi">
-      <property role="IQ2ns" value="632065033521100581" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="solvers" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="z5yWMlY7sv" resolve="Solver" />
-    </node>
-    <node concept="PrWs8" id="49KWzzIQxf4" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="49KWzzIQxdP">
@@ -179,6 +170,22 @@
       <property role="IQ2nx" value="8598286933954366024" />
       <property role="TrG5h" value="data_type" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="FHWRYa0BqG">
+    <property role="EcuMT" value="787553238961518252" />
+    <property role="TrG5h" value="DataSheet" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="FHWRYa0BqH" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="z5yWMlY7s_" role="1TKVEi">
+      <property role="IQ2ns" value="632065033521100581" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="solvers" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="z5yWMlY7sv" resolve="Solver" />
     </node>
   </node>
 </model>
