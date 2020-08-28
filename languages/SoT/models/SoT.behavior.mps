@@ -1253,7 +1253,7 @@
         <node concept="3clFbF" id="3zFGDPGskwF" role="3cqZAp">
           <node concept="d57v9" id="3zFGDPGskF9" role="3clFbG">
             <node concept="Xl_RD" id="3zFGDPGskG3" role="37vLTx">
-              <property role="Xl_RC" value="\tjoint_lims.reset(new JointLimits(q, qmax, qmin));\n" />
+              <property role="Xl_RC" value="\tjoint_lims.reset(new JointLimits(q, qmax, qmin, *model));\n" />
             </node>
             <node concept="37vLTw" id="3zFGDPGskwD" role="37vLTJ">
               <ref role="3cqZAo" node="3zFGDPGsjI_" resolve="ret" />

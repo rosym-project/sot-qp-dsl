@@ -30,8 +30,9 @@
       </concept>
     </language>
     <language id="f8222387-45de-4e0c-b2a1-3806db93dfd4" name="QP">
-      <concept id="787553238965309292" name="QP.structure.JointLimits" flags="ng" index="20OrKj">
-        <reference id="787553238965309293" name="data_sheet" index="20OrKi" />
+      <concept id="787553238965309292" name="QP.structure.JointLimits" flags="ng" index="20OrKj" />
+      <concept id="787553238965309289" name="QP.structure.GlobalConstraint" flags="ng" index="20OrKm">
+        <reference id="787553238965309293" name="" index="20OrKi" />
       </concept>
       <concept id="8959378637297521342" name="QP.structure.Settable" flags="ng" index="2w0oBo">
         <property id="8959378637297524947" name="rows" index="2w0rIP" />
