@@ -153,7 +153,7 @@
       <property role="2tfvN_" value="z5yWMlY7sx/OpenSoT" />
       <node concept="2GEI7Y" id="FHWRYag$b0" role="2tfvNB">
         <property role="2GEI7Z" value="JointLimits::Ptr" />
-        <property role="2tekNF" value="using namespace OpenSoT::constraints::torque" />
+        <property role="2tekNF" value="OpenSoT::constraints::torque::JointLimits::Ptr" />
         <node concept="2GEI7N" id="FHWRYag$b1" role="2GEI7L">
           <property role="2GEI7O" value="OpenSoT/constraints/torque/JointLimits.h" />
         </node>

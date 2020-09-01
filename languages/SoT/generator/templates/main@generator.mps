@@ -1291,7 +1291,10 @@
                                 <node concept="Xl_RD" id="FHWRYas7LQ" role="37wK5m">
                                   <property role="Xl_RC" value="\n" />
                                 </node>
-                                <node concept="3cpWs3" id="FHWRYascXL" role="37wK5m">
+                                <node concept="3cpWs3" id="5pfzJmv5HoY" role="37wK5m">
+                                  <node concept="Xl_RD" id="5pfzJmv5HUJ" role="3uHU7w">
+                                    <property role="Xl_RC" value=" joint_lims; // FIXME: the name is hardcoded" />
+                                  </node>
                                   <node concept="2OqwBi" id="FHWRYasbr0" role="3uHU7B">
                                     <node concept="2OqwBi" id="FHWRYas7LT" role="2Oq$k0">
                                       <node concept="2OqwBi" id="FHWRYas7LU" role="2Oq$k0">
@@ -1357,9 +1360,6 @@
                                       <ref role="3TsBF5" to="ciel:z5yWMlZcsB" resolve="namespace" />
                                     </node>
                                   </node>
-                                  <node concept="Xl_RD" id="FHWRYasd9k" role="3uHU7w">
-                                    <property role="Xl_RC" value=" TODO!" />
-                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -1385,39 +1385,6 @@
                   </node>
                 </node>
                 <node concept="2EixSi" id="FHWRYas6LW" role="2EinRH" />
-              </node>
-              <node concept="356sEK" id="3zFGDPGsfNC" role="383Ya9">
-                <node concept="356sEF" id="3zFGDPGsgix" role="356sEH">
-                  <property role="TrG5h" value="auto joint limits" />
-                  <node concept="17Uvod" id="3zFGDPGtbsU" role="lGtFl">
-                    <property role="2qtEX9" value="name" />
-                    <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-                    <node concept="3zFVjK" id="3zFGDPGtbsV" role="3zH0cK">
-                      <node concept="3clFbS" id="3zFGDPGtbsW" role="2VODD2">
-                        <node concept="3clFbF" id="3zFGDPGtbxA" role="3cqZAp">
-                          <node concept="Xl_RD" id="3zFGDPGtbx_" role="3clFbG">
-                            <property role="Xl_RC" value="JointLimits::Ptr joint_lims;\n\t" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2EixSi" id="3zFGDPGsfNE" role="2EinRH" />
-                <node concept="1W57fq" id="3zFGDPGtbmB" role="lGtFl">
-                  <node concept="3IZrLx" id="3zFGDPGtbmE" role="3IZSJc">
-                    <node concept="3clFbS" id="3zFGDPGtbmF" role="2VODD2">
-                      <node concept="3clFbF" id="3zFGDPGtbmL" role="3cqZAp">
-                        <node concept="2OqwBi" id="3zFGDPGtbmG" role="3clFbG">
-                          <node concept="3TrcHB" id="3zFGDPGtbmJ" role="2OqNvi">
-                            <ref role="3TsBF5" to="it9v:3zFGDPGrRT4" resolve="auto_joint_limits" />
-                          </node>
-                          <node concept="30H73N" id="3zFGDPGtbmK" role="2Oq$k0" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
               </node>
               <node concept="356sEK" id="fxXr8jd9KC" role="383Ya9">
                 <node concept="2EixSi" id="fxXr8jd9KE" role="2EinRH" />

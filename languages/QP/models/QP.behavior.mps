@@ -1020,5 +1020,85 @@
       <node concept="17QB3L" id="3zFGDPGrjWl" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="5pfzJmveluh">
+    <ref role="13h7C2" to="qg:FHWRYaf4XD" resolve="GlobalConstraint" />
+    <node concept="13i0hz" id="5pfzJmvenne" role="13h7CS">
+      <property role="TrG5h" value="getConstructor" />
+      <property role="13i0it" value="true" />
+      <property role="13i0iv" value="true" />
+      <node concept="3Tm1VV" id="5pfzJmvennf" role="1B3o_S" />
+      <node concept="17QB3L" id="5pfzJmvenng" role="3clF45" />
+      <node concept="3clFbS" id="5pfzJmvennh" role="3clF47" />
+      <node concept="37vLTG" id="5pfzJmvenni" role="3clF46">
+        <property role="TrG5h" value="solver" />
+        <node concept="2ZThk1" id="5pfzJmvennj" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="5pfzJmvelui" role="13h7CW">
+      <node concept="3clFbS" id="5pfzJmveluj" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="5pfzJmvelxl">
+    <ref role="13h7C2" to="qg:FHWRYaf4XG" resolve="JointLimits" />
+    <node concept="13hLZK" id="5pfzJmvelxm" role="13h7CW">
+      <node concept="3clFbS" id="5pfzJmvelxn" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="5pfzJmvenoc" role="13h7CS">
+      <property role="TrG5h" value="getConstructor" />
+      <ref role="13i0hy" node="5pfzJmvenne" resolve="getConstructor" />
+      <node concept="3Tm1VV" id="5pfzJmvenod" role="1B3o_S" />
+      <node concept="3clFbS" id="5pfzJmvenoi" role="3clF47">
+        <node concept="3clFbJ" id="5pfzJmveon2" role="3cqZAp">
+          <node concept="3clFbC" id="5pfzJmveon3" role="3clFbw">
+            <node concept="2OqwBi" id="5pfzJmveon4" role="3uHU7w">
+              <node concept="1XH99k" id="5pfzJmveon5" role="2Oq$k0">
+                <ref role="1XH99l" to="ciel:z5yWMlY7sw" resolve="SolverBackends" />
+              </node>
+              <node concept="2ViDtV" id="5pfzJmveon6" role="2OqNvi">
+                <ref role="2ViDtZ" to="ciel:z5yWMlY7sx" resolve="OpenSoT" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="5pfzJmveon7" role="3uHU7B">
+              <ref role="3cqZAo" node="5pfzJmvenoj" resolve="solver" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="5pfzJmveon8" role="3clFbx">
+            <node concept="3cpWs6" id="5pfzJmvep7b" role="3cqZAp">
+              <node concept="3cpWs3" id="5pfzJmvequG" role="3cqZAk">
+                <node concept="Xl_RD" id="5pfzJmveqxI" role="3uHU7w">
+                  <property role="Xl_RC" value=".reset(new JointLimits(q, qmax, qmin, *model));" />
+                </node>
+                <node concept="3cpWs3" id="5pfzJmvepYX" role="3uHU7B">
+                  <node concept="Xl_RD" id="5pfzJmvep_H" role="3uHU7B">
+                    <property role="Xl_RC" value="\tEigen::VectorXd qmin, qmax;\n\tmodel-&gt;getJointLimits (qmin, qmax);\n\t" />
+                  </node>
+                  <node concept="2OqwBi" id="5pfzJmveqgq" role="3uHU7w">
+                    <node concept="13iPFW" id="5pfzJmveq8H" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="5pfzJmveqrM" role="2OqNvi">
+                      <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="5pfzJmveonx" role="9aQIa">
+            <node concept="3clFbS" id="5pfzJmveony" role="9aQI4">
+              <node concept="3cpWs6" id="5pfzJmveonz" role="3cqZAp">
+                <node concept="Xl_RD" id="5pfzJmveon$" role="3cqZAk">
+                  <property role="Xl_RC" value="ERROR! This backend is not implemented yet. Sorry :(" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5pfzJmvenoj" role="3clF46">
+        <property role="TrG5h" value="solver" />
+        <node concept="2ZThk1" id="5pfzJmvenok" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="5pfzJmvenol" role="3clF45" />
+    </node>
+  </node>
 </model>
 
