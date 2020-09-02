@@ -1504,11 +1504,42 @@
               <node concept="356sEK" id="fxXr8jd9KC" role="383Ya9">
                 <node concept="2EixSi" id="fxXr8jd9KE" role="2EinRH" />
               </node>
-              <node concept="356sEK" id="fxXr8jdgLK" role="383Ya9">
-                <node concept="356sEF" id="fxXr8jdha9" role="356sEH">
-                  <property role="TrG5h" value="void update();" />
+              <node concept="356sEK" id="5T$yIhXImZ1" role="383Ya9">
+                <node concept="356sEF" id="5T$yIhXInsc" role="356sEH">
+                  <property role="TrG5h" value="update()" />
+                  <node concept="17Uvod" id="5T$yIhXInse" role="lGtFl">
+                    <property role="2qtEX9" value="name" />
+                    <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                    <property role="34cw8o" value="get" />
+                    <node concept="3zFVjK" id="5T$yIhXInsf" role="3zH0cK">
+                      <node concept="3clFbS" id="5T$yIhXInsg" role="2VODD2">
+                        <node concept="3clFbF" id="5T$yIhXIoeo" role="3cqZAp">
+                          <node concept="2OqwBi" id="5T$yIhXIoq4" role="3clFbG">
+                            <node concept="30H73N" id="5T$yIhXIoen" role="2Oq$k0" />
+                            <node concept="2qgKlT" id="5T$yIhXIoxd" role="2OqNvi">
+                              <ref role="37wK5l" to="fdmv:5T$yIhY4lU7" resolve="getUpdateMethod" />
+                              <node concept="2OqwBi" id="5T$yIhXIpbf" role="37wK5m">
+                                <node concept="1XH99k" id="5T$yIhXIo_k" role="2Oq$k0">
+                                  <ref role="1XH99l" to="ciel:z5yWMlY7sw" resolve="SolverBackends" />
+                                </node>
+                                <node concept="2ViDtV" id="5T$yIhXIpwc" role="2OqNvi">
+                                  <ref role="2ViDtZ" to="ciel:z5yWMlY7sx" resolve="OpenSoT" />
+                                </node>
+                              </node>
+                              <node concept="3cmrfG" id="5T$yIhY8Jxh" role="37wK5m">
+                                <property role="3cmrfH" value="11" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
-                <node concept="2EixSi" id="fxXr8jdgLM" role="2EinRH" />
+                <node concept="2EixSi" id="5T$yIhXImZ3" role="2EinRH" />
+              </node>
+              <node concept="356sEK" id="5T$yIhY3xTU" role="383Ya9">
+                <node concept="2EixSi" id="5T$yIhY3xTW" role="2EinRH" />
               </node>
             </node>
             <node concept="2EixSi" id="2YQ4RMG8HKp" role="2EinRH" />

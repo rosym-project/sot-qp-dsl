@@ -370,8 +370,20 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F0A7n" id="7tjg6$Bf02T" role="3EZMnx">
+      <node concept="3F0A7n" id="5T$yIhXLN9f" role="3EZMnx">
         <ref role="1NtTu8" to="ciel:7tjg6$BeSD8" resolve="data_type" />
+      </node>
+      <node concept="3F0ifn" id="5T$yIhXLN9I" role="3EZMnx">
+        <property role="3F0ifm" value="of" />
+      </node>
+      <node concept="3F0A7n" id="5T$yIhXLN9U" role="3EZMnx">
+        <ref role="1NtTu8" to="ciel:5T$yIhXLN7I" resolve="rows" />
+      </node>
+      <node concept="3F0ifn" id="5T$yIhXLNai" role="3EZMnx">
+        <property role="3F0ifm" value="x" />
+      </node>
+      <node concept="3F0A7n" id="7tjg6$Bf02T" role="3EZMnx">
+        <ref role="1NtTu8" to="ciel:5T$yIhXLN7D" resolve="columns" />
         <node concept="ljvvj" id="7tjg6$Bf02U" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>

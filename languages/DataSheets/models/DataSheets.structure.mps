@@ -171,6 +171,16 @@
       <property role="TrG5h" value="data_type" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="5T$yIhXLN7D" role="1TKVEl">
+      <property role="IQ2nx" value="6801714051203674601" />
+      <property role="TrG5h" value="columns" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="5T$yIhXLN7I" role="1TKVEl">
+      <property role="IQ2nx" value="6801714051203674606" />
+      <property role="TrG5h" value="rows" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="FHWRYa0BqG">
     <property role="EcuMT" value="787553238961518252" />
