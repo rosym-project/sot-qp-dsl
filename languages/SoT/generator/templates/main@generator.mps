@@ -2827,7 +2827,7 @@
             </node>
           </node>
           <node concept="356sEF" id="1q4naCfV60g" role="356sEH">
-            <property role="TrG5h" value=" &gt; " />
+            <property role="TrG5h" value=" " />
           </node>
           <node concept="356sEF" id="7Lm6QrslD9b" role="356sEH">
             <property role="TrG5h" value="Settable" />
@@ -3190,7 +3190,7 @@
             </node>
           </node>
           <node concept="356sEF" id="1E9kYPIh72h" role="356sEH">
-            <property role="TrG5h" value=", 1 &gt; " />
+            <property role="TrG5h" value=", 1 " />
           </node>
           <node concept="356sEF" id="1q4naCfTnRp" role="356sEH">
             <property role="TrG5h" value="&gt; computed_torques_out_data;" />
