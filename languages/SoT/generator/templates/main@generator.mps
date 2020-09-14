@@ -5768,7 +5768,7 @@
     <node concept="356WMU" id="1E9kYPInuTi" role="356KY_">
       <node concept="356sEK" id="1E9kYPInuTj" role="383Ya9">
         <node concept="356sEF" id="1E9kYPInuTk" role="356sEH">
-          <property role="TrG5h" value="cmake_minimum_required(VERSION 2.8)" />
+          <property role="TrG5h" value="cmake_minimum_required(VERSION 3.10)" />
         </node>
         <node concept="2EixSi" id="1E9kYPInuTm" role="2EinRH" />
       </node>
@@ -5841,6 +5841,230 @@
       <node concept="356sEK" id="1E9kYPInuTO" role="383Ya9">
         <node concept="2EixSi" id="1E9kYPInuTR" role="2EinRH" />
       </node>
+      <node concept="356sEK" id="1E9kYPIqTUA" role="383Ya9">
+        <node concept="356sEF" id="1E9kYPIqUby" role="356sEH">
+          <property role="TrG5h" value="# if backend == opensot:" />
+        </node>
+        <node concept="2EixSi" id="1E9kYPIqTUC" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="1E9kYPIqVIC" role="383Ya9">
+        <node concept="356sEF" id="1E9kYPIqVPJ" role="356sEH">
+          <property role="TrG5h" value="inserte backend stuff" />
+          <node concept="17Uvod" id="1E9kYPIrrn4" role="lGtFl">
+            <property role="2qtEX9" value="name" />
+            <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+            <node concept="3zFVjK" id="1E9kYPIrrn5" role="3zH0cK">
+              <node concept="3clFbS" id="1E9kYPIrrn6" role="2VODD2">
+                <node concept="3cpWs8" id="1E9kYPIrrrH" role="3cqZAp">
+                  <node concept="3cpWsn" id="1E9kYPIrrrK" role="3cpWs9">
+                    <property role="TrG5h" value="ret" />
+                    <node concept="17QB3L" id="1E9kYPIrrrG" role="1tU5fm" />
+                    <node concept="Xl_RD" id="1E9kYPIrrwA" role="33vP2m">
+                      <property role="Xl_RC" value="find_package(OpenSoT)" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIrr_S" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIrrAH" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIrrFx" role="37vLTx">
+                      <property role="Xl_RC" value="\ninclude_directories(${OpenSoT_INCLUDE_DIRS} ${XBotInterface_INCLUDE_DIRS})\n" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIrr_Q" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIrrSt" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIrs2I" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIrs3t" role="37vLTx">
+                      <property role="Xl_RC" value="\n" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIrrSr" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIrsa4" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIrskz" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIrslt" role="37vLTx">
+                      <property role="Xl_RC" value="find_package(Eigen3 REQUIRED)" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIrsa2" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIrsrY" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIrsFa" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIrsGf" role="37vLTx">
+                      <property role="Xl_RC" value="\nif(EIGEN3_FOUND)" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIrsrW" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIrsIV" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIrsIW" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIrsIX" role="37vLTx">
+                      <property role="Xl_RC" value="\n\tmessage(STATUS \&quot;Eigen found. Version: ${EIGEN3_VERSION_STRING}\&quot;)" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIrsIY" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIrsLb" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIrsLc" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIrsLd" role="37vLTx">
+                      <property role="Xl_RC" value="\nendif(EIGEN3_FOUND)" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIrsLe" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIrsMj" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIrsMk" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIrsMl" role="37vLTx">
+                      <property role="Xl_RC" value="\n" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIrsMm" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIrsN_" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIrsNA" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIrsNB" role="37vLTx">
+                      <property role="Xl_RC" value="\nfind_package(orocos_kdl REQUIRED)" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIrsNC" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIrsP1" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIrsP2" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIrsP3" role="37vLTx">
+                      <property role="Xl_RC" value="\nif(orocos_kdl_FOUND)" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIrsP4" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIrsQB" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIrsQC" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIrsQD" role="37vLTx">
+                      <property role="Xl_RC" value="\n\tmessage(STATUS \&quot;KDL found. Version: ${orocos_kdl_VERSION}\&quot;)" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIrsQE" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIrsSn" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIrsSo" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIrsSp" role="37vLTx">
+                      <property role="Xl_RC" value="\n\tinclude_directories(${orocos_kdl_INCLUDE_DIRS})" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIrsSq" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIrt0M" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIrt0N" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIrt0O" role="37vLTx">
+                      <property role="Xl_RC" value="\nendif()" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIrt0P" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIru2l" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIru2m" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIru2n" role="37vLTx">
+                      <property role="Xl_RC" value="\n" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIru2o" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIru87" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIru88" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIru89" role="37vLTx">
+                      <property role="Xl_RC" value="\nfind_package(Boost REQUIRED COMPONENTS system)" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIru8a" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIruat" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIruau" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIruav" role="37vLTx">
+                      <property role="Xl_RC" value="\nif(Boost_FOUND)" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIruaw" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIrucX" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIrucY" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIrucZ" role="37vLTx">
+                      <property role="Xl_RC" value="\n\tmessage(STATUS \&quot;Boost found. Version: ${Boost_VERSION}\&quot;)" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIrud0" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIrufB" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIrufC" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIrufD" role="37vLTx">
+                      <property role="Xl_RC" value="\nendif(Boost_FOUND)" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIrufE" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIs5SF" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIs65n" role="3clFbG">
+                    <node concept="37vLTw" id="1E9kYPIs5SD" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                    <node concept="Xl_RD" id="1E9kYPIs7am" role="37vLTx">
+                      <property role="Xl_RC" value="\n\nset(SOLVER_LIBRARIES Eigen3::Eigen ${orocos_kdl_LIBRARIES} ${Boost_LIBRARIES} OpenSoT::OpenSoT" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1E9kYPIs8BE" role="3cqZAp">
+                  <node concept="d57v9" id="1E9kYPIs8Oq" role="3clFbG">
+                    <node concept="Xl_RD" id="1E9kYPIs8QC" role="37vLTx">
+                      <property role="Xl_RC" value=" XBotInterface::XBotInterface)" />
+                    </node>
+                    <node concept="37vLTw" id="1E9kYPIs8BC" role="37vLTJ">
+                      <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs6" id="1E9kYPIrvQB" role="3cqZAp">
+                  <node concept="37vLTw" id="1E9kYPIrvTP" role="3cqZAk">
+                    <ref role="3cqZAo" node="1E9kYPIrrrK" resolve="ret" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2EixSi" id="1E9kYPIqVIE" role="2EinRH" />
+      </node>
       <node concept="356sEK" id="1E9kYPInuTS" role="383Ya9">
         <node concept="2EixSi" id="1E9kYPInuTV" role="2EinRH" />
       </node>
@@ -5855,7 +6079,7 @@
           <property role="TrG5h" value="orocos_component(" />
         </node>
         <node concept="356sEF" id="1E9kYPInycv" role="356sEH">
-          <property role="TrG5h" value="${PROJECT_NAME} " />
+          <property role="TrG5h" value="${CMAKE_PROJECT_NAME} " />
         </node>
         <node concept="356sEF" id="1E9kYPIn$BG" role="356sEH">
           <property role="TrG5h" value="component.hpp" />
@@ -6021,6 +6245,24 @@
           <property role="TrG5h" value=")" />
         </node>
         <node concept="2EixSi" id="1E9kYPInBWx" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="1E9kYPIqV3R" role="383Ya9">
+        <node concept="2EixSi" id="1E9kYPIqV3T" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="1E9kYPIqVhG" role="383Ya9">
+        <node concept="356sEF" id="1E9kYPIqVxu" role="356sEH">
+          <property role="TrG5h" value="target_link_libraries(" />
+        </node>
+        <node concept="2EixSi" id="1E9kYPIqVhI" role="2EinRH" />
+        <node concept="356sEF" id="1E9kYPIqVxz" role="356sEH">
+          <property role="TrG5h" value="${CMAKE_PROJECT_NAME} ${SOLVER_LIBRARIES}" />
+        </node>
+        <node concept="356sEF" id="1E9kYPIqVxw" role="356sEH">
+          <property role="TrG5h" value=")" />
+        </node>
+      </node>
+      <node concept="356sEK" id="1E9kYPIqVp_" role="383Ya9">
+        <node concept="2EixSi" id="1E9kYPIqVpB" role="2EinRH" />
       </node>
       <node concept="356sEK" id="1E9kYPInuU8" role="383Ya9">
         <node concept="356sEF" id="1E9kYPInuU9" role="356sEH">
