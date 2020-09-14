@@ -176,12 +176,6 @@
         <child id="7214912913997260696" name="lines" index="383Ya9" />
       </concept>
     </language>
-    <language id="289fcc83-6543-41e8-a5ca-768235715ce4" name="jetbrains.mps.lang.generator.generationParameters">
-      <concept id="3064182000795631740" name="jetbrains.mps.lang.generator.generationParameters.structure.DefaultGenerationParameterId" flags="nn" index="2I5Y$R">
-        <reference id="3064182000795631811" name="parameter" index="2I5YA8" />
-        <reference id="3064182000795631810" name="container" index="2I5YA9" />
-      </concept>
-    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
@@ -2952,19 +2946,22 @@
           </node>
           <node concept="2EixSi" id="5lB$PnvX4It" role="2EinRH" />
         </node>
-        <node concept="356sEK" id="3pbEWNE6PYA" role="383Ya9">
-          <node concept="356sEF" id="3pbEWNE6Pi1" role="356sEH">
+        <node concept="356sEK" id="erZiboCmct" role="383Ya9">
+          <node concept="356sEF" id="erZiboCmcu" role="356sEH">
+            <property role="TrG5h" value="boost::shared_ptr&lt;" />
+          </node>
+          <node concept="356sEF" id="erZiboCnzc" role="356sEH">
             <property role="TrG5h" value="sot_object" />
-            <node concept="17Uvod" id="3pbEWNE6Pi3" role="lGtFl">
+            <node concept="17Uvod" id="erZiboCnzd" role="lGtFl">
               <property role="2qtEX9" value="name" />
               <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
               <property role="34cw8o" value="declare" />
-              <node concept="3zFVjK" id="3pbEWNE6Pi4" role="3zH0cK">
-                <node concept="3clFbS" id="3pbEWNE6Pi5" role="2VODD2">
-                  <node concept="3clFbF" id="3pbEWNE6PmG" role="3cqZAp">
-                    <node concept="2OqwBi" id="3pbEWNE6Pyo" role="3clFbG">
-                      <node concept="30H73N" id="3pbEWNE6PmF" role="2Oq$k0" />
-                      <node concept="3TrcHB" id="3pbEWNE6PDO" role="2OqNvi">
+              <node concept="3zFVjK" id="erZiboCnze" role="3zH0cK">
+                <node concept="3clFbS" id="erZiboCnzf" role="2VODD2">
+                  <node concept="3clFbF" id="erZiboCnzg" role="3cqZAp">
+                    <node concept="2OqwBi" id="erZiboCnzh" role="3clFbG">
+                      <node concept="30H73N" id="erZiboCnzi" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="erZiboCnzj" role="2OqNvi">
                         <ref role="3TsBF5" to="it9v:62gmtUC57Ei" resolve="string_identifier" />
                       </node>
                     </node>
@@ -2973,24 +2970,10 @@
               </node>
             </node>
           </node>
-          <node concept="2EixSi" id="3pbEWNE6PYC" role="2EinRH" />
-          <node concept="356sEF" id="3pbEWNE6S7v" role="356sEH">
-            <property role="TrG5h" value=" qp_sot;" />
-            <node concept="17Uvod" id="erZibox3gl" role="lGtFl">
-              <property role="2qtEX9" value="name" />
-              <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-              <node concept="3zFVjK" id="erZibox3gm" role="3zH0cK">
-                <node concept="3clFbS" id="erZibox3gn" role="2VODD2">
-                  <node concept="3clFbF" id="erZibox3kY" role="3cqZAp">
-                    <node concept="2I5Y$R" id="erZibox3kX" role="3clFbG">
-                      <ref role="2I5YA9" node="erZibox2TW" resolve="sot_naming" />
-                      <ref role="2I5YA8" node="erZibox2TX" resolve="qp_sot" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
+          <node concept="356sEF" id="erZiboCnlF" role="356sEH">
+            <property role="TrG5h" value="&gt; qp_sot;" />
           </node>
+          <node concept="2EixSi" id="erZiboCmcv" role="2EinRH" />
         </node>
         <node concept="356sEK" id="1q4naCfTcgH" role="383Ya9">
           <node concept="356sEF" id="1q4naCfTcgI" role="356sEH">
@@ -3556,6 +3539,41 @@
               <property role="TrG5h" value="model_configured = false;" />
             </node>
             <node concept="2EixSi" id="1E9kYPIlFkc" role="2EinRH" />
+          </node>
+          <node concept="356sEK" id="erZiboAOcD" role="383Ya9">
+            <node concept="356sEF" id="erZiboAOcE" role="356sEH">
+              <property role="TrG5h" value="// qp_sot instantiation. FIXME: add for other solver and removed the hard-coded part" />
+            </node>
+            <node concept="2EixSi" id="erZiboAOcF" role="2EinRH" />
+          </node>
+          <node concept="356sEK" id="erZiboAOhw" role="383Ya9">
+            <node concept="356sEF" id="erZiboAOhx" role="356sEH">
+              <property role="TrG5h" value="qp_sot.reset(new " />
+            </node>
+            <node concept="356sEF" id="3pbEWNE6Pi1" role="356sEH">
+              <property role="TrG5h" value="sot_object" />
+              <node concept="17Uvod" id="3pbEWNE6Pi3" role="lGtFl">
+                <property role="2qtEX9" value="name" />
+                <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                <property role="34cw8o" value="declare" />
+                <node concept="3zFVjK" id="3pbEWNE6Pi4" role="3zH0cK">
+                  <node concept="3clFbS" id="3pbEWNE6Pi5" role="2VODD2">
+                    <node concept="3clFbF" id="3pbEWNE6PmG" role="3cqZAp">
+                      <node concept="2OqwBi" id="3pbEWNE6Pyo" role="3clFbG">
+                        <node concept="30H73N" id="3pbEWNE6PmF" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="3pbEWNE6PDO" role="2OqNvi">
+                          <ref role="3TsBF5" to="it9v:62gmtUC57Ei" resolve="string_identifier" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="356sEF" id="erZiboCppQ" role="356sEH">
+              <property role="TrG5h" value="(model, q));" />
+            </node>
+            <node concept="2EixSi" id="erZiboAOhy" role="2EinRH" />
           </node>
           <node concept="356sEK" id="2QU2W9uK8Mg" role="383Ya9">
             <node concept="356sEF" id="2QU2W9uK8Mh" role="356sEH">
