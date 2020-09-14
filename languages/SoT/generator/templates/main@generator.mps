@@ -5677,6 +5677,74 @@
         <node concept="2EixSi" id="5lB$PnvZu9o" role="2EinRH" />
       </node>
       <node concept="356sEK" id="5lB$PnvZvtX" role="383Ya9">
+        <node concept="356sEF" id="erZiboDX1v" role="356sEH">
+          <property role="TrG5h" value="ORO_CREATE_COMPONENT(" />
+        </node>
+        <node concept="356sEF" id="erZiboDX6l" role="356sEH">
+          <property role="TrG5h" value="SoT_Class" />
+          <node concept="17Uvod" id="erZiboDX6m" role="lGtFl">
+            <property role="2qtEX9" value="name" />
+            <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+            <node concept="3zFVjK" id="erZiboDX6n" role="3zH0cK">
+              <node concept="3clFbS" id="erZiboDX6o" role="2VODD2">
+                <node concept="3cpWs8" id="erZiboDX6p" role="3cqZAp">
+                  <node concept="3cpWsn" id="erZiboDX6q" role="3cpWs9">
+                    <property role="TrG5h" value="tmp" />
+                    <node concept="17QB3L" id="erZiboDX6r" role="1tU5fm" />
+                    <node concept="2OqwBi" id="erZiboDX6s" role="33vP2m">
+                      <node concept="30H73N" id="erZiboDX6t" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="erZiboDX6u" role="2OqNvi">
+                        <ref role="3TsBF5" to="it9v:62gmtUC57Ei" resolve="string_identifier" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs6" id="erZiboDX6v" role="3cqZAp">
+                  <node concept="3cpWs3" id="erZiboDX6w" role="3cqZAk">
+                    <node concept="3cpWs3" id="erZiboDX6x" role="3uHU7B">
+                      <node concept="2OqwBi" id="erZiboDX6y" role="3uHU7B">
+                        <node concept="2OqwBi" id="erZiboDX6z" role="2Oq$k0">
+                          <node concept="37vLTw" id="erZiboDX6$" role="2Oq$k0">
+                            <ref role="3cqZAo" node="erZiboDX6q" resolve="tmp" />
+                          </node>
+                          <node concept="liA8E" id="erZiboDX6_" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~String.substring(int,int)" resolve="substring" />
+                            <node concept="3cmrfG" id="erZiboDX6A" role="37wK5m">
+                              <property role="3cmrfH" value="0" />
+                            </node>
+                            <node concept="3cmrfG" id="erZiboDX6B" role="37wK5m">
+                              <property role="3cmrfH" value="1" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="erZiboDX6C" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.toUpperCase()" resolve="toUpperCase" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="erZiboDX6D" role="3uHU7w">
+                        <node concept="37vLTw" id="erZiboDX6E" role="2Oq$k0">
+                          <ref role="3cqZAo" node="erZiboDX6q" resolve="tmp" />
+                        </node>
+                        <node concept="liA8E" id="erZiboDX6F" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.substring(int)" resolve="substring" />
+                          <node concept="3cmrfG" id="erZiboDX6G" role="37wK5m">
+                            <property role="3cmrfH" value="1" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="erZiboDX6H" role="3uHU7w">
+                      <property role="Xl_RC" value="_Component" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="356sEF" id="erZiboDX1B" role="356sEH">
+          <property role="TrG5h" value=")" />
+        </node>
         <node concept="2EixSi" id="5lB$PnvZvtZ" role="2EinRH" />
       </node>
     </node>
