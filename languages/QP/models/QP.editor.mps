@@ -350,5 +350,34 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="6UqSuuqFnKI">
+    <ref role="1XX52x" to="qg:FHWRYaf4XG" resolve="JointLimits" />
+    <node concept="3EZMnI" id="6UqSuuqFnKK" role="2wV5jI">
+      <node concept="l2Vlx" id="6UqSuuqFnKL" role="2iSdaV" />
+      <node concept="3F0ifn" id="6UqSuuqFnKM" role="3EZMnx">
+        <property role="3F0ifm" value="joint limits" />
+      </node>
+      <node concept="3F0A7n" id="6UqSuuqFnKN" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="6UqSuuqFnKO" role="3EZMnx">
+        <property role="3F0ifm" value="data_sheet" />
+      </node>
+      <node concept="1iCGBv" id="6UqSuuqFnKP" role="3EZMnx">
+        <ref role="1NtTu8" to="qg:FHWRYaf4XH" resolve="data_sheet" />
+        <node concept="1sVBvm" id="6UqSuuqFnKS" role="1sWHZn">
+          <node concept="3F0A7n" id="6UqSuuqFnKU" role="2wV5jI">
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6UqSuuqFnKV" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+        <node concept="11L4FC" id="6UqSuuqFnKW" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

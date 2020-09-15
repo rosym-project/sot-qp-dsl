@@ -219,9 +219,6 @@
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
-      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
-        <reference id="1138405853777" name="concept" index="ehGHo" />
-      </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -1861,25 +1858,6 @@
       <node concept="37vLTG" id="5pfzJmveh$M" role="3clF46">
         <property role="TrG5h" value="solver" />
         <node concept="2ZThk1" id="5pfzJmveh$L" role="1tU5fm" />
-      </node>
-    </node>
-    <node concept="13i0hz" id="5T$yIhXJvll" role="13h7CS">
-      <property role="TrG5h" value="getParamArgument" />
-      <node concept="3Tm6S6" id="5T$yIhXJvXl" role="1B3o_S" />
-      <node concept="17QB3L" id="5T$yIhXJvXw" role="3clF45" />
-      <node concept="3clFbS" id="5T$yIhXJvlo" role="3clF47">
-        <node concept="3clFbH" id="5T$yIhXLaCH" role="3cqZAp" />
-        <node concept="3cpWs6" id="5T$yIhXJvZ3" role="3cqZAp">
-          <node concept="Xl_RD" id="5T$yIhXJvZw" role="3cqZAk">
-            <property role="Xl_RC" value="" />
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="5T$yIhXLaC2" role="3clF46">
-        <property role="TrG5h" value="qp" />
-        <node concept="3Tqbb2" id="5T$yIhXLaC1" role="1tU5fm">
-          <ref role="ehGHo" to="it9v:1Nc9ZPKvLgB" resolve="Task" />
-        </node>
       </node>
     </node>
     <node concept="13i0hz" id="5T$yIhY7nih" role="13h7CS">
