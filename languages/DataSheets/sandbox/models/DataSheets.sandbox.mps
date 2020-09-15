@@ -12,7 +12,9 @@
       </concept>
     </language>
     <language id="751b0b85-c6ee-41b8-9f8e-6d8bd95432ac" name="DataSheets">
-      <concept id="787553238961926201" name="DataSheets.structure.SoTDataSheet" flags="ng" index="20Tkd6" />
+      <concept id="787553238961926201" name="DataSheets.structure.SoTDataSheet" flags="ng" index="20Tkd6">
+        <property id="7969930875425430651" name="regularization_factor" index="3OJ7Qs" />
+      </concept>
       <concept id="787553238961518252" name="DataSheets.structure.DataSheet" flags="ng" index="20VSnj">
         <child id="632065033521100581" name="solvers" index="2tfvND" />
       </concept>
@@ -148,6 +150,7 @@
   </node>
   <node concept="20Tkd6" id="FHWRYa2buF">
     <property role="TrG5h" value="IHQP" />
+    <property role="3OJ7Qs" value="200.0" />
     <node concept="2tfvNj" id="FHWRYa2buG" role="2tfvND">
       <property role="2tfvN_" value="z5yWMlY7sx/OpenSoT" />
       <node concept="2GEI7Y" id="FHWRYa2buH" role="2tfvNB">

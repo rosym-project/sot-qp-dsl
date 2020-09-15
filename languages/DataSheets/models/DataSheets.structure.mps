@@ -203,6 +203,11 @@
     <property role="TrG5h" value="SoTDataSheet" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="FHWRYa0BqG" resolve="DataSheet" />
+    <node concept="1TJgyi" id="6UqSuuq9DLV" role="1TKVEl">
+      <property role="IQ2nx" value="7969930875425430651" />
+      <property role="TrG5h" value="regularization_factor" />
+      <ref role="AX2Wp" to="tpee:gc$lTUB" resolve="_FPNumber_String" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6UqSuuq7dja">
     <property role="EcuMT" value="7969930875424789706" />

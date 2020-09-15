@@ -880,6 +880,47 @@
           </node>
         </node>
       </node>
+      <node concept="356sEK" id="6UqSuuq9WVM" role="383Ya9">
+        <node concept="356sEF" id="6UqSuuq9YVZ" role="356sEH">
+          <property role="TrG5h" value="solver name spaces" />
+          <node concept="17Uvod" id="6UqSuuq9YW1" role="lGtFl">
+            <property role="2qtEX9" value="name" />
+            <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+            <property role="34cw8o" value="using" />
+            <node concept="3zFVjK" id="6UqSuuq9YW2" role="3zH0cK">
+              <node concept="3clFbS" id="6UqSuuq9YW3" role="2VODD2">
+                <node concept="3cpWs6" id="6UqSuuqa5Wv" role="3cqZAp">
+                  <node concept="3cpWs3" id="6UqSuuqa7Qa" role="3cqZAk">
+                    <node concept="Xl_RD" id="6UqSuuqa83q" role="3uHU7w">
+                      <property role="Xl_RC" value=";" />
+                    </node>
+                    <node concept="3cpWs3" id="6UqSuuqa6pq" role="3uHU7B">
+                      <node concept="Xl_RD" id="6UqSuuqa61c" role="3uHU7B">
+                        <property role="Xl_RC" value="using namespace" />
+                      </node>
+                      <node concept="2OqwBi" id="6UqSuuqa6Bx" role="3uHU7w">
+                        <node concept="30H73N" id="6UqSuuqa6pZ" role="2Oq$k0" />
+                        <node concept="2qgKlT" id="6UqSuuqa6Nb" role="2OqNvi">
+                          <ref role="37wK5l" to="fdmv:6UqSuuqa1CW" resolve="getAdditionalNameSpaces" />
+                          <node concept="2OqwBi" id="6UqSuuqa7lT" role="37wK5m">
+                            <node concept="1XH99k" id="6UqSuuqa6VH" role="2Oq$k0">
+                              <ref role="1XH99l" to="ciel:z5yWMlY7sw" resolve="SolverBackends" />
+                            </node>
+                            <node concept="2ViDtV" id="6UqSuuqa7zq" role="2OqNvi">
+                              <ref role="2ViDtZ" to="ciel:z5yWMlY7sx" resolve="OpenSoT" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2EixSi" id="6UqSuuq9WVO" role="2EinRH" />
+      </node>
       <node concept="356sEK" id="FHWRYaahtX" role="383Ya9">
         <node concept="2EixSi" id="FHWRYaahtZ" role="2EinRH" />
       </node>

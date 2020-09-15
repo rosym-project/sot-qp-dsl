@@ -19,6 +19,7 @@
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
       <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
+      <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -410,15 +411,26 @@
         </node>
       </node>
       <node concept="3EZMnI" id="FHWRYa2bwn" role="3EZMnx">
+        <node concept="3F0ifn" id="6UqSuuq9DOS" role="3EZMnx">
+          <property role="3F0ifm" value="regularization_factor: " />
+        </node>
+        <node concept="3F0A7n" id="6UqSuuq9DPg" role="3EZMnx">
+          <ref role="1NtTu8" to="ciel:6UqSuuq9DLV" resolve="regularization_factor" />
+        </node>
         <node concept="l2Vlx" id="FHWRYa2bwo" role="2iSdaV" />
         <node concept="lj46D" id="FHWRYa2bwp" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
         <node concept="3F0ifn" id="FHWRYa2bwq" role="3EZMnx">
-          <property role="3F0ifm" value="solvers" />
+          <node concept="ljvvj" id="6UqSuuq9DSm" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="6UqSuuq9JKk" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
         <node concept="3F0ifn" id="FHWRYa2bwr" role="3EZMnx">
-          <property role="3F0ifm" value=":" />
+          <property role="3F0ifm" value="solvers:" />
           <node concept="11L4FC" id="FHWRYa2bws" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -438,6 +450,9 @@
           <node concept="ljvvj" id="FHWRYa2bwy" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
+        </node>
+        <node concept="pVoyu" id="6UqSuuq9DO0" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0ifn" id="FHWRYa2bwz" role="3EZMnx">
