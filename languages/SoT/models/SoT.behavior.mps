@@ -1385,12 +1385,30 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6UqSuuqb5sW" role="3cqZAp" />
+        <node concept="3clFbH" id="6UqSuuqdyGp" role="3cqZAp" />
+        <node concept="3clFbF" id="6UqSuuqdy0D" role="3cqZAp">
+          <node concept="d57v9" id="6UqSuuqdy0E" role="3clFbG">
+            <node concept="3cpWs3" id="6UqSuuqdy0F" role="37vLTx">
+              <node concept="Xl_RD" id="6UqSuuqdy0G" role="3uHU7B">
+                <property role="Xl_RC" value="\n\n\t" />
+              </node>
+              <node concept="BsUDl" id="6UqSuuqdy0H" role="3uHU7w">
+                <ref role="37wK5l" node="6UqSuuqdeqL" resolve="getPrioritizedStack" />
+                <node concept="37vLTw" id="6UqSuuqdy0I" role="37wK5m">
+                  <ref role="3cqZAo" node="10TZNkdb87B" resolve="solver" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="6UqSuuqdy0J" role="37vLTJ">
+              <ref role="3cqZAo" node="10TZNkdb9iN" resolve="ret" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="6UqSuuqbp3a" role="3cqZAp">
           <node concept="d57v9" id="6UqSuuqbpwn" role="3clFbG">
             <node concept="3cpWs3" id="6UqSuuqbpZr" role="37vLTx">
               <node concept="Xl_RD" id="6UqSuuqbpzS" role="3uHU7B">
-                <property role="Xl_RC" value="\n\n\t" />
+                <property role="Xl_RC" value="\n\t" />
               </node>
               <node concept="BsUDl" id="6UqSuuqb6jX" role="3uHU7w">
                 <ref role="37wK5l" node="6UqSuuq9_WX" resolve="getInternalSoTConstructor" />
@@ -2804,6 +2822,57 @@
         <node concept="2ZThk1" id="6UqSuuq9BwG" role="1tU5fm" />
       </node>
     </node>
+    <node concept="13i0hz" id="6UqSuuqdeqL" role="13h7CS">
+      <property role="TrG5h" value="getPrioritizedStack" />
+      <node concept="3Tm6S6" id="6UqSuuqdgny" role="1B3o_S" />
+      <node concept="17QB3L" id="6UqSuuqdgnH" role="3clF45" />
+      <node concept="3clFbS" id="6UqSuuqdeqO" role="3clF47">
+        <node concept="3clFbJ" id="6UqSuuqdgp9" role="3cqZAp">
+          <node concept="3y3z36" id="6UqSuuqdgxX" role="3clFbw">
+            <node concept="2OqwBi" id="6UqSuuqdhd2" role="3uHU7w">
+              <node concept="1XH99k" id="6UqSuuqdgAr" role="2Oq$k0">
+                <ref role="1XH99l" to="ciel:z5yWMlY7sw" resolve="SolverBackends" />
+              </node>
+              <node concept="2ViDtV" id="6UqSuuqdhq4" role="2OqNvi">
+                <ref role="2ViDtZ" to="ciel:z5yWMlY7sx" resolve="OpenSoT" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="6UqSuuqdgpt" role="3uHU7B">
+              <ref role="3cqZAo" node="6UqSuuqdgoL" resolve="solver" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="6UqSuuqdgpb" role="3clFbx">
+            <node concept="3cpWs6" id="6UqSuuqdhzZ" role="3cqZAp">
+              <node concept="Xl_RD" id="6UqSuuqdh$d" role="3cqZAk">
+                <property role="Xl_RC" value="not implemented yet :(" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="6UqSuuqdh_A" role="9aQIa">
+            <node concept="3clFbS" id="6UqSuuqdh_B" role="9aQI4">
+              <node concept="3cpWs8" id="6UqSuuqdhJG" role="3cqZAp">
+                <node concept="3cpWsn" id="6UqSuuqdhJJ" role="3cpWs9">
+                  <property role="TrG5h" value="ret" />
+                  <node concept="17QB3L" id="6UqSuuqdhJF" role="1tU5fm" />
+                  <node concept="Xl_RD" id="6UqSuuqdhKu" role="33vP2m">
+                    <property role="Xl_RC" value="not implemented yet :(" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="6UqSuuqdhL8" role="3cqZAp">
+                <node concept="37vLTw" id="6UqSuuqdhLO" role="3cqZAk">
+                  <ref role="3cqZAo" node="6UqSuuqdhJJ" resolve="ret" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="6UqSuuqdgoL" role="3clF46">
+        <property role="TrG5h" value="solver" />
+        <node concept="2ZThk1" id="6UqSuuqdgoK" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="13i0hz" id="6UqSuuqa1CW" role="13h7CS">
       <property role="TrG5h" value="getAdditionalNameSpaces" />
       <node concept="3Tm1VV" id="6UqSuuqa1CX" role="1B3o_S" />
@@ -2826,7 +2895,7 @@
           <node concept="3clFbS" id="6UqSuuqa2xi" role="3clFbx">
             <node concept="3cpWs6" id="6UqSuuqa3Hg" role="3cqZAp">
               <node concept="Xl_RD" id="6UqSuuqa3HH" role="3cqZAk">
-                <property role="Xl_RC" value="OpenSoT::solvers\n" />
+                <property role="Xl_RC" value="OpenSoT::solvers" />
               </node>
             </node>
           </node>
