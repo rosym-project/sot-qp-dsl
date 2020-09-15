@@ -26,6 +26,7 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -99,6 +100,7 @@
   <node concept="1TIwiD" id="6$QZRoVNkmL">
     <property role="EcuMT" value="7581527905999340977" />
     <property role="TrG5h" value="CartesianImpedance" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="6$QZRoVNkmx" resolve="CartesianTask" />
     <node concept="1TJgyj" id="6$QZRoVNq_b" role="1TKVEi">
       <property role="IQ2ns" value="7581527905999366475" />
@@ -140,6 +142,7 @@
   <node concept="1TIwiD" id="1Nc9ZPKv_EN">
     <property role="EcuMT" value="2075077497778494131" />
     <property role="TrG5h" value="JointSpaceRedundancyResolution" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="6$QZRoVNkmu" resolve="QPTask" />
     <node concept="1TJgyj" id="1Nc9ZPKv_EO" role="1TKVEi">
       <property role="IQ2ns" value="2075077497778494132" />
@@ -227,6 +230,7 @@
   <node concept="1TIwiD" id="FHWRYaf4XG">
     <property role="EcuMT" value="787553238965309292" />
     <property role="TrG5h" value="JointLimits" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="FHWRYaf4XD" resolve="GlobalConstraint" />
   </node>
 </model>

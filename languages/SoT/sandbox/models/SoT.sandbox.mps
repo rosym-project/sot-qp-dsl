@@ -140,12 +140,6 @@
             <property role="2w0rIP" value="6" />
             <property role="2w0rIZ" value="6" />
           </node>
-          <node concept="2w0oBo" id="7tjg6$Bgpej" role="1iYPoA">
-            <property role="1A6yYF" value="true" />
-            <property role="2wqb9l" value="Eigen::Matrix" />
-            <property role="2w0rIZ" value="6" />
-            <property role="2w0rIP" value="6" />
-          </node>
           <node concept="2w0oBo" id="7tjg6$Bgpel" role="1iYPoy">
             <property role="1A6yYF" value="true" />
             <property role="2wqb9l" value="Eigen::Matrix" />
@@ -154,6 +148,12 @@
           </node>
           <node concept="1kIObA" id="3zFGDPGlRWi" role="1kIObz">
             <property role="1kIObx" value="0.01" />
+          </node>
+          <node concept="2w0oBo" id="6UqSuuqlOTX" role="1iYPoA">
+            <property role="1A6yYF" value="true" />
+            <property role="2wqb9l" value="Eigen::Matrix" />
+            <property role="2w0rIP" value="6" />
+            <property role="2w0rIZ" value="6" />
           </node>
         </node>
       </node>

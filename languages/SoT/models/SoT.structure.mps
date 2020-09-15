@@ -108,6 +108,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" to="qg:FHWRYaf4XD" resolve="GlobalConstraint" />
     </node>
+    <node concept="1TJgyj" id="6UqSuuqkjWV" role="1TKVEi">
+      <property role="IQ2ns" value="7969930875428224827" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="prioritized_tasks" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1Nc9ZPKvKdU" resolve="PriorizedTask" />
+    </node>
     <node concept="1TJgyi" id="62gmtUC57Ei" role="1TKVEl">
       <property role="IQ2nx" value="6958160237124942482" />
       <property role="TrG5h" value="string_identifier" />
@@ -198,9 +205,19 @@
   </node>
   <node concept="1TIwiD" id="1Nc9ZPKvKdU">
     <property role="EcuMT" value="2075077497778537338" />
-    <property role="TrG5h" value="Priority" />
-    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="PriorizedTask" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6UqSuuqkjWT" role="1TKVEi">
+      <property role="IQ2ns" value="7969930875428224825" />
+      <property role="20kJfa" value="task" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="qg:6$QZRoVNkmu" resolve="QPTask" />
+    </node>
+    <node concept="1TJgyi" id="6UqSuuqkjWR" role="1TKVEl">
+      <property role="IQ2nx" value="7969930875428224823" />
+      <property role="TrG5h" value="priority" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1Nc9ZPKvWWE">
     <property role="EcuMT" value="2075077497778589482" />
