@@ -12,11 +12,11 @@
     <import index="zbgm" ref="r:9b30a04d-297d-40e5-b0c0-34e7a53f0589(SoT.typesystem)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="7eee" ref="r:f1492c4b-bd4d-4e81-9c85-c3457f86da29(main@generator)" />
-    <import index="it9v" ref="r:76a2d845-165e-408d-95b2-0155ea32472e(SoT.structure)" implicit="true" />
+    <import index="ciel" ref="r:376fcad3-8eec-4dce-a957-10eb8db8f8db(DataSheets.structure)" />
+    <import index="it9v" ref="r:76a2d845-165e-408d-95b2-0155ea32472e(SoT.structure)" />
     <import index="qg" ref="r:a682a1c0-0d60-49b5-8410-038f9048aa42(QP.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="anl3" ref="r:4d6725ca-6b5c-48a1-8fcf-0053258bbedf(QP.behavior)" implicit="true" />
-    <import index="ciel" ref="r:376fcad3-8eec-4dce-a957-10eb8db8f8db(DataSheets.structure)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -475,6 +475,114 @@
       </node>
       <node concept="2AHcQZ" id="3zFGDPGvfQt" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="6UqSuuq4b1_" role="13h7CS">
+      <property role="TrG5h" value="getSoT" />
+      <node concept="3Tm1VV" id="6UqSuuq4b1A" role="1B3o_S" />
+      <node concept="17QB3L" id="6UqSuuq4bB_" role="3clF45" />
+      <node concept="3clFbS" id="6UqSuuq4b1C" role="3clF47">
+        <node concept="3clFbJ" id="6UqSuuq4cpD" role="3cqZAp">
+          <node concept="3clFbS" id="6UqSuuq4cpE" role="3clFbx">
+            <node concept="3cpWs6" id="6UqSuuq4cpF" role="3cqZAp">
+              <node concept="3cpWs3" id="6UqSuuq4lne" role="3cqZAk">
+                <node concept="Xl_RD" id="6UqSuuq4lK5" role="3uHU7w">
+                  <property role="Xl_RC" value="_sot;" />
+                </node>
+                <node concept="3cpWs3" id="6UqSuuq4ktl" role="3uHU7B">
+                  <node concept="3cpWs3" id="6UqSuuq4jI8" role="3uHU7B">
+                    <node concept="2OqwBi" id="6UqSuuq4j9F" role="3uHU7B">
+                      <node concept="2OqwBi" id="6UqSuuq4iq7" role="2Oq$k0">
+                        <node concept="2OqwBi" id="6UqSuuq4hGX" role="2Oq$k0">
+                          <node concept="2OqwBi" id="6UqSuuq4eS$" role="2Oq$k0">
+                            <node concept="2OqwBi" id="6UqSuuq4d3S" role="2Oq$k0">
+                              <node concept="2OqwBi" id="6UqSuuq4cJg" role="2Oq$k0">
+                                <node concept="13iPFW" id="6UqSuuq4cA3" role="2Oq$k0" />
+                                <node concept="3TrEf2" id="6UqSuuq4cQV" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="it9v:FHWRYa3gKn" resolve="data_sheet" />
+                                </node>
+                              </node>
+                              <node concept="3Tsc0h" id="6UqSuuq4dfT" role="2OqNvi">
+                                <ref role="3TtcxE" to="ciel:z5yWMlY7s_" resolve="solvers" />
+                              </node>
+                            </node>
+                            <node concept="3zZkjj" id="6UqSuuq4gut" role="2OqNvi">
+                              <node concept="1bVj0M" id="6UqSuuq4guv" role="23t8la">
+                                <node concept="3clFbS" id="6UqSuuq4guw" role="1bW5cS">
+                                  <node concept="3clFbF" id="6UqSuuq4gCL" role="3cqZAp">
+                                    <node concept="3clFbC" id="6UqSuuq4hfF" role="3clFbG">
+                                      <node concept="37vLTw" id="6UqSuuq4hqB" role="3uHU7w">
+                                        <ref role="3cqZAo" node="6UqSuuq4bC1" resolve="solver" />
+                                      </node>
+                                      <node concept="2OqwBi" id="6UqSuuq4gR9" role="3uHU7B">
+                                        <node concept="37vLTw" id="6UqSuuq4gCK" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="6UqSuuq4gux" resolve="it" />
+                                        </node>
+                                        <node concept="3TrcHB" id="6UqSuuq4h1y" role="2OqNvi">
+                                          <ref role="3TsBF5" to="ciel:z5yWMlY7sD" resolve="solver_id" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="Rh6nW" id="6UqSuuq4gux" role="1bW2Oz">
+                                  <property role="TrG5h" value="it" />
+                                  <node concept="2jxLKc" id="6UqSuuq4guy" role="1tU5fm" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="1uHKPH" id="6UqSuuq4iay" role="2OqNvi" />
+                        </node>
+                        <node concept="3TrEf2" id="6UqSuuq4iBG" role="2OqNvi">
+                          <ref role="3Tt5mk" to="ciel:z5yWMlY7sF" resolve="solver_parameters" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="6UqSuuq4jmT" role="2OqNvi">
+                        <ref role="3TsBF5" to="ciel:z5yWMlZcsB" resolve="namespace" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="6UqSuuq4jM$" role="3uHU7w">
+                      <property role="Xl_RC" value=" " />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="6UqSuuq4kQa" role="3uHU7w">
+                    <node concept="13iPFW" id="6UqSuuq4kC2" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="6UqSuuq4l0t" role="2OqNvi">
+                      <ref role="3TsBF5" to="it9v:62gmtUC57Ei" resolve="string_identifier" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="6UqSuuq4cpH" role="3clFbw">
+            <node concept="2OqwBi" id="6UqSuuq4cpI" role="3uHU7w">
+              <node concept="1XH99k" id="6UqSuuq4cpJ" role="2Oq$k0">
+                <ref role="1XH99l" to="ciel:z5yWMlY7sw" resolve="SolverBackends" />
+              </node>
+              <node concept="2ViDtV" id="6UqSuuq4cpK" role="2OqNvi">
+                <ref role="2ViDtZ" to="ciel:z5yWMlY7sx" resolve="OpenSoT" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="6UqSuuq4cpL" role="3uHU7B">
+              <ref role="3cqZAo" node="6UqSuuq4bC1" resolve="solver" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="6UqSuuq4cpM" role="9aQIa">
+            <node concept="3clFbS" id="6UqSuuq4cpN" role="9aQI4">
+              <node concept="3cpWs6" id="6UqSuuq4cpO" role="3cqZAp">
+                <node concept="Xl_RD" id="6UqSuuq4cpP" role="3cqZAk">
+                  <property role="Xl_RC" value="Error! Not implemented yet :(" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="6UqSuuq4bC1" role="3clF46">
+        <property role="TrG5h" value="solver" />
+        <node concept="2ZThk1" id="6UqSuuq4bC0" role="1tU5fm" />
       </node>
     </node>
     <node concept="13i0hz" id="5T$yIhY4nl8" role="13h7CS">

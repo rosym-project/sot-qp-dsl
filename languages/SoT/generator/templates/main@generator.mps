@@ -1427,76 +1427,16 @@
                     <node concept="3zFVjK" id="10TZNkdmOpV" role="3zH0cK">
                       <node concept="3clFbS" id="10TZNkdmOpW" role="2VODD2">
                         <node concept="3clFbF" id="FHWRYa7QtR" role="3cqZAp">
-                          <node concept="3cpWs3" id="FHWRYa89y5" role="3clFbG">
-                            <node concept="Xl_RD" id="FHWRYa89Ms" role="3uHU7w">
-                              <property role="Xl_RC" value="_sot;" />
-                            </node>
-                            <node concept="3cpWs3" id="FHWRYa87NY" role="3uHU7B">
-                              <node concept="3cpWs3" id="FHWRYa87n3" role="3uHU7B">
-                                <node concept="2OqwBi" id="FHWRYa863E" role="3uHU7B">
-                                  <node concept="2OqwBi" id="FHWRYa85qq" role="2Oq$k0">
-                                    <node concept="2OqwBi" id="FHWRYa84dQ" role="2Oq$k0">
-                                      <node concept="2OqwBi" id="FHWRYa7X$n" role="2Oq$k0">
-                                        <node concept="2OqwBi" id="FHWRYa7S5u" role="2Oq$k0">
-                                          <node concept="2OqwBi" id="FHWRYa7R56" role="2Oq$k0">
-                                            <node concept="30H73N" id="FHWRYa7QtP" role="2Oq$k0" />
-                                            <node concept="3TrEf2" id="FHWRYa7Rgr" role="2OqNvi">
-                                              <ref role="3Tt5mk" to="it9v:FHWRYa3gKn" resolve="data_sheet" />
-                                            </node>
-                                          </node>
-                                          <node concept="3Tsc0h" id="FHWRYa7SwE" role="2OqNvi">
-                                            <ref role="3TtcxE" to="ciel:z5yWMlY7s_" resolve="solvers" />
-                                          </node>
-                                        </node>
-                                        <node concept="3zZkjj" id="FHWRYa7Zdy" role="2OqNvi">
-                                          <node concept="1bVj0M" id="FHWRYa7Zd$" role="23t8la">
-                                            <node concept="3clFbS" id="FHWRYa7Zd_" role="1bW5cS">
-                                              <node concept="3clFbF" id="FHWRYa7ZSC" role="3cqZAp">
-                                                <node concept="3clFbC" id="FHWRYa81Yu" role="3clFbG">
-                                                  <node concept="2OqwBi" id="FHWRYa83y4" role="3uHU7w">
-                                                    <node concept="1XH99k" id="FHWRYa82Ad" role="2Oq$k0">
-                                                      <ref role="1XH99l" to="ciel:z5yWMlY7sw" resolve="SolverBackends" />
-                                                    </node>
-                                                    <node concept="2ViDtV" id="FHWRYa83QV" role="2OqNvi">
-                                                      <ref role="2ViDtZ" to="ciel:z5yWMlY7sx" resolve="OpenSoT" />
-                                                    </node>
-                                                  </node>
-                                                  <node concept="2OqwBi" id="FHWRYa80EQ" role="3uHU7B">
-                                                    <node concept="37vLTw" id="FHWRYa7ZSB" role="2Oq$k0">
-                                                      <ref role="3cqZAo" node="FHWRYa7ZdA" resolve="it" />
-                                                    </node>
-                                                    <node concept="3TrcHB" id="FHWRYa80X0" role="2OqNvi">
-                                                      <ref role="3TsBF5" to="ciel:z5yWMlY7sD" resolve="solver_id" />
-                                                    </node>
-                                                  </node>
-                                                </node>
-                                              </node>
-                                            </node>
-                                            <node concept="Rh6nW" id="FHWRYa7ZdA" role="1bW2Oz">
-                                              <property role="TrG5h" value="it" />
-                                              <node concept="2jxLKc" id="FHWRYa7ZdB" role="1tU5fm" />
-                                            </node>
-                                          </node>
-                                        </node>
-                                      </node>
-                                      <node concept="1uHKPH" id="FHWRYa84Lv" role="2OqNvi" />
-                                    </node>
-                                    <node concept="3TrEf2" id="FHWRYa85Fv" role="2OqNvi">
-                                      <ref role="3Tt5mk" to="ciel:z5yWMlY7sF" resolve="solver_parameters" />
-                                    </node>
-                                  </node>
-                                  <node concept="3TrcHB" id="FHWRYa86sy" role="2OqNvi">
-                                    <ref role="3TsBF5" to="ciel:z5yWMlZcsB" resolve="namespace" />
-                                  </node>
+                          <node concept="2OqwBi" id="6UqSuuq6$J3" role="3clFbG">
+                            <node concept="30H73N" id="6UqSuuq6$zn" role="2Oq$k0" />
+                            <node concept="2qgKlT" id="6UqSuuq6$Qr" role="2OqNvi">
+                              <ref role="37wK5l" to="fdmv:6UqSuuq4b1_" resolve="getSoT" />
+                              <node concept="2OqwBi" id="6UqSuuq6_oI" role="37wK5m">
+                                <node concept="1XH99k" id="6UqSuuq6$UA" role="2Oq$k0">
+                                  <ref role="1XH99l" to="ciel:z5yWMlY7sw" resolve="SolverBackends" />
                                 </node>
-                                <node concept="Xl_RD" id="FHWRYa87xG" role="3uHU7w">
-                                  <property role="Xl_RC" value=" " />
-                                </node>
-                              </node>
-                              <node concept="2OqwBi" id="FHWRYa88ki" role="3uHU7w">
-                                <node concept="30H73N" id="FHWRYa87YI" role="2Oq$k0" />
-                                <node concept="3TrcHB" id="FHWRYa88RU" role="2OqNvi">
-                                  <ref role="3TsBF5" to="it9v:62gmtUC57Ei" resolve="string_identifier" />
+                                <node concept="2ViDtV" id="6UqSuuq6_A5" role="2OqNvi">
+                                  <ref role="2ViDtZ" to="ciel:z5yWMlY7sx" resolve="OpenSoT" />
                                 </node>
                               </node>
                             </node>
