@@ -334,6 +334,18 @@
           </node>
         </node>
       </node>
+      <node concept="3F0ifn" id="6UqSuuq7jYM" role="3EZMnx">
+        <property role="3F0ifm" value="generator:" />
+      </node>
+      <node concept="1iCGBv" id="6UqSuuq7jZq" role="3EZMnx">
+        <ref role="1NtTu8" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
+        <node concept="1sVBvm" id="6UqSuuq7jZs" role="1sWHZn">
+          <node concept="3F0A7n" id="6UqSuuq7jZP" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="62gmtUC4MXD">

@@ -132,6 +132,12 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="ciel:FHWRYa2b0T" resolve="SoTDataSheet" />
     </node>
+    <node concept="1TJgyj" id="6UqSuuq7jYn" role="1TKVEi">
+      <property role="IQ2ns" value="7969930875424817047" />
+      <property role="20kJfa" value="generator_data_sheet" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="ciel:6UqSuuq7dja" resolve="GeneratorDataSheet" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1Nc9ZPKvKe3">
     <property role="EcuMT" value="2075077497778537347" />

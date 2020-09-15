@@ -204,5 +204,34 @@
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="FHWRYa0BqG" resolve="DataSheet" />
   </node>
+  <node concept="1TIwiD" id="6UqSuuq7dja">
+    <property role="EcuMT" value="7969930875424789706" />
+    <property role="TrG5h" value="GeneratorDataSheet" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6UqSuuq7djb" role="1TKVEl">
+      <property role="IQ2nx" value="7969930875424789707" />
+      <property role="TrG5h" value="sot_class_name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6UqSuuq7djk" role="1TKVEl">
+      <property role="IQ2nx" value="7969930875424789716" />
+      <property role="TrG5h" value="sot_component_name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6UqSuuq7djo" role="1TKVEl">
+      <property role="IQ2nx" value="7969930875424789720" />
+      <property role="TrG5h" value="back_end_internal_class_name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6UqSuuq7djh" role="1TKVEl">
+      <property role="IQ2nx" value="7969930875424789713" />
+      <property role="TrG5h" value="back_end" />
+      <ref role="AX2Wp" node="z5yWMlY7sw" resolve="SolverBackends" />
+    </node>
+    <node concept="PrWs8" id="6UqSuuq7jtg" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 

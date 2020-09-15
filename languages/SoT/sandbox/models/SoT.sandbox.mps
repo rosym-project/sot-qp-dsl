@@ -18,6 +18,7 @@
         <property id="6958160237124942498" name="solver_backend" index="38x2dW" />
         <property id="4101568274849824324" name="auto_joint_limits" index="1kxcNp" />
         <reference id="787553238962211863" name="data_sheet" index="20SfXC" />
+        <reference id="7969930875424817047" name="generator_data_sheet" index="3OxXTK" />
         <child id="787553238965565669" name="global_constraints" index="20FsIq" />
         <child id="2075077497778543210" name="task_tree" index="1GGNQn" />
       </concept>
@@ -32,7 +33,7 @@
     <language id="f8222387-45de-4e0c-b2a1-3806db93dfd4" name="QP">
       <concept id="787553238965309292" name="QP.structure.JointLimits" flags="ng" index="20OrKj" />
       <concept id="787553238965309289" name="QP.structure.GlobalConstraint" flags="ng" index="20OrKm">
-        <reference id="787553238965309293" name="" index="20OrKi" />
+        <reference id="787553238965309293" name="data_sheet" index="20OrKi" />
       </concept>
       <concept id="8959378637297521342" name="QP.structure.Settable" flags="ng" index="2w0oBo">
         <property id="8959378637297524947" name="rows" index="2w0rIP" />
@@ -73,6 +74,7 @@
     <property role="38x2dc" value="ihqp" />
     <property role="1kxcNp" value="true" />
     <ref role="20SfXC" to="bxwr:FHWRYa2buF" resolve="IHQP" />
+    <ref role="3OxXTK" to="bxwr:6UqSuuq7jtf" resolve="opensot_test_1" />
     <node concept="1GGMi6" id="1q4naCfRTw6" role="1GGNQn">
       <node concept="1GGMhY" id="1q4naCfRTwf" role="1GGMhV">
         <node concept="1GGNfq" id="3zFGDPGlwq9" role="1GGKIh">
