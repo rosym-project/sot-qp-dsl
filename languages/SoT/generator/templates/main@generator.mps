@@ -268,18 +268,6 @@
         </node>
       </node>
     </node>
-    <node concept="3lhOvk" id="62gmtUC5d0W" role="3lj3bC">
-      <property role="13Pg2o" value="h94ayQF/true_" />
-      <ref role="30HIoZ" to="it9v:1Nc9ZPKvKdW" resolve="SoT" />
-      <ref role="3lhOvi" node="62gmtUC5d0Z" resolve="map_SoT" />
-      <node concept="30G5F_" id="7Lm6QrseIHE" role="30HLyM">
-        <node concept="3clFbS" id="7Lm6QrseIHF" role="2VODD2">
-          <node concept="3clFbF" id="7Lm6QrseII4" role="3cqZAp">
-            <node concept="3clFbT" id="3pbEWNDINnu" role="3clFbG" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="3lhOvk" id="7Lm6Qrse8cK" role="3lj3bC">
       <property role="13Pg2o" value="h94ayQF/true_" />
       <ref role="30HIoZ" to="it9v:1Nc9ZPKvKdW" resolve="SoT" />
@@ -1623,30 +1611,6 @@
             <node concept="2OqwBi" id="62gmtUC5bV4" role="3clFbG">
               <node concept="30H73N" id="62gmtUC5bJn" role="2Oq$k0" />
               <node concept="3TrcHB" id="62gmtUC5c6q" role="2OqNvi">
-                <ref role="3TsBF5" to="it9v:62gmtUC57Ei" resolve="string_identifier" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="356sEV" id="62gmtUC5d0Z">
-    <property role="TrG5h" value="map_SoT" />
-    <property role="3Le9LX" value=".cpp" />
-    <node concept="356WMU" id="62gmtUC5d10" role="356KY_" />
-    <node concept="n94m4" id="62gmtUC5d11" role="lGtFl">
-      <ref role="n9lRv" to="it9v:1Nc9ZPKvKdW" resolve="SoT" />
-    </node>
-    <node concept="17Uvod" id="62gmtUC5d13" role="lGtFl">
-      <property role="2qtEX9" value="name" />
-      <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-      <node concept="3zFVjK" id="62gmtUC5d14" role="3zH0cK">
-        <node concept="3clFbS" id="62gmtUC5d15" role="2VODD2">
-          <node concept="3clFbF" id="62gmtUC5d5H" role="3cqZAp">
-            <node concept="2OqwBi" id="62gmtUC5dhr" role="3clFbG">
-              <node concept="30H73N" id="62gmtUC5d5G" role="2Oq$k0" />
-              <node concept="3TrcHB" id="62gmtUC5dow" role="2OqNvi">
                 <ref role="3TsBF5" to="it9v:62gmtUC57Ei" resolve="string_identifier" />
               </node>
             </node>
