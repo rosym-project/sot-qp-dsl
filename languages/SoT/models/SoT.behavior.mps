@@ -18,6 +18,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="anl3" ref="r:4d6725ca-6b5c-48a1-8fcf-0053258bbedf(QP.behavior)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -1525,8 +1526,8 @@
               </node>
               <node concept="2OqwBi" id="FHWRYa7AqD" role="3uHU7w">
                 <node concept="13iPFW" id="FHWRYa7AbB" role="2Oq$k0" />
-                <node concept="3TrcHB" id="FHWRYa7AAq" role="2OqNvi">
-                  <ref role="3TsBF5" to="it9v:62gmtUC57Ei" resolve="string_identifier" />
+                <node concept="3TrcHB" id="6UqSuuqzE9Y" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                 </node>
               </node>
             </node>
@@ -1565,8 +1566,8 @@
                 </node>
                 <node concept="2OqwBi" id="10TZNkdbekJ" role="3uHU7B">
                   <node concept="13iPFW" id="10TZNkdbedd" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="10TZNkdbesa" role="2OqNvi">
-                    <ref role="3TsBF5" to="it9v:62gmtUC57Ei" resolve="string_identifier" />
+                  <node concept="3TrcHB" id="6UqSuuqzFtm" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                   </node>
                 </node>
               </node>
