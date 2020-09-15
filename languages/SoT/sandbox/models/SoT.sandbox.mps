@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="bxwr" ref="r:4c4088f9-eae9-456b-9b1b-0de23edd221b(DataSheets.sandbox)" />
+    <import index="erae" ref="r:690c107b-186b-48f6-af91-0ea775ae258c(QP.sandbox)" />
   </imports>
   <registry>
     <language id="daff74ff-0009-47ed-8f20-b151cf9054c8" name="SoT">
@@ -21,10 +22,15 @@
         <reference id="7969930875424817047" name="generator_data_sheet" index="3OxXTK" />
         <child id="787553238965565669" name="global_constraints" index="20FsIq" />
         <child id="2075077497778543210" name="task_tree" index="1GGNQn" />
+        <child id="7969930875428224827" name="prioritized_tasks" index="3OMXVs" />
       </concept>
       <concept id="2075077497778537339" name="SoT.structure.HardPriority" flags="ng" index="1GGMi6">
         <child id="2075077497778537348" name="main_task" index="1GGMhT" />
         <child id="2075077497778537350" name="sub_task" index="1GGMhV" />
+      </concept>
+      <concept id="2075077497778537338" name="SoT.structure.PriorizedTask" flags="ng" index="1GGMi7">
+        <property id="7969930875428224823" name="priority" index="3OMXVg" />
+        <reference id="7969930875428224825" name="task" index="3OMXVu" />
       </concept>
       <concept id="2075077497778541607" name="SoT.structure.Task" flags="ng" index="1GGNfq">
         <child id="2075077497778541608" name="task" index="1GGNfl" />
@@ -161,6 +167,18 @@
     <node concept="20OrKj" id="FHWRYag$b3" role="20FsIq">
       <property role="TrG5h" value="joint_lims" />
       <ref role="20OrKi" to="bxwr:FHWRYag$aX" resolve="JointLimits" />
+    </node>
+    <node concept="1GGMi7" id="6UqSuuqnJO2" role="3OMXVs">
+      <property role="3OMXVg" value="1" />
+      <ref role="3OMXVu" to="erae:6UqSuuqlOPa" resolve="cart_imped_high" />
+    </node>
+    <node concept="1GGMi7" id="6UqSuuqnJO4" role="3OMXVs">
+      <property role="3OMXVg" value="2" />
+      <ref role="3OMXVu" to="erae:6UqSuuqlOU1" resolve="cart_imped_low" />
+    </node>
+    <node concept="1GGMi7" id="6UqSuuqnJO7" role="3OMXVs">
+      <property role="3OMXVg" value="2" />
+      <ref role="3OMXVu" to="erae:6UqSuuqlPjb" resolve="joint_space_redres" />
     </node>
   </node>
 </model>
