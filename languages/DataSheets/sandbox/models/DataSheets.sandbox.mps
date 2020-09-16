@@ -186,9 +186,9 @@
   </node>
   <node concept="3OxzkH" id="6UqSuuq7jtf">
     <property role="TrG5h" value="opensot_test_1" />
-    <property role="3OxzkG" value="QPSoT" />
+    <property role="3OxzkG" value="QPSoTClass" />
     <property role="3OxzkN" value="QPSoT_Component" />
-    <property role="3OxzkZ" value="ihqp_sot" />
+    <property role="3OxzkZ" value="ihqp_sot_back_end_internal" />
     <property role="3OxzkQ" value="z5yWMlY7sx/OpenSoT" />
   </node>
 </model>
