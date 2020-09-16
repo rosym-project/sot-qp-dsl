@@ -1297,7 +1297,28 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="10TZNkdbyHU" role="3cqZAp" />
+        <node concept="3SKdUt" id="IxQR1PMWvM" role="3cqZAp">
+          <node concept="1PaTwC" id="IxQR1PMWvN" role="1aUNEU">
+            <node concept="3oM_SD" id="IxQR1PMWIf" role="1PaTwD">
+              <property role="3oM_SC" value="TODO" />
+            </node>
+            <node concept="3oM_SD" id="IxQR1PMWIp" role="1PaTwD">
+              <property role="3oM_SC" value="FIXME" />
+            </node>
+            <node concept="3oM_SD" id="IxQR1PMWIO" role="1PaTwD">
+              <property role="3oM_SC" value="convert" />
+            </node>
+            <node concept="3oM_SD" id="IxQR1PMWLH" role="1PaTwD">
+              <property role="3oM_SC" value="this" />
+            </node>
+            <node concept="3oM_SD" id="IxQR1PMWLU" role="1PaTwD">
+              <property role="3oM_SC" value="to" />
+            </node>
+            <node concept="3oM_SD" id="IxQR1PMWM0" role="1PaTwD">
+              <property role="3oM_SC" value="!this.global_constraint.isEmpty" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="10TZNkdbBjG" role="3cqZAp">
           <node concept="3clFbS" id="10TZNkdbBjI" role="3clFbx">
             <node concept="3clFbF" id="10TZNkddi6M" role="3cqZAp">
@@ -1314,23 +1335,6 @@
                     <node concept="Xl_RD" id="10TZNkddi6S" role="37wK5m">
                       <property role="Xl_RC" value="joint limits" />
                     </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="1X3_iC" id="5pfzJmveKVr" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3clFbF" id="10TZNkdbEl2" role="8Wnug">
-                <node concept="d57v9" id="10TZNkdbEBh" role="3clFbG">
-                  <node concept="BsUDl" id="10TZNkdbEBC" role="37vLTx">
-                    <ref role="37wK5l" node="10TZNkdbCaf" resolve="getAutoJointLimits" />
-                    <node concept="37vLTw" id="10TZNkdbEH9" role="37wK5m">
-                      <ref role="3cqZAo" node="10TZNkdb87B" resolve="solver" />
-                    </node>
-                  </node>
-                  <node concept="37vLTw" id="10TZNkdbEl0" role="37vLTJ">
-                    <ref role="3cqZAo" node="10TZNkdb9iN" resolve="ret" />
                   </node>
                 </node>
               </node>
@@ -1370,12 +1374,30 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6UqSuuqdyGp" role="3cqZAp" />
+        <node concept="3clFbH" id="IxQR1PMXmf" role="3cqZAp" />
+        <node concept="3clFbF" id="IxQR1PMWRY" role="3cqZAp">
+          <node concept="d57v9" id="IxQR1PMWRZ" role="3clFbG">
+            <node concept="37vLTw" id="IxQR1PMWS0" role="37vLTJ">
+              <ref role="3cqZAo" node="10TZNkdb9iN" resolve="ret" />
+            </node>
+            <node concept="3cpWs3" id="IxQR1PMWS1" role="37vLTx">
+              <node concept="Xl_RD" id="IxQR1PMWS2" role="3uHU7B">
+                <property role="Xl_RC" value="\n\n\t" />
+              </node>
+              <node concept="BsUDl" id="IxQR1PMWS3" role="3uHU7w">
+                <ref role="37wK5l" node="10TZNkdbqJg" resolve="splitter" />
+                <node concept="Xl_RD" id="IxQR1PMWS4" role="37wK5m">
+                  <property role="Xl_RC" value="stack of tasks" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="6UqSuuqdy0D" role="3cqZAp">
           <node concept="d57v9" id="6UqSuuqdy0E" role="3clFbG">
             <node concept="3cpWs3" id="6UqSuuqdy0F" role="37vLTx">
               <node concept="Xl_RD" id="6UqSuuqdy0G" role="3uHU7B">
-                <property role="Xl_RC" value="\n\n\t" />
+                <property role="Xl_RC" value="\t" />
               </node>
               <node concept="BsUDl" id="6UqSuuqdy0H" role="3uHU7w">
                 <ref role="37wK5l" node="6UqSuuqdeqL" resolve="getPrioritizedStack" />
