@@ -3691,6 +3691,24 @@
           </node>
           <node concept="2EixSi" id="6pibjvgVKzy" role="2EinRH" />
         </node>
+        <node concept="356sEK" id="IxQR1QenRL" role="383Ya9">
+          <node concept="356sEF" id="IxQR1QenRM" role="356sEH">
+            <property role="TrG5h" value="update_sot();" />
+          </node>
+          <node concept="2EixSi" id="IxQR1QenRN" role="2EinRH" />
+        </node>
+        <node concept="356sEK" id="IxQR1QenRW" role="383Ya9">
+          <node concept="356sEF" id="IxQR1QenRX" role="356sEH">
+            <property role="TrG5h" value="// solve sot" />
+          </node>
+          <node concept="2EixSi" id="IxQR1QenRY" role="2EinRH" />
+        </node>
+        <node concept="356sEK" id="IxQR1QenSa" role="383Ya9">
+          <node concept="356sEF" id="IxQR1QenSb" role="356sEH">
+            <property role="TrG5h" value="// write ports();" />
+          </node>
+          <node concept="2EixSi" id="IxQR1QenSc" role="2EinRH" />
+        </node>
         <node concept="356sEK" id="6pibjvgVKzI" role="383Ya9">
           <node concept="2EixSi" id="6pibjvgVKzK" role="2EinRH" />
         </node>
