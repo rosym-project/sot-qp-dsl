@@ -2915,6 +2915,12 @@
           </node>
           <node concept="2EixSi" id="2QU2W9uJpfD" role="2EinRH" />
         </node>
+        <node concept="356sEK" id="IxQR1Qgt5A" role="383Ya9">
+          <node concept="356sEF" id="IxQR1Qgt5B" role="356sEH">
+            <property role="TrG5h" value="void write_ports();" />
+          </node>
+          <node concept="2EixSi" id="IxQR1Qgt5C" role="2EinRH" />
+        </node>
         <node concept="356sEK" id="2QU2W9uK_cR" role="383Ya9">
           <node concept="356sEF" id="2QU2W9uK_cS" role="356sEH">
             <property role="TrG5h" value="bool check_ports_connectivity();" />
@@ -3702,6 +3708,12 @@
             <property role="TrG5h" value="// solve sot" />
           </node>
           <node concept="2EixSi" id="IxQR1QenRY" role="2EinRH" />
+        </node>
+        <node concept="356sEK" id="IxQR1Qgv6I" role="383Ya9">
+          <node concept="356sEF" id="IxQR1Qgv6J" role="356sEH">
+            <property role="TrG5h" value="// update sot model" />
+          </node>
+          <node concept="2EixSi" id="IxQR1Qgv6K" role="2EinRH" />
         </node>
         <node concept="356sEK" id="IxQR1QenSa" role="383Ya9">
           <node concept="356sEF" id="IxQR1QenSb" role="356sEH">
