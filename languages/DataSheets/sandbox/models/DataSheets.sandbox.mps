@@ -47,7 +47,7 @@
         <property id="8598286933954366021" name="backend_equivalant" index="1gqcCG" />
       </concept>
       <concept id="7969930875424789706" name="DataSheets.structure.GeneratorDataSheet" flags="ng" index="3OxzkH">
-        <property id="7969930875424789707" name="sot_class_name" index="3OxzkG" />
+        <property id="7969930875424789707" name="sot_object_name" index="3OxzkG" />
         <property id="7969930875424789716" name="sot_component_name" index="3OxzkN" />
         <property id="7969930875424789713" name="back_end" index="3OxzkQ" />
         <property id="7969930875424789720" name="back_end_internal_class_name" index="3OxzkZ" />
@@ -186,7 +186,7 @@
   </node>
   <node concept="3OxzkH" id="6UqSuuq7jtf">
     <property role="TrG5h" value="opensot_test_1" />
-    <property role="3OxzkG" value="QPSoTClass" />
+    <property role="3OxzkG" value="iHQP_SoT" />
     <property role="3OxzkN" value="QPSoT_Component" />
     <property role="3OxzkZ" value="ihqp_sot_back_end_internal" />
     <property role="3OxzkQ" value="z5yWMlY7sx/OpenSoT" />

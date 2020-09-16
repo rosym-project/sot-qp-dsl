@@ -216,7 +216,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="6UqSuuq7djb" role="1TKVEl">
       <property role="IQ2nx" value="7969930875424789707" />
-      <property role="TrG5h" value="sot_class_name" />
+      <property role="TrG5h" value="sot_object_name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="6UqSuuq7djk" role="1TKVEl">
