@@ -3759,7 +3759,7 @@
         </node>
         <node concept="356sEK" id="IxQR1QenSa" role="383Ya9">
           <node concept="356sEF" id="IxQR1QenSb" role="356sEH">
-            <property role="TrG5h" value="// write ports();" />
+            <property role="TrG5h" value="write_ports();" />
           </node>
           <node concept="2EixSi" id="IxQR1QenSc" role="2EinRH" />
         </node>
