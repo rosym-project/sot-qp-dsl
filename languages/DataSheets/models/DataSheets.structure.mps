@@ -17,6 +17,9 @@
       <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
@@ -47,6 +50,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -218,21 +224,41 @@
       <property role="IQ2nx" value="7969930875424789707" />
       <property role="TrG5h" value="sot_object_name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="t5JxF" id="41PiSKOD97E" role="lGtFl">
+        <property role="t5JxN" value="sot object identified within the component" />
+      </node>
     </node>
     <node concept="1TJgyi" id="6UqSuuq7djk" role="1TKVEl">
       <property role="IQ2nx" value="7969930875424789716" />
       <property role="TrG5h" value="sot_component_name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="t5JxF" id="41PiSKOD97G" role="lGtFl">
+        <property role="t5JxN" value="name of component that holds the sot object" />
+      </node>
     </node>
     <node concept="1TJgyi" id="6UqSuuq7djo" role="1TKVEl">
       <property role="IQ2nx" value="7969930875424789720" />
       <property role="TrG5h" value="back_end_internal_class_name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="t5JxF" id="41PiSKOD97I" role="lGtFl">
+        <property role="t5JxN" value="class that contains the sot object" />
+      </node>
     </node>
     <node concept="1TJgyi" id="6UqSuuq7djh" role="1TKVEl">
       <property role="IQ2nx" value="7969930875424789713" />
       <property role="TrG5h" value="back_end" />
       <ref role="AX2Wp" node="z5yWMlY7sw" resolve="SolverBackends" />
+      <node concept="t5JxF" id="41PiSKOD97K" role="lGtFl">
+        <property role="t5JxN" value="back-end (OpenSoT, XQP, etc.)" />
+      </node>
+    </node>
+    <node concept="1TJgyi" id="41PiSKOD97$" role="1TKVEl">
+      <property role="IQ2nx" value="4644701656253239780" />
+      <property role="TrG5h" value="dyanmic_vector" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="t5JxF" id="41PiSKOD97M" role="lGtFl">
+        <property role="t5JxN" value="whether VextorXd or Eigen::Matrix&lt;double, 1, ?&gt;" />
+      </node>
     </node>
     <node concept="PrWs8" id="6UqSuuq7jtg" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
