@@ -14,8 +14,8 @@
     <import index="7eee" ref="r:f1492c4b-bd4d-4e81-9c85-c3457f86da29(main@generator)" />
     <import index="ciel" ref="r:376fcad3-8eec-4dce-a957-10eb8db8f8db(DataSheets.structure)" />
     <import index="it9v" ref="r:76a2d845-165e-408d-95b2-0155ea32472e(SoT.structure)" />
-    <import index="qg" ref="r:a682a1c0-0d60-49b5-8410-038f9048aa42(QP.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="qg" ref="r:a682a1c0-0d60-49b5-8410-038f9048aa42(QP.structure)" implicit="true" />
     <import index="anl3" ref="r:4d6725ca-6b5c-48a1-8fcf-0053258bbedf(QP.behavior)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -308,6 +308,30 @@
   </registry>
   <node concept="13h7C7" id="3zFGDPGurGq">
     <ref role="13h7C2" to="it9v:1Nc9ZPKvKdW" resolve="SoT" />
+    <node concept="13i0hz" id="41PiSKORpX9" role="13h7CS">
+      <property role="TrG5h" value="getDoFSize" />
+      <node concept="3Tm1VV" id="41PiSKORpXa" role="1B3o_S" />
+      <node concept="10Oyi0" id="41PiSKORrw6" role="3clF45" />
+      <node concept="3clFbS" id="41PiSKORpXc" role="3clF47">
+        <node concept="3cpWs6" id="41PiSKORrwD" role="3cqZAp">
+          <node concept="3cmrfG" id="41PiSKORrx6" role="3cqZAk">
+            <property role="3cmrfH" value="7" />
+          </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="41PiSKORwi1" role="lGtFl">
+        <node concept="TZ5HI" id="41PiSKORwi2" role="3nqlJM">
+          <node concept="TZ5HA" id="41PiSKORwi3" role="3HnX3l">
+            <node concept="1dT_AC" id="41PiSKORwjR" role="1dT_Ay">
+              <property role="1dT_AB" value="return something from the datasheets instead of this nonsens!" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="41PiSKORwi4" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+      </node>
+    </node>
     <node concept="13i0hz" id="41PiSKO$93G" role="13h7CS">
       <property role="TrG5h" value="dynamic_vector" />
       <node concept="3Tm6S6" id="41PiSKO$bnv" role="1B3o_S" />
