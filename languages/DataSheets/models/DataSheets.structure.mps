@@ -260,6 +260,14 @@
         <property role="t5JxN" value="whether VextorXd or Eigen::Matrix&lt;double, 1, ?&gt;" />
       </node>
     </node>
+    <node concept="1TJgyi" id="5svMD4OcT1E" role="1TKVEl">
+      <property role="IQ2nx" value="6277959130572623978" />
+      <property role="TrG5h" value="close_loop_conf" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="t5JxF" id="5svMD4OcT1Q" role="lGtFl">
+        <property role="t5JxN" value="whether the actual q is comming from the robot or gathere by integration" />
+      </node>
+    </node>
     <node concept="PrWs8" id="6UqSuuq7jtg" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
