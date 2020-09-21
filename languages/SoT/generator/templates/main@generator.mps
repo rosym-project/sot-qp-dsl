@@ -2864,9 +2864,6 @@
         <node concept="356sEK" id="57kFIWgXw3v" role="383Ya9">
           <node concept="2EixSi" id="57kFIWgXw3x" role="2EinRH" />
         </node>
-        <node concept="356sEK" id="4Gmud$$Iz57" role="383Ya9">
-          <node concept="2EixSi" id="4Gmud$$Iz59" role="2EinRH" />
-        </node>
         <node concept="356sEK" id="4Gmud$$ICqj" role="383Ya9">
           <node concept="2EixSi" id="4Gmud$$ICqk" role="2EinRH" />
           <node concept="356sEF" id="4Gmud$$ICql" role="356sEH">
@@ -3158,9 +3155,6 @@
               </node>
             </node>
           </node>
-        </node>
-        <node concept="356sEK" id="57kFIWgXyjJ" role="383Ya9">
-          <node concept="2EixSi" id="57kFIWgXyjL" role="2EinRH" />
         </node>
         <node concept="356sEK" id="1q4naCfS$7i" role="383Ya9">
           <node concept="2EixSi" id="1q4naCfS$7k" role="2EinRH" />
@@ -5117,7 +5111,7 @@
           </node>
           <node concept="356sEK" id="3pbEWNENcnr" role="383Ya9">
             <node concept="356sEF" id="3pbEWNENcns" role="356sEH">
-              <property role="TrG5h" value="ports" />
+              <property role="TrG5h" value="oro ports" />
               <node concept="5jKBG" id="3pbEWNENcnt" role="lGtFl">
                 <ref role="v9R2y" node="4Gmud$$CEtc" resolve="splitter" />
                 <node concept="3cpWs3" id="3pbEWNENcnu" role="v9R3O">
@@ -5434,7 +5428,7 @@
           </node>
           <node concept="356sEK" id="57kFIWh2yep" role="383Ya9">
             <node concept="356sEF" id="57kFIWh2yeq" role="356sEH">
-              <property role="TrG5h" value="ports" />
+              <property role="TrG5h" value="ros ports" />
               <node concept="5jKBG" id="57kFIWh2yer" role="lGtFl">
                 <ref role="v9R2y" node="4Gmud$$CEtc" resolve="splitter" />
                 <node concept="3cpWs3" id="57kFIWh2yes" role="v9R3O">
@@ -5557,7 +5551,7 @@
                         </node>
                         <node concept="3cpWs3" id="57kFIWh2yfB" role="37vLTx">
                           <node concept="Xl_RD" id="57kFIWh2yfC" role="3uHU7w">
-                            <property role="Xl_RC" value="_output_port\&quot;);\n\t" />
+                            <property role="Xl_RC" value="\&quot;));\n\t" />
                           </node>
                           <node concept="3cpWs3" id="57kFIWh2yfD" role="3uHU7B">
                             <node concept="3cpWs3" id="57kFIWh2yfE" role="3uHU7B">
@@ -5565,7 +5559,7 @@
                                 <ref role="3cqZAo" node="57kFIWh2yfc" resolve="port" />
                               </node>
                               <node concept="Xl_RD" id="57kFIWh2yfG" role="3uHU7w">
-                                <property role="Xl_RC" value="_output_port.setName(\&quot;" />
+                                <property role="Xl_RC" value="_output_port.createStream(rtt_roscomm::topic(\&quot;" />
                               </node>
                             </node>
                             <node concept="37vLTw" id="57kFIWh2yfH" role="3uHU7w">
