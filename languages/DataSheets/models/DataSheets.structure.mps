@@ -268,6 +268,14 @@
         <property role="t5JxN" value="whether the actual q is comming from the robot or gathere by integration" />
       </node>
     </node>
+    <node concept="1TJgyi" id="57kFIWgTz1Y" role="1TKVEl">
+      <property role="IQ2nx" value="5896530153938759806" />
+      <property role="TrG5h" value="monitors_over_ros" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="t5JxF" id="57kFIWgTz2c" role="lGtFl">
+        <property role="t5JxN" value="if monitored parameters are published over ros (rtt_ros_integration output ports)" />
+      </node>
+    </node>
     <node concept="PrWs8" id="6UqSuuq7jtg" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
