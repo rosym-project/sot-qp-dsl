@@ -15,3 +15,7 @@ generate, and above all compliant to CCR.
 # TODO
 1. Add feedback gains to tasks (are they in all tasks?)
 2. What about the situations where I have only one task? (regarding priority scheme)
+3. Establish the link between monitors and the backend. The problem arises when the
+   monitored properties are not necessarily coming from the solver. What if the front
+   want to monitor robot's internal temprature? IMO at this stage we just offer to
+   monitor the solver's param, or at most, we hard-code it in the datasheets.
