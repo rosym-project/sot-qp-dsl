@@ -32,6 +32,7 @@
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -775,7 +776,54 @@
         <node concept="3clFbH" id="3pbEWNDM7lQ" role="3cqZAp" />
         <node concept="3clFbJ" id="3pbEWNDM82f" role="3cqZAp">
           <node concept="3clFbS" id="3pbEWNDM82h" role="3clFbx">
-            <node concept="3clFbH" id="3pbEWNDMbdB" role="3cqZAp" />
+            <node concept="3clFbJ" id="1SLuty1Igqn" role="3cqZAp">
+              <node concept="3clFbS" id="1SLuty1Igqp" role="3clFbx">
+                <node concept="3cpWs6" id="1SLuty1Ii_$" role="3cqZAp">
+                  <node concept="2OqwBi" id="1SLuty1IlNR" role="3cqZAk">
+                    <node concept="37vLTw" id="1SLuty1IkuH" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3pbEWNDLwl1" resolve="settable_mapping" />
+                    </node>
+                    <node concept="3TrcHB" id="1SLuty1Im1X" role="2OqNvi">
+                      <ref role="3TsBF5" to="ciel:7tjg6$BeSD8" resolve="data_type" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="22lmx$" id="1SLuty1Iiuy" role="3clFbw">
+                <node concept="2OqwBi" id="1SLuty1Ih9T" role="3uHU7B">
+                  <node concept="2OqwBi" id="1SLuty1IgEe" role="2Oq$k0">
+                    <node concept="37vLTw" id="1SLuty1Igx1" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3pbEWNDLwl1" resolve="settable_mapping" />
+                    </node>
+                    <node concept="3TrcHB" id="1SLuty1IgLA" role="2OqNvi">
+                      <ref role="3TsBF5" to="ciel:7tjg6$BeSD8" resolve="data_type" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="1SLuty1Ihpi" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                    <node concept="Xl_RD" id="1SLuty1Ii78" role="37wK5m">
+                      <property role="Xl_RC" value="Xd" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1SLuty1IiwZ" role="3uHU7w">
+                  <node concept="2OqwBi" id="1SLuty1Iix0" role="2Oq$k0">
+                    <node concept="37vLTw" id="1SLuty1Iix1" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3pbEWNDLwl1" resolve="settable_mapping" />
+                    </node>
+                    <node concept="3TrcHB" id="1SLuty1Iix2" role="2OqNvi">
+                      <ref role="3TsBF5" to="ciel:7tjg6$BeSD8" resolve="data_type" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="1SLuty1Iix3" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                    <node concept="Xl_RD" id="1SLuty1Iix4" role="37wK5m">
+                      <property role="Xl_RC" value="Xf" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs6" id="3pbEWNDM9xZ" role="3cqZAp">
               <node concept="3cpWs3" id="3pbEWNDMgmd" role="3cqZAk">
                 <node concept="Xl_RD" id="3pbEWNDMgt4" role="3uHU7w">

@@ -52,6 +52,7 @@
         <property id="7969930875424789716" name="sot_component_name" index="3OxzkN" />
         <property id="7969930875424789713" name="back_end" index="3OxzkQ" />
         <property id="7969930875424789720" name="back_end_internal_class_name" index="3OxzkZ" />
+        <property id="4644701656253239780" name="dyanmic_matrices" index="1OOtDC" />
       </concept>
     </language>
   </registry>
@@ -73,28 +74,28 @@
         <node concept="1gqcCF" id="7tjg6$Bf01E" role="1gqcC_">
           <property role="1gqcCE" value="feedforward_forces" />
           <property role="1gqcCG" value="setFeedForwardForces" />
-          <property role="1gqcCx" value="Eigen::Vector" />
+          <property role="1gqcCx" value="Eigen::VectorXd" />
           <property role="zCVGa" value="6" />
           <property role="zCVGd" value="1" />
         </node>
         <node concept="1gqcCF" id="7tjg6$BfdKq" role="1gqcC_">
           <property role="1gqcCE" value="cartesian_stiffness" />
           <property role="1gqcCG" value="setStiffness" />
-          <property role="1gqcCx" value="Eigen::Matrix" />
+          <property role="1gqcCx" value="Eigen::MatrixXd" />
           <property role="zCVGa" value="6" />
           <property role="zCVGd" value="6" />
         </node>
         <node concept="1gqcCF" id="7tjg6$BfR_I" role="1gqcC_">
           <property role="1gqcCE" value="cartesian_damping" />
           <property role="1gqcCG" value="setDamping" />
-          <property role="1gqcCx" value="Eigen::Matrix" />
+          <property role="1gqcCx" value="Eigen::MatrixXd" />
           <property role="zCVGa" value="6" />
           <property role="zCVGd" value="6" />
         </node>
         <node concept="1gqcCF" id="7tjg6$BfR_M" role="1gqcC_">
           <property role="1gqcCE" value="cartesian_pose" />
           <property role="1gqcCG" value="setReference" />
-          <property role="1gqcCx" value="Eigen::Matrix" />
+          <property role="1gqcCx" value="Eigen::MatrixXd" />
           <property role="zCVGa" value="4" />
           <property role="zCVGd" value="4" />
         </node>
@@ -142,7 +143,7 @@
         <node concept="1gqcCF" id="7tjg6$Bf4CR" role="1gqcC_">
           <property role="1gqcCE" value="desired_joint" />
           <property role="1gqcCG" value="setReference" />
-          <property role="1gqcCx" value="Eigen::Vector" />
+          <property role="1gqcCx" value="Eigen::VectorXd" />
           <property role="zCVGa" value="7" />
           <property role="zCVGd" value="1" />
         </node>
@@ -191,6 +192,7 @@
     <property role="3OxzkN" value="QPSoT_Component" />
     <property role="3OxzkZ" value="qp_problem" />
     <property role="3OxzkQ" value="z5yWMlY7sx/OpenSoT" />
+    <property role="1OOtDC" value="true" />
     <property role="11cDUh" value="true" />
   </node>
 </model>
