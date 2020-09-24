@@ -228,6 +228,14 @@
         <property role="t5JxN" value="sot object identified within the component" />
       </node>
     </node>
+    <node concept="1TJgyi" id="74G7j18NLyp" role="1TKVEl">
+      <property role="IQ2nx" value="8154925118478293145" />
+      <property role="TrG5h" value="package_name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="t5JxF" id="74G7j18NLyD" role="lGtFl">
+        <property role="t5JxN" value="name of the cmake project and package that contains the components" />
+      </node>
+    </node>
     <node concept="1TJgyi" id="6UqSuuq7djk" role="1TKVEl">
       <property role="IQ2nx" value="7969930875424789716" />
       <property role="TrG5h" value="sot_component_name" />

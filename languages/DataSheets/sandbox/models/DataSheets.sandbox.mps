@@ -47,6 +47,7 @@
         <property id="8598286933954366021" name="backend_equivalant" index="1gqcCG" />
       </concept>
       <concept id="7969930875424789706" name="DataSheets.structure.GeneratorDataSheet" flags="ng" index="3OxzkH">
+        <property id="8154925118478293145" name="package_name" index="TSKmD" />
         <property id="5896530153938759806" name="monitors_over_ros" index="11cDUh" />
         <property id="7969930875424789707" name="sot_object_name" index="3OxzkG" />
         <property id="7969930875424789716" name="sot_component_name" index="3OxzkN" />
@@ -194,6 +195,7 @@
     <property role="3OxzkQ" value="z5yWMlY7sx/OpenSoT" />
     <property role="1OOtDC" value="true" />
     <property role="11cDUh" value="true" />
+    <property role="TSKmD" value="iHQP_SoT_package" />
   </node>
 </model>
 

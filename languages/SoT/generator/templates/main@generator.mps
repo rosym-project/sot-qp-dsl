@@ -353,6 +353,20 @@
         </node>
       </node>
     </node>
+    <node concept="3lhOvk" id="74G7j18NKsq" role="3lj3bC">
+      <property role="13Pg2o" value="h94ayQF/true_" />
+      <ref role="30HIoZ" to="it9v:1Nc9ZPKvKdW" resolve="SoT" />
+      <ref role="3lhOvi" node="74G7j18NK$S" resolve="test" />
+      <node concept="30G5F_" id="74G7j18NKsK" role="30HLyM">
+        <node concept="3clFbS" id="74G7j18NKsL" role="2VODD2">
+          <node concept="3clFbF" id="74G7j18NKt8" role="3cqZAp">
+            <node concept="3clFbT" id="74G7j18NKt7" role="3clFbG">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="356sEV" id="62gmtUC5bEE">
     <property role="TrG5h" value="map_SoT" />
@@ -3939,11 +3953,23 @@
           <node concept="356sEK" id="3fZ12UOno7B" role="383Ya9">
             <node concept="2EixSi" id="3fZ12UOno7D" role="2EinRH" />
           </node>
+          <node concept="356sEK" id="74G7j18SeVL" role="383Ya9">
+            <node concept="356sEF" id="74G7j18Sf5W" role="356sEH">
+              <property role="TrG5h" value="RTT::log(RTT::Warning) &lt;&lt;&quot;Enable check_ports_connectivity in the source code...&quot;&lt;&lt;RTT::endlog();" />
+            </node>
+            <node concept="2EixSi" id="74G7j18SeVN" role="2EinRH" />
+          </node>
           <node concept="356sEK" id="1zzbeJqqDCb" role="383Ya9">
             <node concept="356sEF" id="1zzbeJqqDCc" role="356sEH">
-              <property role="TrG5h" value="if (check_ports_connectivity() &amp;&amp; model_configured) {" />
+              <property role="TrG5h" value="// TODO if (check_ports_connectivity() &amp;&amp; model_configured) {" />
             </node>
             <node concept="2EixSi" id="1zzbeJqqDCe" role="2EinRH" />
+          </node>
+          <node concept="356sEK" id="74G7j18SeLB" role="383Ya9">
+            <node concept="356sEF" id="74G7j18SeVJ" role="356sEH">
+              <property role="TrG5h" value="if (model_configured) {" />
+            </node>
+            <node concept="2EixSi" id="74G7j18SeLD" role="2EinRH" />
           </node>
           <node concept="356sEQ" id="1zzbeJqqDCk" role="383Ya9">
             <property role="333NGx" value="    " />
@@ -4028,7 +4054,7 @@
             <property role="333NGx" value="    " />
             <node concept="356sEK" id="1zzbeJqqDCp" role="383Ya9">
               <node concept="356sEF" id="1zzbeJqqDCq" role="356sEH">
-                <property role="TrG5h" value="RTT::log(RTT::Error) &lt;&lt;&quot;Some ports are not connected.&quot;&lt;&lt;RTT::endlog();" />
+                <property role="TrG5h" value="RTT::log(RTT::Error) &lt;&lt;&quot;Some ports are not connected or the model noot configured.&quot;&lt;&lt;RTT::endlog();" />
               </node>
               <node concept="2EixSi" id="1zzbeJqqDCs" role="2EinRH" />
             </node>
@@ -4771,7 +4797,7 @@
           </node>
           <node concept="356sEK" id="1E9kYPIlFCp" role="383Ya9">
             <node concept="356sEF" id="1E9kYPIlFCq" role="356sEH">
-              <property role="TrG5h" value="return true;" />
+              <property role="TrG5h" value="model_configured = true;" />
             </node>
             <node concept="2EixSi" id="1E9kYPIlFCr" role="2EinRH" />
           </node>
@@ -4792,7 +4818,7 @@
           </node>
           <node concept="356sEK" id="1E9kYPIlFDD" role="383Ya9">
             <node concept="356sEF" id="1E9kYPIlFDE" role="356sEH">
-              <property role="TrG5h" value="return false;" />
+              <property role="TrG5h" value="model_configured = false;" />
             </node>
             <node concept="2EixSi" id="1E9kYPIlFDF" role="2EinRH" />
           </node>
@@ -4802,6 +4828,12 @@
             <property role="TrG5h" value="}" />
           </node>
           <node concept="2EixSi" id="1E9kYPIlFD7" role="2EinRH" />
+        </node>
+        <node concept="356sEK" id="74G7j18QtHO" role="383Ya9">
+          <node concept="356sEF" id="74G7j18QtHP" role="356sEH">
+            <property role="TrG5h" value="return model_configured;" />
+          </node>
+          <node concept="2EixSi" id="74G7j18QtHQ" role="2EinRH" />
         </node>
       </node>
       <node concept="356sEK" id="1E9kYPIi4PT" role="383Ya9">
@@ -7574,15 +7606,15 @@
             <node concept="3zFVjK" id="1E9kYPInwVd" role="3zH0cK">
               <node concept="3clFbS" id="1E9kYPInwVe" role="2VODD2">
                 <node concept="3clFbF" id="1E9kYPInwVC" role="3cqZAp">
-                  <node concept="3cpWs3" id="1E9kYPIoPXC" role="3clFbG">
-                    <node concept="Xl_RD" id="1E9kYPIoQ4p" role="3uHU7w">
-                      <property role="Xl_RC" value="_generated" />
-                    </node>
-                    <node concept="2OqwBi" id="1E9kYPInx7k" role="3uHU7B">
-                      <node concept="30H73N" id="1E9kYPInwVB" role="2Oq$k0" />
-                      <node concept="3TrcHB" id="6UqSuuq$ypG" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  <node concept="2OqwBi" id="74G7j18NVg0" role="3clFbG">
+                    <node concept="2OqwBi" id="74G7j18NUQT" role="2Oq$k0">
+                      <node concept="30H73N" id="74G7j18NUEC" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="74G7j18NV3$" role="2OqNvi">
+                        <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
                       </node>
+                    </node>
+                    <node concept="3TrcHB" id="74G7j18NVq_" role="2OqNvi">
+                      <ref role="3TsBF5" to="ciel:74G7j18NLyp" resolve="package_name" />
                     </node>
                   </node>
                 </node>
@@ -8481,6 +8513,117 @@
       </node>
     </node>
     <node concept="n94m4" id="1E9kYPInuMC" role="lGtFl">
+      <ref role="n9lRv" to="it9v:1Nc9ZPKvKdW" resolve="SoT" />
+    </node>
+  </node>
+  <node concept="356sEV" id="74G7j18NK$S">
+    <property role="TrG5h" value="test" />
+    <property role="3Le9LX" value=".ops" />
+    <node concept="356WMU" id="74G7j18NKWd" role="356KY_">
+      <node concept="356sEK" id="74G7j18NKWe" role="383Ya9">
+        <node concept="356sEF" id="74G7j18NKWf" role="356sEH">
+          <property role="TrG5h" value="import(&quot;" />
+        </node>
+        <node concept="356sEF" id="74G7j18NKWY" role="356sEH">
+          <property role="TrG5h" value="packaage" />
+          <node concept="17Uvod" id="74G7j18NKX5" role="lGtFl">
+            <property role="2qtEX9" value="name" />
+            <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+            <node concept="3zFVjK" id="74G7j18NKX6" role="3zH0cK">
+              <node concept="3clFbS" id="74G7j18NKX7" role="2VODD2">
+                <node concept="3clFbF" id="74G7j18NVEe" role="3cqZAp">
+                  <node concept="2OqwBi" id="74G7j18NVEf" role="3clFbG">
+                    <node concept="2OqwBi" id="74G7j18NVEg" role="2Oq$k0">
+                      <node concept="30H73N" id="74G7j18NVEh" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="74G7j18NVEi" role="2OqNvi">
+                        <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="74G7j18NVEj" role="2OqNvi">
+                      <ref role="3TsBF5" to="ciel:74G7j18NLyp" resolve="package_name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="356sEF" id="74G7j18NKX1" role="356sEH">
+          <property role="TrG5h" value="&quot;)" />
+        </node>
+        <node concept="2EixSi" id="74G7j18NKWh" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="74G7j18NWUa" role="383Ya9">
+        <node concept="2EixSi" id="74G7j18NWUc" role="2EinRH" />
+        <node concept="356sEF" id="74G7j18NXg4" role="356sEH">
+          <property role="TrG5h" value="require(&quot;os&quot;)" />
+        </node>
+      </node>
+      <node concept="356sEK" id="74G7j18NKWi" role="383Ya9">
+        <node concept="356sEF" id="74G7j18NKWj" role="356sEH">
+          <property role="TrG5h" value="loadComponent(&quot;qp_sot&quot;, &quot;" />
+        </node>
+        <node concept="356sEF" id="74G7j18NVW3" role="356sEH">
+          <property role="TrG5h" value="component_type" />
+          <node concept="17Uvod" id="74G7j18NVWa" role="lGtFl">
+            <property role="2qtEX9" value="name" />
+            <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+            <node concept="3zFVjK" id="74G7j18NVWb" role="3zH0cK">
+              <node concept="3clFbS" id="74G7j18NVWc" role="2VODD2">
+                <node concept="3clFbF" id="74G7j18NW0L" role="3cqZAp">
+                  <node concept="2OqwBi" id="74G7j18NWum" role="3clFbG">
+                    <node concept="2OqwBi" id="74G7j18NWd3" role="2Oq$k0">
+                      <node concept="30H73N" id="74G7j18NW0K" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="74G7j18NWlS" role="2OqNvi">
+                        <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="74G7j18NWJ4" role="2OqNvi">
+                      <ref role="3TsBF5" to="ciel:6UqSuuq7djk" resolve="sot_component_name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="356sEF" id="74G7j18NVW6" role="356sEH">
+          <property role="TrG5h" value="&quot;)" />
+        </node>
+        <node concept="2EixSi" id="74G7j18NKWl" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="74G7j18NXg6" role="383Ya9">
+        <node concept="356sEF" id="74G7j18NXg7" role="356sEH">
+          <property role="TrG5h" value="var string config_path = os.getenv(&quot;MODEL_PATH&quot;) + &quot;/kuka_lwr/configs/lwr-poo.yaml&quot;" />
+        </node>
+        <node concept="2EixSi" id="74G7j18NXg8" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="74G7j18NKWm" role="383Ya9">
+        <node concept="2EixSi" id="74G7j18NKWp" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="74G7j18NKWq" role="383Ya9">
+        <node concept="356sEF" id="74G7j18NKWr" role="356sEH">
+          <property role="TrG5h" value="qp_sot.loadConfig(config_path)" />
+        </node>
+        <node concept="2EixSi" id="74G7j18NKWt" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="74G7j18NKWu" role="383Ya9">
+        <node concept="2EixSi" id="74G7j18NKWx" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="74G7j18NKWy" role="383Ya9">
+        <node concept="356sEF" id="74G7j18NKWz" role="356sEH">
+          <property role="TrG5h" value="qp_sot.configure()" />
+        </node>
+        <node concept="2EixSi" id="74G7j18NKW_" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="74G7j18NKWA" role="383Ya9">
+        <node concept="356sEF" id="74G7j18NKWB" role="356sEH">
+          <property role="TrG5h" value="qp_sot.start()" />
+        </node>
+        <node concept="2EixSi" id="74G7j18NKWD" role="2EinRH" />
+      </node>
+    </node>
+    <node concept="n94m4" id="74G7j18NK$U" role="lGtFl">
       <ref role="n9lRv" to="it9v:1Nc9ZPKvKdW" resolve="SoT" />
     </node>
   </node>
