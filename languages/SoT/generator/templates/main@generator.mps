@@ -8553,6 +8553,24 @@
         </node>
         <node concept="2EixSi" id="74G7j18NKWh" role="2EinRH" />
       </node>
+      <node concept="356sEK" id="74G7j18XvsC" role="383Ya9">
+        <node concept="356sEF" id="74G7j18XvAL" role="356sEH">
+          <property role="TrG5h" value="import(&quot;rtt_ros&quot;)" />
+        </node>
+        <node concept="2EixSi" id="74G7j18XvsE" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="74G7j18Xvq_" role="383Ya9">
+        <node concept="356sEF" id="74G7j18XvsA" role="356sEH">
+          <property role="TrG5h" value="import(&quot;eigen_typekit&quot;)" />
+        </node>
+        <node concept="2EixSi" id="74G7j18XvqB" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="74G7j18XvAN" role="383Ya9">
+        <node concept="356sEF" id="74G7j18XvKZ" role="356sEH">
+          <property role="TrG5h" value="import(&quot;rtt_std_msgs&quot;)" />
+        </node>
+        <node concept="2EixSi" id="74G7j18XvAP" role="2EinRH" />
+      </node>
       <node concept="356sEK" id="74G7j18NWUa" role="383Ya9">
         <node concept="2EixSi" id="74G7j18NWUc" role="2EinRH" />
         <node concept="356sEF" id="74G7j18NXg4" role="356sEH">
@@ -8592,11 +8610,44 @@
         </node>
         <node concept="2EixSi" id="74G7j18NKWl" role="2EinRH" />
       </node>
+      <node concept="356sEK" id="74G7j18Zgas" role="383Ya9">
+        <node concept="356sEF" id="74G7j18Zgat" role="356sEH">
+          <property role="TrG5h" value="setActivity(&quot;qp_sot&quot;, 0.01, HighestPriority, ORO_SCHED_OTHER)" />
+        </node>
+        <node concept="2EixSi" id="74G7j18Zgau" role="2EinRH" />
+      </node>
       <node concept="356sEK" id="74G7j18NXg6" role="383Ya9">
         <node concept="356sEF" id="74G7j18NXg7" role="356sEH">
           <property role="TrG5h" value="var string config_path = os.getenv(&quot;MODEL_PATH&quot;) + &quot;/kuka_lwr/configs/lwr-poo.yaml&quot;" />
         </node>
         <node concept="2EixSi" id="74G7j18NXg8" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="74G7j18ZRoj" role="383Ya9">
+        <node concept="2EixSi" id="74G7j18ZRol" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="74G7j18ZR$Q" role="383Ya9">
+        <node concept="356sEF" id="74G7j18ZR$R" role="356sEH">
+          <property role="TrG5h" value="import(&quot;rtt_rosnode&quot;)" />
+        </node>
+        <node concept="2EixSi" id="74G7j18ZR$S" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="74G7j18ZRJd" role="383Ya9">
+        <node concept="356sEF" id="74G7j18ZRJe" role="356sEH">
+          <property role="TrG5h" value="import(&quot;rtt_roscomm&quot;)" />
+        </node>
+        <node concept="2EixSi" id="74G7j18ZRJf" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="74G7j18ZRLy" role="383Ya9">
+        <node concept="356sEF" id="74G7j18ZRLz" role="356sEH">
+          <property role="TrG5h" value="# The following can be done in ops or cpp. Each with its own advantages..." />
+        </node>
+        <node concept="2EixSi" id="74G7j18ZRL$" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="74G7j18ZRy_" role="383Ya9">
+        <node concept="356sEF" id="74G7j18ZR$O" role="356sEH">
+          <property role="TrG5h" value="# stream(&quot;qp_sot.stuff_rosout_port&quot;, ros.topic(&quot;/foo/bar&quot;))" />
+        </node>
+        <node concept="2EixSi" id="74G7j18ZRyB" role="2EinRH" />
       </node>
       <node concept="356sEK" id="74G7j18NKWm" role="383Ya9">
         <node concept="2EixSi" id="74G7j18NKWp" role="2EinRH" />
