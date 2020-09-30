@@ -105,6 +105,11 @@
       <property role="TrG5h" value="namespace" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="6r3RswQ7L6Y" role="1TKVEl">
+      <property role="IQ2nx" value="7405006064298430910" />
+      <property role="TrG5h" value="internal_kin_dyn_solver" />
+      <ref role="AX2Wp" node="6r3RswQ7L6J" resolve="InternalSolver" />
+    </node>
     <node concept="1TJgyj" id="49KWzzIQxf9" role="1TKVEi">
       <property role="IQ2ns" value="4787592730234196937" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -286,6 +291,30 @@
     </node>
     <node concept="PrWs8" id="6UqSuuq7jtg" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="25R3W" id="6r3RswQ7L6J">
+    <property role="3F6X1D" value="7405006064298430895" />
+    <property role="TrG5h" value="InternalSolver" />
+    <node concept="25R33" id="6r3RswQ7L6P" role="25R1y">
+      <property role="3tVfz5" value="7405006064298430901" />
+      <property role="TrG5h" value="RBDL" />
+    </node>
+    <node concept="25R33" id="6r3RswQ7L6R" role="25R1y">
+      <property role="3tVfz5" value="7405006064298430903" />
+      <property role="TrG5h" value="KDL" />
+    </node>
+    <node concept="25R33" id="6r3RswQ8bzI" role="25R1y">
+      <property role="3tVfz5" value="7405006064298539246" />
+      <property role="TrG5h" value="qpOASES" />
+    </node>
+    <node concept="25R33" id="6r3RswQ8bzN" role="25R1y">
+      <property role="3tVfz5" value="7405006064298539251" />
+      <property role="TrG5h" value="OSQP" />
+    </node>
+    <node concept="25R33" id="6r3RswQ7L6U" role="25R1y">
+      <property role="3tVfz5" value="7405006064298430906" />
+      <property role="TrG5h" value="NONE" />
     </node>
   </node>
 </model>

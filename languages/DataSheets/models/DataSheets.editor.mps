@@ -278,11 +278,20 @@
   <node concept="24kQdi" id="1uFW$KrJez0">
     <ref role="1XX52x" to="ciel:49KWzzIQxf6" resolve="SolverParameters" />
     <node concept="3EZMnI" id="1uFW$KrJez9" role="2wV5jI">
-      <node concept="3F0ifn" id="1uFW$KrJKVI" role="3EZMnx">
+      <node concept="3F0ifn" id="6r3RswQ7TFH" role="3EZMnx">
         <property role="3F0ifm" value="string_identifier:" />
       </node>
-      <node concept="3F0A7n" id="1uFW$KrJKWk" role="3EZMnx">
+      <node concept="3F0A7n" id="6r3RswQ7TFI" role="3EZMnx">
         <ref role="1NtTu8" to="ciel:49KWzzIQxf7" resolve="string_identifier" />
+        <node concept="ljvvj" id="6r3RswQ7TFJ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1uFW$KrJKVI" role="3EZMnx">
+        <property role="3F0ifm" value="internal_solver:" />
+      </node>
+      <node concept="3F0A7n" id="1uFW$KrJKWk" role="3EZMnx">
+        <ref role="1NtTu8" to="ciel:6r3RswQ7L6Y" resolve="internal_kin_dyn_solver" />
         <node concept="ljvvj" id="1uFW$KrJKWE" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>

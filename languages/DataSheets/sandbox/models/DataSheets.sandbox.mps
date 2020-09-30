@@ -36,6 +36,7 @@
       <concept id="4787592730234196934" name="DataSheets.structure.SolverParameters" flags="ng" index="2GEI7Y">
         <property id="632065033521383207" name="namespace" index="2tekNF" />
         <property id="4787592730234196935" name="string_identifier" index="2GEI7Z" />
+        <property id="7405006064298430910" name="internal_kin_dyn_solver" index="1gRcLQ" />
         <child id="4787592730234196937" name="headers" index="2GEI7L" />
         <child id="8598286933954366028" name="front_back_mapping" index="1gqcC_" />
       </concept>
@@ -69,6 +70,7 @@
       <node concept="2GEI7Y" id="z5yWMlYjsQ" role="2tfvNB">
         <property role="2GEI7Z" value="CartesianImpedanceCtrl::Ptr" />
         <property role="2tekNF" value="OpenSoT::tasks::torque" />
+        <property role="1gRcLQ" value="6r3RswQ7L6P/RBDL" />
         <node concept="2GEI7N" id="3NGwEYWD8$U" role="2GEI7L">
           <property role="2GEI7O" value="OpenSoT/tasks/torque/CartesianImpedanceCtrl.h" />
         </node>
@@ -107,9 +109,7 @@
       <node concept="2GEI7Y" id="z5yWMlYjsW" role="2tfvNB">
         <property role="2GEI7Z" value="xqp" />
         <property role="2tekNF" value="XQP::Task" />
-        <node concept="2GEI7N" id="z5yWMlYjsX" role="2GEI7L">
-          <property role="2GEI7O" value="OpenSoT/tasks/torque/CartesianImpedanceCtrl.h" />
-        </node>
+        <property role="1gRcLQ" value="6r3RswQ7L6R/KDL" />
         <node concept="2GEI7N" id="z5yWMlYjt5" role="2GEI7L">
           <property role="2GEI7O" value="/second/path.h" />
         </node>
@@ -159,6 +159,7 @@
       <node concept="2GEI7Y" id="FHWRYa2buH" role="2tfvNB">
         <property role="2GEI7Z" value="iHQP" />
         <property role="2tekNF" value="OpenSoT::solvers::iHQP::Ptr" />
+        <property role="1gRcLQ" value="6r3RswQ8bzN/OSQP" />
         <node concept="2GEI7N" id="FHWRYa2buI" role="2GEI7L">
           <property role="2GEI7O" value="OpenSoT/solvers/QPOasesBackEnd.h" />
         </node>
@@ -180,6 +181,7 @@
       <node concept="2GEI7Y" id="FHWRYag$b0" role="2tfvNB">
         <property role="2GEI7Z" value="JointLimits::Ptr" />
         <property role="2tekNF" value="OpenSoT::constraints::torque::JointLimits::Ptr" />
+        <property role="1gRcLQ" value="6r3RswQ7L6P/RBDL" />
         <node concept="2GEI7N" id="FHWRYag$b1" role="2GEI7L">
           <property role="2GEI7O" value="OpenSoT/constraints/torque/JointLimits.h" />
         </node>
