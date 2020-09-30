@@ -80,12 +80,6 @@
         </node>
       </node>
       <node concept="3EZMnI" id="1q4naCfROJm" role="3EZMnx">
-        <node concept="3F0ifn" id="3zFGDPGlMpW" role="3EZMnx">
-          <property role="3F0ifm" value="lambda: " />
-        </node>
-        <node concept="3F1sOY" id="3zFGDPGlMpC" role="3EZMnx">
-          <ref role="1NtTu8" to="qg:3zFGDPGkf2j" resolve="lambda" />
-        </node>
         <node concept="l2Vlx" id="1q4naCfROJn" role="2iSdaV" />
         <node concept="lj46D" id="1q4naCfROJo" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -96,9 +90,6 @@
         <node concept="3F0ifn" id="1q4naCfROJq" role="3EZMnx">
           <property role="3F0ifm" value=":" />
           <node concept="11L4FC" id="1q4naCfROJr" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="ljvvj" id="1q4naCfROJs" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>

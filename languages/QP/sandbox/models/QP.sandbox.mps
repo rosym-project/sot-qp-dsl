@@ -24,7 +24,6 @@
         <child id="7581527905999366480" name="cartesian_damping" index="1iYPoA" />
         <child id="7581527905999366477" name="cartesian_stiffness" index="1iYPoV" />
         <child id="7581527905999366475" name="feedforward_forces" index="1iYPoX" />
-        <child id="4101568274847821950" name="lambad" index="1kIObz" />
       </concept>
       <concept id="7581527905999340961" name="QP.structure.CartesianTask" flags="ng" index="1iYVFn">
         <property id="7581527905999340964" name="ee_link" index="1iYVFi" />
@@ -33,11 +32,7 @@
       <concept id="7581527905999340958" name="QP.structure.QPTask" flags="ng" index="1iYVFC">
         <reference id="632065033521381872" name="data_sheet" index="2tekCW" />
       </concept>
-      <concept id="4101568274847821947" name="QP.structure.TaskParameter" flags="ng" index="1kIObA">
-        <property id="4101568274847821948" name="value" index="1kIObx" />
-      </concept>
       <concept id="2075077497778494131" name="QP.structure.JointSpaceRedundancyResolution" flags="ng" index="1GGBPe">
-        <child id="4101568274847821971" name="lambda" index="1kIO8e" />
         <child id="2075077497778494132" name="desired_joint" index="1GGBP9" />
       </concept>
     </language>
@@ -52,9 +47,6 @@
     <property role="1iYVFk" value="kuka_lwr_base_link" />
     <property role="1iYVFi" value="kuka_lwr_7_link" />
     <ref role="2tekCW" to="bxwr:z5yWMlYjsN" resolve="CartesianImpedanceAcceleration" />
-    <node concept="1kIObA" id="6UqSuuqlOPf" role="1kIObz">
-      <property role="1kIObx" value="0.001" />
-    </node>
     <node concept="2w0oBo" id="7tjg6$Bgpef" role="1iYPoX">
       <property role="1A6yYF" value="true" />
       <property role="2wqb9l" value="Eigen::Vecotr" />
@@ -83,7 +75,6 @@
     <property role="1iYVFk" value="kuka_lwr_base_link" />
     <property role="1iYVFi" value="kuka_lwr_7_link" />
     <ref role="2tekCW" to="bxwr:z5yWMlYjsN" resolve="CartesianImpedanceAcceleration" />
-    <node concept="1kIObA" id="6UqSuuqlOU6" role="1kIObz" />
     <node concept="2w0oBo" id="7tjg6$BgpeX" role="1iYPoX">
       <property role="2wqb9l" value="Eigen::Vector" />
       <property role="2w0rIP" value="6" />
@@ -114,9 +105,6 @@
       <property role="2wqb9l" value="Eigen::Matrix" />
       <property role="2w0rIP" value="7" />
       <property role="2w0rIZ" value="1" />
-    </node>
-    <node concept="1kIObA" id="6UqSuuqlPjd" role="1kIO8e">
-      <property role="1kIObx" value="0.05" />
     </node>
   </node>
   <node concept="20OrKj" id="6UqSuuqlPje">
