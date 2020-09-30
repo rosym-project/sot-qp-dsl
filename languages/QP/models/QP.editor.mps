@@ -224,15 +224,6 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
-        <node concept="3F0ifn" id="3zFGDPGlxhm" role="3EZMnx">
-          <property role="3F0ifm" value="lambda: " />
-        </node>
-        <node concept="3F1sOY" id="3zFGDPGlxfO" role="3EZMnx">
-          <ref role="1NtTu8" to="qg:3zFGDPGkf1Y" resolve="lambad" />
-          <node concept="ljvvj" id="3zFGDPGlxg$" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
         <node concept="3F0ifn" id="1q4naCfR_sl" role="3EZMnx">
           <property role="3F0ifm" value="feedforward_forces" />
         </node>
