@@ -36,26 +36,26 @@
       </concept>
     </language>
   </registry>
-  <node concept="1GGMi1" id="6UqSuuqA4e4">
-    <property role="TrG5h" value="sot_test_one" />
+  <node concept="1GGMi1" id="2ZEgorb3eZS">
+    <property role="TrG5h" value="ihqp_sot" />
     <property role="38x2dW" value="z5yWMlY7sx/OpenSoT" />
     <property role="1kxcNp" value="true" />
     <ref role="20SfXC" to="bxwr:FHWRYa2buF" resolve="IHQP" />
-    <ref role="3OxXTK" to="bxwr:6UqSuuq7jtf" resolve="opensot_test_1" />
-    <node concept="1GGMi7" id="6UqSuuqA4e5" role="3OMXVs">
+    <ref role="3OxXTK" to="bxwr:6UqSuuq7jtf" resolve="opensot_gen" />
+    <node concept="1GGMi7" id="2ZEgorb3eZT" role="3OMXVs">
       <property role="3OMXVg" value="1" />
       <ref role="3OMXVu" to="erae:6UqSuuqlOPa" resolve="cart_imped_high" />
     </node>
-    <node concept="1GGMi7" id="6UqSuuqA4e8" role="3OMXVs">
-      <property role="3OMXVg" value="2" />
-      <ref role="3OMXVu" to="erae:6UqSuuqlPjb" resolve="joint_space_redres" />
-    </node>
-    <node concept="1GGMi7" id="6UqSuuqA4eb" role="3OMXVs">
+    <node concept="1GGMi7" id="2ZEgorb3eZW" role="3OMXVs">
       <property role="3OMXVg" value="2" />
       <ref role="3OMXVu" to="erae:6UqSuuqlOU1" resolve="cart_imped_low" />
     </node>
-    <node concept="20OrKj" id="IxQR1PMQgO" role="20FsIq">
-      <property role="TrG5h" value="global_jnt_limits" />
+    <node concept="1GGMi7" id="2ZEgorb3eZZ" role="3OMXVs">
+      <property role="3OMXVg" value="2" />
+      <ref role="3OMXVu" to="erae:6UqSuuqlPjb" resolve="joint_space_redres" />
+    </node>
+    <node concept="20OrKj" id="2ZEgorb3eZU" role="20FsIq">
+      <property role="TrG5h" value="jnts" />
       <ref role="20OrKi" to="bxwr:FHWRYag$aX" resolve="JointLimits" />
     </node>
   </node>

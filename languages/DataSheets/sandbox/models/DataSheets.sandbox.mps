@@ -188,7 +188,7 @@
     </node>
   </node>
   <node concept="3OxzkH" id="6UqSuuq7jtf">
-    <property role="TrG5h" value="opensot_test_datasheet" />
+    <property role="TrG5h" value="opensot_gen" />
     <property role="3OxzkG" value="iHQP_SoT" />
     <property role="3OxzkN" value="QPSoT_Component" />
     <property role="3OxzkZ" value="qp_problem" />
