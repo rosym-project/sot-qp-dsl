@@ -41,7 +41,7 @@
     <property role="38x2dW" value="z5yWMlY7sx/OpenSoT" />
     <property role="1kxcNp" value="true" />
     <ref role="20SfXC" to="bxwr:FHWRYa2buF" resolve="IHQP" />
-    <ref role="3OxXTK" to="bxwr:6UqSuuq7jtf" resolve="opensot_test_1" />
+    <ref role="3OxXTK" to="bxwr:6UqSuuq7jtf" resolve="opensot_test_datasheet" />
     <node concept="1GGMi7" id="6UqSuuqA4e5" role="3OMXVs">
       <property role="3OMXVg" value="1" />
       <ref role="3OMXVu" to="erae:6UqSuuqlOPa" resolve="cart_imped_high" />
@@ -49,10 +49,6 @@
     <node concept="1GGMi7" id="6UqSuuqA4e8" role="3OMXVs">
       <property role="3OMXVg" value="2" />
       <ref role="3OMXVu" to="erae:6UqSuuqlPjb" resolve="joint_space_redres" />
-    </node>
-    <node concept="1GGMi7" id="6UqSuuqA4eb" role="3OMXVs">
-      <property role="3OMXVg" value="2" />
-      <ref role="3OMXVu" to="erae:6UqSuuqlOU1" resolve="cart_imped_low" />
     </node>
     <node concept="20OrKj" id="IxQR1PMQgO" role="20FsIq">
       <property role="TrG5h" value="global_jnt_limits" />

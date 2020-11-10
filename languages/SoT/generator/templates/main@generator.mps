@@ -4558,85 +4558,6 @@
           </node>
           <node concept="2EixSi" id="41PiSKOL6Bq" role="2EinRH" />
         </node>
-        <node concept="356sEK" id="5svMD4Od2Mx" role="383Ya9">
-          <node concept="356sEF" id="5svMD4Od2My" role="356sEH">
-            <property role="TrG5h" value="close loop configuration" />
-            <node concept="1W57fq" id="5svMD4Od3Rl" role="lGtFl">
-              <node concept="3IZrLx" id="5svMD4Od3Rm" role="3IZSJc">
-                <node concept="3clFbS" id="5svMD4Od3Rn" role="2VODD2">
-                  <node concept="3clFbF" id="5svMD4Od3Zk" role="3cqZAp">
-                    <node concept="2OqwBi" id="5svMD4Od4vN" role="3clFbG">
-                      <node concept="2OqwBi" id="5svMD4Od4cI" role="2Oq$k0">
-                        <node concept="30H73N" id="5svMD4Od3Zj" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="5svMD4Od4lz" role="2OqNvi">
-                          <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="5svMD4Od4G3" role="2OqNvi">
-                        <ref role="3TsBF5" to="ciel:5svMD4OcT1E" resolve="close_loop_conf" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="17Uvod" id="5svMD4Od4Mm" role="lGtFl">
-              <property role="2qtEX9" value="name" />
-              <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-              <node concept="3zFVjK" id="5svMD4Od4Mn" role="3zH0cK">
-                <node concept="3clFbS" id="5svMD4Od4Mo" role="2VODD2">
-                  <node concept="3clFbF" id="5svMD4Od9LQ" role="3cqZAp">
-                    <node concept="Xl_RD" id="5svMD4Od9LP" role="3clFbG">
-                      <property role="Xl_RC" value="// read the port, set the values, update the model" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2EixSi" id="5svMD4Od2Mz" role="2EinRH" />
-        </node>
-        <node concept="356sEK" id="5svMD4Odbdz" role="383Ya9">
-          <node concept="356sEF" id="5svMD4Odbd$" role="356sEH">
-            <property role="TrG5h" value="not close loop configuration" />
-            <node concept="1W57fq" id="5svMD4Odbd_" role="lGtFl">
-              <node concept="3IZrLx" id="5svMD4OdbdA" role="3IZSJc">
-                <node concept="3clFbS" id="5svMD4OdbdB" role="2VODD2">
-                  <node concept="3clFbF" id="5svMD4OdbdC" role="3cqZAp">
-                    <node concept="3clFbC" id="5svMD4Ofiw4" role="3clFbG">
-                      <node concept="3clFbT" id="5svMD4OfiFP" role="3uHU7w" />
-                      <node concept="2OqwBi" id="5svMD4OdbdD" role="3uHU7B">
-                        <node concept="2OqwBi" id="5svMD4OdbdE" role="2Oq$k0">
-                          <node concept="30H73N" id="5svMD4OdbdF" role="2Oq$k0" />
-                          <node concept="3TrEf2" id="5svMD4OdbdG" role="2OqNvi">
-                            <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
-                          </node>
-                        </node>
-                        <node concept="3TrcHB" id="5svMD4OdbdH" role="2OqNvi">
-                          <ref role="3TsBF5" to="ciel:5svMD4OcT1E" resolve="close_loop_conf" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="17Uvod" id="5svMD4OdbdI" role="lGtFl">
-              <property role="2qtEX9" value="name" />
-              <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
-              <node concept="3zFVjK" id="5svMD4OdbdJ" role="3zH0cK">
-                <node concept="3clFbS" id="5svMD4OdbdK" role="2VODD2">
-                  <node concept="3clFbF" id="5svMD4OdbdL" role="3cqZAp">
-                    <node concept="Xl_RD" id="5svMD4OdbdM" role="3clFbG">
-                      <property role="Xl_RC" value="// integration over solution, update the model" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2EixSi" id="5svMD4OdbdN" role="2EinRH" />
-        </node>
         <node concept="356sEK" id="5svMD4Od9YF" role="383Ya9">
           <node concept="2EixSi" id="5svMD4Od9YH" role="2EinRH" />
         </node>
@@ -4853,8 +4774,142 @@
       </node>
       <node concept="356sEQ" id="5svMD4Ohysl" role="383Ya9">
         <property role="333NGx" value="    " />
-        <node concept="356sEK" id="5svMD4Ohysm" role="383Ya9">
-          <node concept="2EixSi" id="5svMD4Ohyso" role="2EinRH" />
+        <node concept="356sEK" id="5svMD4Od2Mx" role="383Ya9">
+          <node concept="356sEF" id="5svMD4Od2My" role="356sEH">
+            <property role="TrG5h" value="close loop configuration" />
+            <node concept="1W57fq" id="5svMD4Od3Rl" role="lGtFl">
+              <node concept="3IZrLx" id="5svMD4Od3Rm" role="3IZSJc">
+                <node concept="3clFbS" id="5svMD4Od3Rn" role="2VODD2">
+                  <node concept="3clFbF" id="5svMD4Od3Zk" role="3cqZAp">
+                    <node concept="2OqwBi" id="5svMD4Od4vN" role="3clFbG">
+                      <node concept="2OqwBi" id="5svMD4Od4cI" role="2Oq$k0">
+                        <node concept="30H73N" id="5svMD4Od3Zj" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="5svMD4Od4lz" role="2OqNvi">
+                          <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="5svMD4Od4G3" role="2OqNvi">
+                        <ref role="3TsBF5" to="ciel:5svMD4OcT1E" resolve="close_loop_conf" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="17Uvod" id="5svMD4Od4Mm" role="lGtFl">
+              <property role="2qtEX9" value="name" />
+              <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+              <node concept="3zFVjK" id="5svMD4Od4Mn" role="3zH0cK">
+                <node concept="3clFbS" id="5svMD4Od4Mo" role="2VODD2">
+                  <node concept="3clFbJ" id="v6R$1EmQHa" role="3cqZAp">
+                    <node concept="3clFbC" id="v6R$1EmRRh" role="3clFbw">
+                      <node concept="2OqwBi" id="v6R$1EmSP6" role="3uHU7w">
+                        <node concept="1XH99k" id="v6R$1EmS4$" role="2Oq$k0">
+                          <ref role="1XH99l" to="ciel:z5yWMlY7sw" resolve="SolverBackends" />
+                        </node>
+                        <node concept="2ViDtV" id="v6R$1EmT2s" role="2OqNvi">
+                          <ref role="2ViDtZ" to="ciel:z5yWMlY7sx" resolve="OpenSoT" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="v6R$1EmRkJ" role="3uHU7B">
+                        <node concept="2OqwBi" id="v6R$1EmQZP" role="2Oq$k0">
+                          <node concept="30H73N" id="v6R$1EmQLQ" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="v6R$1EmR8l" role="2OqNvi">
+                            <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="v6R$1EmRv1" role="2OqNvi">
+                          <ref role="3TsBF5" to="ciel:6UqSuuq7djh" resolve="back_end" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="v6R$1EmQHc" role="3clFbx">
+                      <node concept="3cpWs8" id="v6R$1EmXDt" role="3cqZAp">
+                        <node concept="3cpWsn" id="v6R$1EmXDw" role="3cpWs9">
+                          <property role="TrG5h" value="ret" />
+                          <node concept="17QB3L" id="v6R$1EmXDs" role="1tU5fm" />
+                          <node concept="Xl_RD" id="v6R$1EmXRW" role="33vP2m">
+                            <property role="Xl_RC" value="this-&gt;model-&gt;setJointPosition(q);\n\tthis-&gt;model-&gt;setJointVelocity(qd);\n" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="v6R$1Epm41" role="3cqZAp">
+                        <node concept="d57v9" id="v6R$1Epmrb" role="3clFbG">
+                          <node concept="Xl_RD" id="v6R$1Epmss" role="37vLTx">
+                            <property role="Xl_RC" value="\tthis-&gt;model-&gt;setJointAcceleration(qdd);\n\tthis-&gt;model-&gt;setJointEffort(tau);\n" />
+                          </node>
+                          <node concept="37vLTw" id="v6R$1Epm3Z" role="37vLTJ">
+                            <ref role="3cqZAo" node="v6R$1EmXDw" resolve="ret" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs6" id="v6R$1EmZr0" role="3cqZAp">
+                        <node concept="3cpWs3" id="v6R$1Epn0H" role="3cqZAk">
+                          <node concept="Xl_RD" id="v6R$1Epn1Y" role="3uHU7w">
+                            <property role="Xl_RC" value="\tthis-&gt;model-&gt;update();" />
+                          </node>
+                          <node concept="37vLTw" id="v6R$1EmZsl" role="3uHU7B">
+                            <ref role="3cqZAo" node="v6R$1EmXDw" resolve="ret" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="9aQIb" id="v6R$1EmTiu" role="9aQIa">
+                      <node concept="3clFbS" id="v6R$1EmTiv" role="9aQI4">
+                        <node concept="3cpWs6" id="v6R$1EmTjy" role="3cqZAp">
+                          <node concept="Xl_RD" id="v6R$1EmTkC" role="3cqZAk">
+                            <property role="Xl_RC" value="// not implemented yet. Use the open loop integration version :(" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2EixSi" id="5svMD4Od2Mz" role="2EinRH" />
+        </node>
+        <node concept="356sEK" id="5svMD4Odbdz" role="383Ya9">
+          <node concept="356sEF" id="5svMD4Odbd$" role="356sEH">
+            <property role="TrG5h" value="not close loop configuration" />
+            <node concept="1W57fq" id="5svMD4Odbd_" role="lGtFl">
+              <node concept="3IZrLx" id="5svMD4OdbdA" role="3IZSJc">
+                <node concept="3clFbS" id="5svMD4OdbdB" role="2VODD2">
+                  <node concept="3clFbF" id="5svMD4OdbdC" role="3cqZAp">
+                    <node concept="3clFbC" id="5svMD4Ofiw4" role="3clFbG">
+                      <node concept="3clFbT" id="5svMD4OfiFP" role="3uHU7w" />
+                      <node concept="2OqwBi" id="5svMD4OdbdD" role="3uHU7B">
+                        <node concept="2OqwBi" id="5svMD4OdbdE" role="2Oq$k0">
+                          <node concept="30H73N" id="5svMD4OdbdF" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="5svMD4OdbdG" role="2OqNvi">
+                            <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="5svMD4OdbdH" role="2OqNvi">
+                          <ref role="3TsBF5" to="ciel:5svMD4OcT1E" resolve="close_loop_conf" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="17Uvod" id="5svMD4OdbdI" role="lGtFl">
+              <property role="2qtEX9" value="name" />
+              <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+              <node concept="3zFVjK" id="5svMD4OdbdJ" role="3zH0cK">
+                <node concept="3clFbS" id="5svMD4OdbdK" role="2VODD2">
+                  <node concept="3clFbF" id="5svMD4OdbdL" role="3cqZAp">
+                    <node concept="Xl_RD" id="5svMD4OdbdM" role="3clFbG">
+                      <property role="Xl_RC" value="// integration over solution, update the model" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2EixSi" id="5svMD4OdbdN" role="2EinRH" />
         </node>
       </node>
       <node concept="356sEK" id="5svMD4Ohysp" role="383Ya9">
@@ -6446,6 +6501,49 @@
         <node concept="2EixSi" id="6pibjvgU4LV" role="2EinRH" />
         <node concept="356sEQ" id="6pibjvgU5nE" role="356sEH">
           <property role="333NGx" value="    " />
+          <node concept="356sEK" id="v6R$1En7UR" role="383Ya9">
+            <node concept="356sEF" id="v6R$1En7US" role="356sEH">
+              <property role="TrG5h" value="robot" />
+              <node concept="5jKBG" id="v6R$1En8nW" role="lGtFl">
+                <ref role="v9R2y" node="4Gmud$$CEtc" resolve="splitter" />
+                <node concept="Xl_RD" id="v6R$1En8ot" role="v9R3O">
+                  <property role="Xl_RC" value="input port from robot" />
+                </node>
+              </node>
+            </node>
+            <node concept="2EixSi" id="v6R$1En7UT" role="2EinRH" />
+          </node>
+          <node concept="356sEK" id="v6R$1En76d" role="383Ya9">
+            <node concept="356sEF" id="v6R$1En7Bq" role="356sEH">
+              <property role="TrG5h" value="read from robot" />
+              <node concept="17Uvod" id="v6R$1En7Bs" role="lGtFl">
+                <property role="2qtEX9" value="name" />
+                <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                <node concept="3zFVjK" id="v6R$1En7Bt" role="3zH0cK">
+                  <node concept="3clFbS" id="v6R$1En7Bu" role="2VODD2">
+                    <node concept="3clFbF" id="v6R$1EmXUg" role="3cqZAp">
+                      <node concept="Xl_RD" id="v6R$1EmYiA" role="3clFbG">
+                        <property role="Xl_RC" value="q_in.read(q);\n\tqd_in.read(qd);\n\tqdd_in.read(qdd);\n\ttau_in.read(tau);" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2EixSi" id="v6R$1En76f" role="2EinRH" />
+          </node>
+          <node concept="356sEK" id="v6R$1En8oJ" role="383Ya9">
+            <node concept="356sEF" id="v6R$1En8oK" role="356sEH">
+              <property role="TrG5h" value="task parameters" />
+              <node concept="5jKBG" id="v6R$1En8U4" role="lGtFl">
+                <ref role="v9R2y" node="4Gmud$$CEtc" resolve="splitter" />
+                <node concept="Xl_RD" id="v6R$1En8UA" role="v9R3O">
+                  <property role="Xl_RC" value="sot-qp task parameters" />
+                </node>
+              </node>
+            </node>
+            <node concept="2EixSi" id="v6R$1En8oL" role="2EinRH" />
+          </node>
           <node concept="356sEK" id="6pibjvgUpWK" role="383Ya9">
             <node concept="356sEF" id="6pibjvgUwck" role="356sEH">
               <property role="TrG5h" value="Settable" />

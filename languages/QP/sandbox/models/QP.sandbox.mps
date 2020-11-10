@@ -49,8 +49,8 @@
   </registry>
   <node concept="1iYVF7" id="6UqSuuqlOPa">
     <property role="TrG5h" value="cart_imped_high" />
-    <property role="1iYVFk" value="kuka_lwr_base_link" />
-    <property role="1iYVFi" value="kuka_lwr_7_link" />
+    <property role="1iYVFk" value="iiwa_link_0" />
+    <property role="1iYVFi" value="iiwa_link_ee" />
     <ref role="2tekCW" to="bxwr:z5yWMlYjsN" resolve="CartesianImpedanceAcceleration" />
     <node concept="1kIObA" id="6UqSuuqlOPf" role="1kIObz">
       <property role="1kIObx" value="0.001" />

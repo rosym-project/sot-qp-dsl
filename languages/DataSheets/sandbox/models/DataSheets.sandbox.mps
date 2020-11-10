@@ -49,6 +49,7 @@
       <concept id="7969930875424789706" name="DataSheets.structure.GeneratorDataSheet" flags="ng" index="3OxzkH">
         <property id="8154925118478293145" name="package_name" index="TSKmD" />
         <property id="5896530153938759806" name="monitors_over_ros" index="11cDUh" />
+        <property id="6277959130572623978" name="close_loop_conf" index="1zb5FV" />
         <property id="7969930875424789707" name="sot_object_name" index="3OxzkG" />
         <property id="7969930875424789716" name="sot_component_name" index="3OxzkN" />
         <property id="7969930875424789713" name="back_end" index="3OxzkQ" />
@@ -196,6 +197,7 @@
     <property role="1OOtDC" value="true" />
     <property role="11cDUh" value="true" />
     <property role="TSKmD" value="iHQP_SoT_package" />
+    <property role="1zb5FV" value="true" />
   </node>
 </model>
 
