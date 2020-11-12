@@ -4434,15 +4434,20 @@
                         <node concept="3cpWs3" id="41PiSKOLn$S" role="3cqZAk">
                           <node concept="3cpWs3" id="41PiSKOLn$T" role="3uHU7B">
                             <node concept="3cpWs3" id="41PiSKOLn$U" role="3uHU7B">
-                              <node concept="2OqwBi" id="41PiSKOLn$V" role="3uHU7B">
-                                <node concept="2OqwBi" id="41PiSKOLn$W" role="2Oq$k0">
-                                  <node concept="30H73N" id="41PiSKOLn$X" role="2Oq$k0" />
-                                  <node concept="3TrEf2" id="41PiSKOLn$Y" role="2OqNvi">
-                                    <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
-                                  </node>
+                              <node concept="3cpWs3" id="4lWrgAZCoDH" role="3uHU7B">
+                                <node concept="Xl_RD" id="4lWrgAZCoRQ" role="3uHU7B">
+                                  <property role="Xl_RC" value="!" />
                                 </node>
-                                <node concept="3TrcHB" id="41PiSKOLn$Z" role="2OqNvi">
-                                  <ref role="3TsBF5" to="ciel:6UqSuuq7djb" resolve="sot_object_name" />
+                                <node concept="2OqwBi" id="41PiSKOLn$V" role="3uHU7w">
+                                  <node concept="2OqwBi" id="41PiSKOLn$W" role="2Oq$k0">
+                                    <node concept="30H73N" id="41PiSKOLn$X" role="2Oq$k0" />
+                                    <node concept="3TrEf2" id="41PiSKOLn$Y" role="2OqNvi">
+                                      <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
+                                    </node>
+                                  </node>
+                                  <node concept="3TrcHB" id="41PiSKOLn$Z" role="2OqNvi">
+                                    <ref role="3TsBF5" to="ciel:6UqSuuq7djb" resolve="sot_object_name" />
+                                  </node>
                                 </node>
                               </node>
                               <node concept="Xl_RD" id="41PiSKOLn_0" role="3uHU7w">
@@ -4517,6 +4522,18 @@
                 <property role="TrG5h" value="RTT::log(RTT::Warning) &lt;&lt;&quot;Solution NOT found.&quot;&lt;&lt;RTT::endlog();" />
               </node>
               <node concept="2EixSi" id="41PiSKOL6TC" role="2EinRH" />
+            </node>
+            <node concept="356sEK" id="4lWrgAZCoVV" role="383Ya9">
+              <node concept="356sEF" id="4lWrgAZCoVW" role="356sEH">
+                <property role="TrG5h" value="// Below is better to send previous solution instead of zero" />
+              </node>
+              <node concept="2EixSi" id="4lWrgAZCoVX" role="2EinRH" />
+            </node>
+            <node concept="356sEK" id="4lWrgAZCpHY" role="383Ya9">
+              <node concept="356sEF" id="4lWrgAZCpHZ" role="356sEH">
+                <property role="TrG5h" value="// or something that does not constitute a hidden assumption" />
+              </node>
+              <node concept="2EixSi" id="4lWrgAZCpI0" role="2EinRH" />
             </node>
             <node concept="356sEK" id="41PiSKOL6ok" role="383Ya9">
               <node concept="356sEF" id="41PiSKOL6ol" role="356sEH">
