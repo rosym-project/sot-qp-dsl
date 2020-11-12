@@ -4414,6 +4414,78 @@
           </node>
           <node concept="2EixSi" id="5svMD4Ohogg" role="2EinRH" />
         </node>
+        <node concept="356sEK" id="4lWrgAZE50S" role="383Ya9">
+          <node concept="356sEF" id="4lWrgAZE55v" role="356sEH">
+            <property role="TrG5h" value="update_stack();" />
+            <node concept="17Uvod" id="4lWrgAZE55x" role="lGtFl">
+              <property role="2qtEX9" value="name" />
+              <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+              <node concept="3zFVjK" id="4lWrgAZE55y" role="3zH0cK">
+                <node concept="3clFbS" id="4lWrgAZE55z" role="2VODD2">
+                  <node concept="3clFbJ" id="4lWrgAZE5a7" role="3cqZAp">
+                    <node concept="3clFbC" id="4lWrgAZE6dn" role="3clFbw">
+                      <node concept="2OqwBi" id="4lWrgAZE6VF" role="3uHU7w">
+                        <node concept="1XH99k" id="4lWrgAZE6kp" role="2Oq$k0">
+                          <ref role="1XH99l" to="ciel:z5yWMlY7sw" resolve="SolverBackends" />
+                        </node>
+                        <node concept="2ViDtV" id="4lWrgAZE79k" role="2OqNvi">
+                          <ref role="2ViDtZ" to="ciel:z5yWMlY7sx" resolve="OpenSoT" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="4lWrgAZE5Jd" role="3uHU7B">
+                        <node concept="2OqwBi" id="4lWrgAZE5o_" role="2Oq$k0">
+                          <node concept="30H73N" id="4lWrgAZE5aA" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="4lWrgAZE5x5" role="2OqNvi">
+                            <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="4lWrgAZE5ZX" role="2OqNvi">
+                          <ref role="3TsBF5" to="ciel:6UqSuuq7djh" resolve="back_end" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="4lWrgAZE5a9" role="3clFbx">
+                      <node concept="3cpWs6" id="4lWrgAZEiO6" role="3cqZAp">
+                        <node concept="3cpWs3" id="4lWrgAZEiO7" role="3cqZAk">
+                          <node concept="3cpWs3" id="4lWrgAZEiO9" role="3uHU7B">
+                            <node concept="2OqwBi" id="4lWrgAZEiOa" role="3uHU7B">
+                              <node concept="2OqwBi" id="4lWrgAZEiOb" role="2Oq$k0">
+                                <node concept="30H73N" id="4lWrgAZEiOc" role="2Oq$k0" />
+                                <node concept="3TrEf2" id="4lWrgAZEiOd" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
+                                </node>
+                              </node>
+                              <node concept="3TrcHB" id="4lWrgAZEiOe" role="2OqNvi">
+                                <ref role="3TsBF5" to="ciel:6UqSuuq7djb" resolve="sot_object_name" />
+                              </node>
+                            </node>
+                            <node concept="Xl_RD" id="4lWrgAZEiOf" role="3uHU7w">
+                              <property role="Xl_RC" value="-&gt;" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="4lWrgAZEiOl" role="3uHU7w">
+                            <property role="Xl_RC" value="stack-&gt;update(q); //not sure if passing q make any sense..." />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="4lWrgAZEkbz" role="3cqZAp" />
+                    </node>
+                    <node concept="9aQIb" id="4lWrgAZE7ae" role="9aQIa">
+                      <node concept="3clFbS" id="4lWrgAZE7af" role="9aQI4">
+                        <node concept="3cpWs6" id="4lWrgAZE7ng" role="3cqZAp">
+                          <node concept="Xl_RD" id="4lWrgAZE7p2" role="3cqZAk">
+                            <property role="Xl_RC" value="not implemented yet :(" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2EixSi" id="4lWrgAZE50U" role="2EinRH" />
+        </node>
         <node concept="356sEK" id="41PiSKOL5IO" role="383Ya9">
           <node concept="2EixSi" id="41PiSKOL5IQ" role="2EinRH" />
         </node>
@@ -4574,15 +4646,6 @@
             <property role="TrG5h" value="}" />
           </node>
           <node concept="2EixSi" id="41PiSKOL6Bq" role="2EinRH" />
-        </node>
-        <node concept="356sEK" id="5svMD4Od9YF" role="383Ya9">
-          <node concept="2EixSi" id="5svMD4Od9YH" role="2EinRH" />
-        </node>
-        <node concept="356sEK" id="IxQR1Qgv6I" role="383Ya9">
-          <node concept="356sEF" id="IxQR1Qgv6J" role="356sEH">
-            <property role="TrG5h" value="// update sot model" />
-          </node>
-          <node concept="2EixSi" id="IxQR1Qgv6K" role="2EinRH" />
         </node>
         <node concept="356sEK" id="IxQR1QenSa" role="383Ya9">
           <node concept="356sEF" id="IxQR1QenSb" role="356sEH">
