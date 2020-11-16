@@ -3424,12 +3424,6 @@
             <property role="TrG5h" value=" // robot feedback" />
           </node>
         </node>
-        <node concept="356sEK" id="5svMD4OhHJR" role="383Ya9">
-          <node concept="356sEF" id="5svMD4OhHJS" role="356sEH">
-            <property role="TrG5h" value="RTT::FlowStatus robot_sattus_port;" />
-          </node>
-          <node concept="2EixSi" id="5svMD4OhHJT" role="2EinRH" />
-        </node>
         <node concept="356sEK" id="1q4naCfTnR3" role="383Ya9">
           <node concept="356sEF" id="1q4naCfTnR4" role="356sEH">
             <property role="TrG5h" value="Eigen::VectorXd " />
@@ -3447,6 +3441,30 @@
             <property role="TrG5h" value="q, qd, qdd, tau;" />
           </node>
           <node concept="2EixSi" id="erZibowLg3" role="2EinRH" />
+        </node>
+        <node concept="356sEK" id="6BWy2ByKbCK" role="383Ya9">
+          <node concept="356sEF" id="6BWy2ByKbCL" role="356sEH">
+            <property role="TrG5h" value="// We decided to go all the way Eigen... what is this rtt-sim-embeded!??" />
+          </node>
+          <node concept="2EixSi" id="6BWy2ByKbCM" role="2EinRH" />
+        </node>
+        <node concept="356sEK" id="6BWy2ByK5ov" role="383Ya9">
+          <node concept="2EixSi" id="6BWy2ByK5ox" role="2EinRH" />
+          <node concept="356sEF" id="6BWy2ByK8WJ" role="356sEH">
+            <property role="TrG5h" value="RTT::InputPort&lt;sensor_msgs::JointState&gt; robot_state_input_port;" />
+          </node>
+        </node>
+        <node concept="356sEK" id="6BWy2ByK8WL" role="383Ya9">
+          <node concept="356sEF" id="6BWy2ByK8WM" role="356sEH">
+            <property role="TrG5h" value="RTT::FlowStatus robot_state_flow;" />
+          </node>
+          <node concept="2EixSi" id="6BWy2ByK8WN" role="2EinRH" />
+        </node>
+        <node concept="356sEK" id="6BWy2ByKaiJ" role="383Ya9">
+          <node concept="356sEF" id="6BWy2ByKaiK" role="356sEH">
+            <property role="TrG5h" value="sensor_msgs::JointState robot_state_input_data;" />
+          </node>
+          <node concept="2EixSi" id="6BWy2ByKaiL" role="2EinRH" />
         </node>
         <node concept="356sEK" id="41PiSKOLb4P" role="383Ya9">
           <node concept="2EixSi" id="41PiSKOLb4R" role="2EinRH" />
@@ -3831,12 +3849,6 @@
             <node concept="2EixSi" id="5svMD4OhYbs" role="2EinRH" />
           </node>
           <node concept="356WMU" id="5svMD4Oi9Xq" role="383Ya9">
-            <node concept="356sEK" id="5svMD4Oi9Xr" role="383Ya9">
-              <node concept="356sEF" id="5svMD4Oi9Xs" role="356sEH">
-                <property role="TrG5h" value="robot_sattus_port = RTT::NoData;" />
-              </node>
-              <node concept="2EixSi" id="5svMD4Oi9Xu" role="2EinRH" />
-            </node>
             <node concept="356sEK" id="5svMD4Oi9Xv" role="383Ya9">
               <node concept="356sEF" id="5svMD4Oi9Xw" role="356sEH">
                 <property role="TrG5h" value="q_in.setName(&quot;q_in&quot;); ports()-&gt;addPort(q_in);" />
@@ -3860,6 +3872,117 @@
                 <property role="TrG5h" value="tau_in.setName(&quot;tau_in&quot;); ports()-&gt;addPort(tau_in);" />
               </node>
               <node concept="2EixSi" id="5svMD4Oi9XI" role="2EinRH" />
+            </node>
+            <node concept="356sEK" id="6BWy2ByKmB4" role="383Ya9">
+              <node concept="2EixSi" id="6BWy2ByKmB6" role="2EinRH" />
+            </node>
+            <node concept="356sEK" id="6BWy2ByKmBm" role="383Ya9">
+              <node concept="2EixSi" id="6BWy2ByKmBo" role="2EinRH" />
+              <node concept="356sEF" id="6BWy2ByKmFL" role="356sEH">
+                <property role="TrG5h" value="robot_state_flow = RTT::NoData;" />
+              </node>
+            </node>
+            <node concept="356sEK" id="6BWy2ByKmFR" role="383Ya9">
+              <node concept="356sEF" id="6BWy2ByKmFS" role="356sEH">
+                <property role="TrG5h" value="robot_state_input_port.setName(&quot;robot_state_input_port&quot;);" />
+              </node>
+              <node concept="2EixSi" id="6BWy2ByKmFT" role="2EinRH" />
+            </node>
+            <node concept="356sEK" id="6BWy2ByKmGe" role="383Ya9">
+              <node concept="356sEF" id="6BWy2ByKmGf" role="356sEH">
+                <property role="TrG5h" value="robot_state_input_data.position.resize(" />
+              </node>
+              <node concept="356sEF" id="6BWy2ByKmHP" role="356sEH">
+                <property role="TrG5h" value="DOF_SIZE" />
+                <node concept="17Uvod" id="6BWy2ByKmHQ" role="lGtFl">
+                  <property role="2qtEX9" value="name" />
+                  <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                  <node concept="3zFVjK" id="6BWy2ByKmHR" role="3zH0cK">
+                    <node concept="3clFbS" id="6BWy2ByKmHS" role="2VODD2">
+                      <node concept="3clFbF" id="6BWy2ByKmHT" role="3cqZAp">
+                        <node concept="2YIFZM" id="6BWy2ByKmHU" role="3clFbG">
+                          <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                          <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+                          <node concept="2OqwBi" id="6BWy2ByKmHV" role="37wK5m">
+                            <node concept="30H73N" id="6BWy2ByKmHW" role="2Oq$k0" />
+                            <node concept="2qgKlT" id="6BWy2ByKmHX" role="2OqNvi">
+                              <ref role="37wK5l" to="fdmv:41PiSKORpX9" resolve="getDoFSize" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="356sEF" id="6BWy2ByKmHL" role="356sEH">
+                <property role="TrG5h" value=");" />
+              </node>
+              <node concept="2EixSi" id="6BWy2ByKmGg" role="2EinRH" />
+            </node>
+            <node concept="356sEK" id="6BWy2ByKmGC" role="383Ya9">
+              <node concept="356sEF" id="6BWy2ByKmGD" role="356sEH">
+                <property role="TrG5h" value="robot_state_input_data.velocity.resize(" />
+              </node>
+              <node concept="356sEF" id="6BWy2ByKp77" role="356sEH">
+                <property role="TrG5h" value="DOF_SIZE" />
+                <node concept="17Uvod" id="6BWy2ByKp78" role="lGtFl">
+                  <property role="2qtEX9" value="name" />
+                  <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                  <node concept="3zFVjK" id="6BWy2ByKp79" role="3zH0cK">
+                    <node concept="3clFbS" id="6BWy2ByKp7a" role="2VODD2">
+                      <node concept="3clFbF" id="6BWy2ByKp7b" role="3cqZAp">
+                        <node concept="2YIFZM" id="6BWy2ByKp7c" role="3clFbG">
+                          <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                          <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+                          <node concept="2OqwBi" id="6BWy2ByKp7d" role="37wK5m">
+                            <node concept="30H73N" id="6BWy2ByKp7e" role="2Oq$k0" />
+                            <node concept="2qgKlT" id="6BWy2ByKp7f" role="2OqNvi">
+                              <ref role="37wK5l" to="fdmv:41PiSKORpX9" resolve="getDoFSize" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="356sEF" id="6BWy2ByKnNU" role="356sEH">
+                <property role="TrG5h" value=");" />
+              </node>
+              <node concept="2EixSi" id="6BWy2ByKmGE" role="2EinRH" />
+            </node>
+            <node concept="356sEK" id="6BWy2ByKmH9" role="383Ya9">
+              <node concept="356sEF" id="6BWy2ByKmHa" role="356sEH">
+                <property role="TrG5h" value="robot_state_input_data.effort.resize(" />
+              </node>
+              <node concept="356sEF" id="6BWy2ByKplJ" role="356sEH">
+                <property role="TrG5h" value="DOF_SIZE" />
+                <node concept="17Uvod" id="6BWy2ByKplK" role="lGtFl">
+                  <property role="2qtEX9" value="name" />
+                  <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                  <node concept="3zFVjK" id="6BWy2ByKplL" role="3zH0cK">
+                    <node concept="3clFbS" id="6BWy2ByKplM" role="2VODD2">
+                      <node concept="3clFbF" id="6BWy2ByKplN" role="3cqZAp">
+                        <node concept="2YIFZM" id="6BWy2ByKplO" role="3clFbG">
+                          <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                          <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+                          <node concept="2OqwBi" id="6BWy2ByKplP" role="37wK5m">
+                            <node concept="30H73N" id="6BWy2ByKplQ" role="2Oq$k0" />
+                            <node concept="2qgKlT" id="6BWy2ByKplR" role="2OqNvi">
+                              <ref role="37wK5l" to="fdmv:41PiSKORpX9" resolve="getDoFSize" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="356sEF" id="6BWy2ByKnNY" role="356sEH">
+                <property role="TrG5h" value=");" />
+              </node>
+              <node concept="2EixSi" id="6BWy2ByKmHb" role="2EinRH" />
             </node>
           </node>
           <node concept="356sEK" id="5svMD4Oi9N$" role="383Ya9">
@@ -6601,9 +6724,75 @@
                 <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
                 <node concept="3zFVjK" id="v6R$1En7Bt" role="3zH0cK">
                   <node concept="3clFbS" id="v6R$1En7Bu" role="2VODD2">
-                    <node concept="3clFbF" id="v6R$1EmXUg" role="3cqZAp">
-                      <node concept="Xl_RD" id="v6R$1EmYiA" role="3clFbG">
-                        <property role="Xl_RC" value="q_in.read(q);\n\tqd_in.read(qd);\n\tqdd_in.read(qdd);\n\ttau_in.read(tau);" />
+                    <node concept="3cpWs8" id="6BWy2ByKpQn" role="3cqZAp">
+                      <node concept="3cpWsn" id="6BWy2ByKpQq" role="3cpWs9">
+                        <property role="TrG5h" value="ret" />
+                        <node concept="17QB3L" id="6BWy2ByKpQm" role="1tU5fm" />
+                        <node concept="Xl_RD" id="6BWy2ByKpVO" role="33vP2m">
+                          <property role="Xl_RC" value="robot_state_flow = robot_state_input_port.read(robot_state_input_data);\n" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="6BWy2ByKpX4" role="3cqZAp">
+                      <node concept="d57v9" id="6BWy2ByKqjy" role="3clFbG">
+                        <node concept="3cpWs3" id="6BWy2ByKxdQ" role="37vLTx">
+                          <node concept="Xl_RD" id="6BWy2ByKycT" role="3uHU7w">
+                            <property role="Xl_RC" value="; ++i){\n" />
+                          </node>
+                          <node concept="3cpWs3" id="6BWy2ByKrbY" role="3uHU7B">
+                            <node concept="Xl_RD" id="6BWy2ByKqk4" role="3uHU7B">
+                              <property role="Xl_RC" value="\tfor(int i=0; i&lt;" />
+                            </node>
+                            <node concept="2YIFZM" id="6BWy2ByKu6G" role="3uHU7w">
+                              <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                              <ref role="37wK5l" to="wyt6:~String.valueOf(int)" resolve="valueOf" />
+                              <node concept="2OqwBi" id="6BWy2ByKuPr" role="37wK5m">
+                                <node concept="30H73N" id="6BWy2ByKuwn" role="2Oq$k0" />
+                                <node concept="2qgKlT" id="6BWy2ByKvcx" role="2OqNvi">
+                                  <ref role="37wK5l" to="fdmv:41PiSKORpX9" resolve="getDoFSize" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="6BWy2ByKpX2" role="37vLTJ">
+                          <ref role="3cqZAo" node="6BWy2ByKpQq" resolve="ret" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="6BWy2ByKyoH" role="3cqZAp">
+                      <node concept="d57v9" id="6BWy2ByKz$D" role="3clFbG">
+                        <node concept="Xl_RD" id="6BWy2ByKzAr" role="37vLTx">
+                          <property role="Xl_RC" value="\t\tq[i] = robot_state_input_data.position[i];\n" />
+                        </node>
+                        <node concept="37vLTw" id="6BWy2ByKyoF" role="37vLTJ">
+                          <ref role="3cqZAo" node="6BWy2ByKpQq" resolve="ret" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="6BWy2ByK$JI" role="3cqZAp">
+                      <node concept="d57v9" id="6BWy2ByK$JK" role="3clFbG">
+                        <node concept="Xl_RD" id="6BWy2ByK$JL" role="37vLTx">
+                          <property role="Xl_RC" value="\t\tqd[i] = robot_state_input_data.velocity[i];\n" />
+                        </node>
+                        <node concept="37vLTw" id="6BWy2ByK$JM" role="37vLTJ">
+                          <ref role="3cqZAo" node="6BWy2ByKpQq" resolve="ret" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="6BWy2ByK$LZ" role="3cqZAp">
+                      <node concept="d57v9" id="6BWy2ByK$M1" role="3clFbG">
+                        <node concept="Xl_RD" id="6BWy2ByK$M2" role="37vLTx">
+                          <property role="Xl_RC" value="\t\ttau[i] = robot_state_input_data.effort[i];\n\t}" />
+                        </node>
+                        <node concept="37vLTw" id="6BWy2ByK$M3" role="37vLTJ">
+                          <ref role="3cqZAo" node="6BWy2ByKpQq" resolve="ret" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3cpWs6" id="6BWy2ByKram" role="3cqZAp">
+                      <node concept="37vLTw" id="6BWy2ByKrb8" role="3cqZAk">
+                        <ref role="3cqZAo" node="6BWy2ByKpQq" resolve="ret" />
                       </node>
                     </node>
                   </node>
