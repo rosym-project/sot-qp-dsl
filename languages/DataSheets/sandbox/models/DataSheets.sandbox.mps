@@ -195,9 +195,9 @@
     <property role="3OxzkZ" value="qp_problem" />
     <property role="3OxzkQ" value="z5yWMlY7sx/OpenSoT" />
     <property role="1OOtDC" value="true" />
-    <property role="11cDUh" value="true" />
     <property role="TSKmD" value="iHQP_SoT_package" />
     <property role="1zb5FV" value="true" />
+    <property role="11cDUh" value="true" />
   </node>
 </model>
 
