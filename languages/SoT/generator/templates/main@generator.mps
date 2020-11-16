@@ -3984,6 +3984,12 @@
               </node>
               <node concept="2EixSi" id="6BWy2ByKmHb" role="2EinRH" />
             </node>
+            <node concept="356sEK" id="6BWy2ByN0n1" role="383Ya9">
+              <node concept="356sEF" id="6BWy2ByN0n2" role="356sEH">
+                <property role="TrG5h" value="ports()-&gt;addPort(robot_state_input_port);" />
+              </node>
+              <node concept="2EixSi" id="6BWy2ByN0n3" role="2EinRH" />
+            </node>
           </node>
           <node concept="356sEK" id="5svMD4Oi9N$" role="383Ya9">
             <node concept="2EixSi" id="5svMD4Oi9NA" role="2EinRH" />
