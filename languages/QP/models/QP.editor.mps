@@ -90,17 +90,16 @@
         <node concept="lj46D" id="1q4naCfROJo" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="3F0ifn" id="1q4naCfROJp" role="3EZMnx">
-          <property role="3F0ifm" value="desired_joint" />
-        </node>
         <node concept="3F0ifn" id="1q4naCfROJq" role="3EZMnx">
-          <property role="3F0ifm" value=":" />
           <node concept="11L4FC" id="1q4naCfROJr" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
           <node concept="ljvvj" id="1q4naCfROJs" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
+        </node>
+        <node concept="3F0ifn" id="1UZRc24bZKZ" role="3EZMnx">
+          <property role="3F0ifm" value="desired_joint: " />
         </node>
         <node concept="3F1sOY" id="1q4naCfROJt" role="3EZMnx">
           <ref role="1NtTu8" to="qg:1Nc9ZPKv_EO" resolve="desired_joint" />
@@ -110,6 +109,21 @@
           <node concept="ljvvj" id="1q4naCfROJv" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
+        </node>
+        <node concept="3F0ifn" id="1UZRc24bZLl" role="3EZMnx">
+          <property role="3F0ifm" value="joint_stiffness:" />
+        </node>
+        <node concept="3F1sOY" id="1UZRc24bZLH" role="3EZMnx">
+          <ref role="1NtTu8" to="qg:1UZRc24bZK7" resolve="joint_stiffness" />
+          <node concept="ljvvj" id="1UZRc24bZN4" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="1UZRc24bZNk" role="3EZMnx">
+          <property role="3F0ifm" value="joint_damping:" />
+        </node>
+        <node concept="3F1sOY" id="1UZRc24bZNM" role="3EZMnx">
+          <ref role="1NtTu8" to="qg:1UZRc24bZKb" resolve="joint_damping" />
         </node>
       </node>
       <node concept="3F0ifn" id="1q4naCfROJw" role="3EZMnx">

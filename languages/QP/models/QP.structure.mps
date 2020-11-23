@@ -151,6 +151,20 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7Lm6QrslTaY" resolve="Settable" />
     </node>
+    <node concept="1TJgyj" id="1UZRc24bZK7" role="1TKVEi">
+      <property role="IQ2ns" value="2215732261099142151" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="joint_stiffness" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7Lm6QrslTaY" resolve="Settable" />
+    </node>
+    <node concept="1TJgyj" id="1UZRc24bZKb" role="1TKVEi">
+      <property role="IQ2ns" value="2215732261099142155" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="joint_damping" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7Lm6QrslTaY" resolve="Settable" />
+    </node>
     <node concept="1TJgyj" id="3zFGDPGkf2j" role="1TKVEi">
       <property role="IQ2ns" value="4101568274847821971" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

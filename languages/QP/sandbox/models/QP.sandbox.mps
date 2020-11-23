@@ -37,6 +37,8 @@
         <property id="4101568274847821948" name="value" index="1kIObx" />
       </concept>
       <concept id="2075077497778494131" name="QP.structure.JointSpaceRedundancyResolution" flags="ng" index="1GGBPe">
+        <child id="2215732261099142151" name="joint_stiffness" index="2q$237" />
+        <child id="2215732261099142155" name="joint_damping" index="2q$23b" />
         <child id="4101568274847821971" name="lambda" index="1kIO8e" />
         <child id="2075077497778494132" name="desired_joint" index="1GGBP9" />
       </concept>
@@ -117,6 +119,16 @@
     </node>
     <node concept="1kIObA" id="6UqSuuqlPjd" role="1kIO8e">
       <property role="1kIObx" value="0.05" />
+    </node>
+    <node concept="2w0oBo" id="1UZRc24dVrA" role="2q$23b">
+      <property role="2wqb9l" value="Eigen::Matrix" />
+      <property role="2w0rIP" value="7" />
+      <property role="2w0rIZ" value="7" />
+    </node>
+    <node concept="2w0oBo" id="1UZRc24eu5u" role="2q$237">
+      <property role="2wqb9l" value="Eigen::Matrix" />
+      <property role="2w0rIP" value="7" />
+      <property role="2w0rIZ" value="7" />
     </node>
   </node>
   <node concept="20OrKj" id="6UqSuuqlPje">

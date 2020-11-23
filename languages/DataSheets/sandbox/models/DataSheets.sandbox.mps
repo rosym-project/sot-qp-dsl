@@ -142,6 +142,20 @@
         <node concept="2GEI7N" id="fxXr8jd8oD" role="2GEI7L">
           <property role="2GEI7O" value="OpenSoT/tasks/torque/JointImpedanceCtrl.h" />
         </node>
+        <node concept="1gqcCF" id="1UZRc243PyL" role="1gqcC_">
+          <property role="1gqcCE" value="joint_stiffness" />
+          <property role="1gqcCG" value="setStiffness" />
+          <property role="1gqcCx" value="Eigen:MatrixXd" />
+          <property role="zCVGa" value="7" />
+          <property role="zCVGd" value="7" />
+        </node>
+        <node concept="1gqcCF" id="1UZRc243PyO" role="1gqcC_">
+          <property role="1gqcCE" value="joint_damping" />
+          <property role="1gqcCG" value="setDamping" />
+          <property role="1gqcCx" value="Eigen::MatrixXd" />
+          <property role="zCVGa" value="7" />
+          <property role="zCVGd" value="7" />
+        </node>
         <node concept="1gqcCF" id="7tjg6$Bf4CR" role="1gqcC_">
           <property role="1gqcCE" value="desired_joint" />
           <property role="1gqcCG" value="setReference" />
