@@ -145,7 +145,7 @@
         <node concept="1gqcCF" id="1UZRc243PyL" role="1gqcC_">
           <property role="1gqcCE" value="joint_stiffness" />
           <property role="1gqcCG" value="setStiffness" />
-          <property role="1gqcCx" value="Eigen:MatrixXd" />
+          <property role="1gqcCx" value="Eigen::MatrixXd" />
           <property role="zCVGa" value="7" />
           <property role="zCVGd" value="7" />
         </node>
