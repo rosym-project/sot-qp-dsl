@@ -6230,7 +6230,7 @@
                                 <ref role="3cqZAo" node="3pbEWNENcoe" resolve="port" />
                               </node>
                               <node concept="Xl_RD" id="1SLuty1MK5H" role="3uHU7w">
-                                <property role="Xl_RC" value="_input_data.setZero(" />
+                                <property role="Xl_RC" value="_output_data.setZero(" />
                               </node>
                             </node>
                             <node concept="1eOMI4" id="1SLuty1MK5I" role="3uHU7w">
