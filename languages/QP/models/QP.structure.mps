@@ -115,6 +115,9 @@
       <property role="20kJfa" value="cartesian_stiffness" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7Lm6QrslTaY" resolve="Settable" />
+      <node concept="t5JxF" id="6QCgWt9xd3X" role="lGtFl">
+        <property role="t5JxN" value="TODO: add default" />
+      </node>
     </node>
     <node concept="1TJgyj" id="6$QZRoVNq_g" role="1TKVEi">
       <property role="IQ2ns" value="7581527905999366480" />

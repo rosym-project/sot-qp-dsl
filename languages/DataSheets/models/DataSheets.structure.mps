@@ -284,6 +284,14 @@
         <property role="t5JxN" value="if monitored parameters are published over ros (rtt_ros_integration output ports)" />
       </node>
     </node>
+    <node concept="1TJgyi" id="6QCgWt9nG9T" role="1TKVEl">
+      <property role="IQ2nx" value="7901640069430035065" />
+      <property role="TrG5h" value="non_linear_dynamics_model" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+      <node concept="t5JxF" id="6QCgWt9nGab" role="lGtFl">
+        <property role="t5JxN" value="c+g in inverse dynamics to be computed from model or input port from the robot" />
+      </node>
+    </node>
     <node concept="PrWs8" id="6UqSuuq7jtg" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>

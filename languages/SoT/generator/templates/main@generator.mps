@@ -1902,6 +1902,15 @@
         </node>
         <node concept="2EixSi" id="3zFGDPGdPAF" role="2EinRH" />
       </node>
+      <node concept="356sEK" id="6QCgWt9n_tH" role="383Ya9">
+        <node concept="356sEF" id="6QCgWt9n_tI" role="356sEH">
+          <property role="TrG5h" value="#include &lt;sensor_msgs/JointState.h&gt;" />
+        </node>
+        <node concept="2EixSi" id="6QCgWt9n_tJ" role="2EinRH" />
+        <node concept="356sEF" id="6QCgWt9nDqX" role="356sEH">
+          <property role="TrG5h" value=" // for robot feedback" />
+        </node>
+      </node>
       <node concept="356sEK" id="57kFIWgZnXC" role="383Ya9">
         <node concept="356sEF" id="57kFIWgZqkZ" role="356sEH">
           <property role="TrG5h" value="include headers" />
@@ -3382,6 +3391,12 @@
           </node>
           <node concept="2EixSi" id="5svMD4Ohr4r" role="2EinRH" />
         </node>
+        <node concept="356sEK" id="6QCgWt9x72j" role="383Ya9">
+          <node concept="2EixSi" id="6QCgWt9x72l" role="2EinRH" />
+          <node concept="356sEF" id="6QCgWt9x8zP" role="356sEH">
+            <property role="TrG5h" value="double kv;" />
+          </node>
+        </node>
         <node concept="356sEK" id="1q4naCfTfVL" role="383Ya9">
           <node concept="2EixSi" id="1q4naCfTfVN" role="2EinRH" />
         </node>
@@ -3465,6 +3480,101 @@
             <property role="TrG5h" value="sensor_msgs::JointState robot_state_input_data;" />
           </node>
           <node concept="2EixSi" id="6BWy2ByKaiL" role="2EinRH" />
+        </node>
+        <node concept="356sEK" id="6QCgWt9nDr0" role="383Ya9">
+          <node concept="356sEF" id="6QCgWt9nDr1" role="356sEH">
+            <property role="TrG5h" value="input port for non linear terms" />
+            <node concept="17Uvod" id="6QCgWt9p5Xl" role="lGtFl">
+              <property role="2qtEX9" value="name" />
+              <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+              <node concept="3zFVjK" id="6QCgWt9p5Xm" role="3zH0cK">
+                <node concept="3clFbS" id="6QCgWt9p5Xn" role="2VODD2">
+                  <node concept="3clFbJ" id="6QCgWt9p8vb" role="3cqZAp">
+                    <node concept="3clFbC" id="6QCgWt9paGj" role="3clFbw">
+                      <node concept="3clFbT" id="6QCgWt9paHw" role="3uHU7w" />
+                      <node concept="2OqwBi" id="6QCgWt9p90D" role="3uHU7B">
+                        <node concept="2OqwBi" id="6QCgWt9p8HE" role="2Oq$k0">
+                          <node concept="30H73N" id="6QCgWt9p8vE" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="6QCgWt9p8Qt" role="2OqNvi">
+                            <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6QCgWt9p9d8" role="2OqNvi">
+                          <ref role="3TsBF5" to="ciel:6QCgWt9nG9T" resolve="non_linear_dynamics_model" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="6QCgWt9p8vd" role="3clFbx">
+                      <node concept="3cpWs6" id="6QCgWt9p9Qe" role="3cqZAp">
+                        <node concept="Xl_RD" id="6QCgWt9p9RQ" role="3cqZAk">
+                          <property role="Xl_RC" value="RTT::InputPort&lt;Eigen::VectorXd&gt; non_linear_terms_simulator_port;" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="9aQIb" id="6QCgWt9paJz" role="9aQIa">
+                      <node concept="3clFbS" id="6QCgWt9paJ$" role="9aQI4">
+                        <node concept="3cpWs6" id="6QCgWt9pb38" role="3cqZAp">
+                          <node concept="Xl_RD" id="6QCgWt9pb5d" role="3cqZAk">
+                            <property role="Xl_RC" value="" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2EixSi" id="6QCgWt9nDr2" role="2EinRH" />
+        </node>
+        <node concept="356sEK" id="6QCgWt9nEMr" role="383Ya9">
+          <node concept="356sEF" id="6QCgWt9nEMs" role="356sEH">
+            <property role="TrG5h" value="Eigen::VectorXd " />
+          </node>
+          <node concept="356sEF" id="6QCgWt9pb7y" role="356sEH">
+            <property role="TrG5h" value="non linear term data" />
+            <node concept="17Uvod" id="6QCgWt9pb7_" role="lGtFl">
+              <property role="2qtEX9" value="name" />
+              <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+              <node concept="3zFVjK" id="6QCgWt9pb7A" role="3zH0cK">
+                <node concept="3clFbS" id="6QCgWt9pb7B" role="2VODD2">
+                  <node concept="3clFbJ" id="6QCgWt9pbcb" role="3cqZAp">
+                    <node concept="3clFbC" id="6QCgWt9pciE" role="3clFbw">
+                      <node concept="3clFbT" id="6QCgWt9pcuk" role="3uHU7w" />
+                      <node concept="2OqwBi" id="6QCgWt9pbHg" role="3uHU7B">
+                        <node concept="2OqwBi" id="6QCgWt9pbqh" role="2Oq$k0">
+                          <node concept="30H73N" id="6QCgWt9pbci" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="6QCgWt9pbz4" role="2OqNvi">
+                            <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6QCgWt9pbTJ" role="2OqNvi">
+                          <ref role="3TsBF5" to="ciel:6QCgWt9nG9T" resolve="non_linear_dynamics_model" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="6QCgWt9pbcd" role="3clFbx">
+                      <node concept="3cpWs6" id="6QCgWt9pcMx" role="3cqZAp">
+                        <node concept="Xl_RD" id="6QCgWt9pcO9" role="3cqZAk">
+                          <property role="Xl_RC" value="non_linear_terms_simulator_data;" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="9aQIb" id="6QCgWt9pcLI" role="9aQIa">
+                      <node concept="3clFbS" id="6QCgWt9pcLJ" role="9aQI4">
+                        <node concept="3cpWs6" id="6QCgWt9pcQU" role="3cqZAp">
+                          <node concept="Xl_RD" id="6QCgWt9pcS5" role="3cqZAk">
+                            <property role="Xl_RC" value="non_linear_terms_model, gravity_model;" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2EixSi" id="6QCgWt9nEMt" role="2EinRH" />
         </node>
         <node concept="356sEK" id="41PiSKOLb4P" role="383Ya9">
           <node concept="2EixSi" id="41PiSKOLb4R" role="2EinRH" />
@@ -3594,6 +3704,12 @@
           <property role="TrG5h" value="&quot;" />
         </node>
         <node concept="2EixSi" id="2QU2W9uIZKT" role="2EinRH" />
+      </node>
+      <node concept="356sEK" id="6QCgWt9qpLv" role="383Ya9">
+        <node concept="356sEF" id="6QCgWt9qpLw" role="356sEH">
+          <property role="TrG5h" value="#include &lt;rtt_roscomm/rostopic.h&gt;" />
+        </node>
+        <node concept="2EixSi" id="6QCgWt9qpLx" role="2EinRH" />
       </node>
       <node concept="356sEK" id="2QU2W9uJgbN" role="383Ya9">
         <node concept="2EixSi" id="2QU2W9uJgbP" role="2EinRH" />
@@ -3873,6 +3989,148 @@
               </node>
               <node concept="2EixSi" id="5svMD4Oi9XI" role="2EinRH" />
             </node>
+            <node concept="356sEK" id="6QCgWt9qup4" role="383Ya9">
+              <node concept="2EixSi" id="6QCgWt9qup6" role="2EinRH" />
+            </node>
+            <node concept="356sEK" id="6QCgWt9qutz" role="383Ya9">
+              <node concept="356sEF" id="6QCgWt9qut$" role="356sEH">
+                <property role="TrG5h" value="non linear terms" />
+                <node concept="17Uvod" id="6QCgWt9quy4" role="lGtFl">
+                  <property role="2qtEX9" value="name" />
+                  <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+                  <node concept="3zFVjK" id="6QCgWt9quy5" role="3zH0cK">
+                    <node concept="3clFbS" id="6QCgWt9quy6" role="2VODD2">
+                      <node concept="3cpWs8" id="6QCgWt9q_ib" role="3cqZAp">
+                        <node concept="3cpWsn" id="6QCgWt9q_ie" role="3cpWs9">
+                          <property role="TrG5h" value="ret" />
+                          <node concept="17QB3L" id="6QCgWt9q_i9" role="1tU5fm" />
+                          <node concept="Xl_RD" id="6QCgWt9q_kE" role="33vP2m">
+                            <property role="Xl_RC" value="" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbJ" id="6QCgWt9q$Rz" role="3cqZAp">
+                        <node concept="3clFbC" id="6QCgWt9q$R$" role="3clFbw">
+                          <node concept="3clFbT" id="6QCgWt9q$R_" role="3uHU7w" />
+                          <node concept="2OqwBi" id="6QCgWt9q$RA" role="3uHU7B">
+                            <node concept="2OqwBi" id="6QCgWt9q$RB" role="2Oq$k0">
+                              <node concept="30H73N" id="6QCgWt9q$RC" role="2Oq$k0" />
+                              <node concept="3TrEf2" id="6QCgWt9q$RD" role="2OqNvi">
+                                <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
+                              </node>
+                            </node>
+                            <node concept="3TrcHB" id="6QCgWt9q$RE" role="2OqNvi">
+                              <ref role="3TsBF5" to="ciel:6QCgWt9nG9T" resolve="non_linear_dynamics_model" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbS" id="6QCgWt9q$RF" role="3clFbx">
+                          <node concept="3clFbF" id="6QCgWt9q_m3" role="3cqZAp">
+                            <node concept="d57v9" id="6QCgWt9q_CZ" role="3clFbG">
+                              <node concept="3cpWs3" id="6QCgWt9qCqm" role="37vLTx">
+                                <node concept="Xl_RD" id="6QCgWt9qCxt" role="3uHU7w">
+                                  <property role="Xl_RC" value=");\n\t" />
+                                </node>
+                                <node concept="3cpWs3" id="6QCgWt9qAfK" role="3uHU7B">
+                                  <node concept="Xl_RD" id="6QCgWt9q_WP" role="3uHU7B">
+                                    <property role="Xl_RC" value="non_linear_terms_simulator_data.setZero(" />
+                                  </node>
+                                  <node concept="2OqwBi" id="6QCgWt9qAxV" role="3uHU7w">
+                                    <node concept="30H73N" id="6QCgWt9qAfS" role="2Oq$k0" />
+                                    <node concept="2qgKlT" id="6QCgWt9qAXQ" role="2OqNvi">
+                                      <ref role="37wK5l" to="fdmv:41PiSKORpX9" resolve="getDoFSize" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="37vLTw" id="6QCgWt9q_m1" role="37vLTJ">
+                                <ref role="3cqZAo" node="6QCgWt9q_ie" resolve="ret" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbF" id="6QCgWt9qD0r" role="3cqZAp">
+                            <node concept="d57v9" id="6QCgWt9qDtj" role="3clFbG">
+                              <node concept="Xl_RD" id="6QCgWt9qDv9" role="37vLTx">
+                                <property role="Xl_RC" value="non_linear_terms_simulator_port.setName(\&quot;non_linear_terms_simulator_port\&quot;);\n\t" />
+                              </node>
+                              <node concept="37vLTw" id="6QCgWt9qD0p" role="37vLTJ">
+                                <ref role="3cqZAo" node="6QCgWt9q_ie" resolve="ret" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbF" id="6QCgWt9qLiv" role="3cqZAp">
+                            <node concept="d57v9" id="6QCgWt9qLJq" role="3clFbG">
+                              <node concept="Xl_RD" id="6QCgWt9qLLf" role="37vLTx">
+                                <property role="Xl_RC" value="ports()-&gt;addPort(non_linear_terms_simulator_port);\n" />
+                              </node>
+                              <node concept="37vLTw" id="6QCgWt9qLit" role="37vLTJ">
+                                <ref role="3cqZAo" node="6QCgWt9q_ie" resolve="ret" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="9aQIb" id="6QCgWt9q$RI" role="9aQIa">
+                          <node concept="3clFbS" id="6QCgWt9q$RJ" role="9aQI4">
+                            <node concept="3clFbF" id="6QCgWt9qNZJ" role="3cqZAp">
+                              <node concept="d57v9" id="6QCgWt9qOsc" role="3clFbG">
+                                <node concept="3cpWs3" id="6QCgWt9qZRX" role="37vLTx">
+                                  <node concept="Xl_RD" id="6QCgWt9qZSg" role="3uHU7w">
+                                    <property role="Xl_RC" value=");\n" />
+                                  </node>
+                                  <node concept="3cpWs3" id="6QCgWt9qXvg" role="3uHU7B">
+                                    <node concept="Xl_RD" id="6QCgWt9qOtR" role="3uHU7B">
+                                      <property role="Xl_RC" value="non_linear_terms_model.setZero(" />
+                                    </node>
+                                    <node concept="2OqwBi" id="6QCgWt9qXG1" role="3uHU7w">
+                                      <node concept="30H73N" id="6QCgWt9qXx0" role="2Oq$k0" />
+                                      <node concept="2qgKlT" id="6QCgWt9qYjC" role="2OqNvi">
+                                        <ref role="37wK5l" to="fdmv:41PiSKORpX9" resolve="getDoFSize" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="37vLTw" id="6QCgWt9qNZI" role="37vLTJ">
+                                  <ref role="3cqZAo" node="6QCgWt9q_ie" resolve="ret" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbF" id="6QCgWt9r227" role="3cqZAp">
+                              <node concept="d57v9" id="6QCgWt9r229" role="3clFbG">
+                                <node concept="3cpWs3" id="6QCgWt9r22a" role="37vLTx">
+                                  <node concept="Xl_RD" id="6QCgWt9r22b" role="3uHU7w">
+                                    <property role="Xl_RC" value=");\n" />
+                                  </node>
+                                  <node concept="3cpWs3" id="6QCgWt9r22c" role="3uHU7B">
+                                    <node concept="Xl_RD" id="6QCgWt9r22d" role="3uHU7B">
+                                      <property role="Xl_RC" value="gravity_terms_model.setZero(" />
+                                    </node>
+                                    <node concept="2OqwBi" id="6QCgWt9r22e" role="3uHU7w">
+                                      <node concept="30H73N" id="6QCgWt9r22f" role="2Oq$k0" />
+                                      <node concept="2qgKlT" id="6QCgWt9r22g" role="2OqNvi">
+                                        <ref role="37wK5l" to="fdmv:41PiSKORpX9" resolve="getDoFSize" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="37vLTw" id="6QCgWt9r22h" role="37vLTJ">
+                                  <ref role="3cqZAo" node="6QCgWt9q_ie" resolve="ret" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs6" id="6QCgWt9qNVN" role="3cqZAp">
+                        <node concept="37vLTw" id="6QCgWt9qNXP" role="3cqZAk">
+                          <ref role="3cqZAo" node="6QCgWt9q_ie" resolve="ret" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2EixSi" id="6QCgWt9qut_" role="2EinRH" />
+            </node>
             <node concept="356sEK" id="6BWy2ByKmB4" role="383Ya9">
               <node concept="2EixSi" id="6BWy2ByKmB6" role="2EinRH" />
             </node>
@@ -3993,6 +4251,21 @@
           </node>
           <node concept="356sEK" id="5svMD4Oi9N$" role="383Ya9">
             <node concept="2EixSi" id="5svMD4Oi9NA" role="2EinRH" />
+          </node>
+          <node concept="356sEK" id="6QCgWt9xel_" role="383Ya9">
+            <node concept="356sEF" id="6QCgWt9xelA" role="356sEH">
+              <property role="TrG5h" value="kv = 0.0;" />
+            </node>
+            <node concept="2EixSi" id="6QCgWt9xelB" role="2EinRH" />
+          </node>
+          <node concept="356sEK" id="6QCgWt9xe_K" role="383Ya9">
+            <node concept="356sEF" id="6QCgWt9xe_L" role="356sEH">
+              <property role="TrG5h" value="addProperty(&quot;gravCompDamp&quot;, kv);" />
+            </node>
+            <node concept="2EixSi" id="6QCgWt9xe_M" role="2EinRH" />
+          </node>
+          <node concept="356sEK" id="6QCgWt9xd5C" role="383Ya9">
+            <node concept="2EixSi" id="6QCgWt9xd5E" role="2EinRH" />
           </node>
           <node concept="356sEK" id="2QU2W9uK8Mg" role="383Ya9">
             <node concept="356sEF" id="2QU2W9uK8Mh" role="356sEH">
@@ -4775,6 +5048,96 @@
             <property role="TrG5h" value="}" />
           </node>
           <node concept="2EixSi" id="41PiSKOL6Bq" role="2EinRH" />
+        </node>
+        <node concept="356sEK" id="6QCgWt9r6_1" role="383Ya9">
+          <node concept="356sEF" id="6QCgWt9r6_2" role="356sEH">
+            <property role="TrG5h" value="write_torques_port" />
+            <node concept="17Uvod" id="6QCgWt9r7$V" role="lGtFl">
+              <property role="2qtEX9" value="name" />
+              <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+              <node concept="3zFVjK" id="6QCgWt9r7$W" role="3zH0cK">
+                <node concept="3clFbS" id="6QCgWt9r7$X" role="2VODD2">
+                  <node concept="3cpWs8" id="6QCgWt9r8xM" role="3cqZAp">
+                    <node concept="3cpWsn" id="6QCgWt9r8xN" role="3cpWs9">
+                      <property role="TrG5h" value="ret" />
+                      <node concept="17QB3L" id="6QCgWt9r8xO" role="1tU5fm" />
+                      <node concept="Xl_RD" id="6QCgWt9r8xP" role="33vP2m">
+                        <property role="Xl_RC" value="" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="6QCgWt9r8xQ" role="3cqZAp">
+                    <node concept="3clFbC" id="6QCgWt9r8xR" role="3clFbw">
+                      <node concept="3clFbT" id="6QCgWt9r8xS" role="3uHU7w" />
+                      <node concept="2OqwBi" id="6QCgWt9r8xT" role="3uHU7B">
+                        <node concept="2OqwBi" id="6QCgWt9r8xU" role="2Oq$k0">
+                          <node concept="30H73N" id="6QCgWt9r8xV" role="2Oq$k0" />
+                          <node concept="3TrEf2" id="6QCgWt9r8xW" role="2OqNvi">
+                            <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="6QCgWt9r8xX" role="2OqNvi">
+                          <ref role="3TsBF5" to="ciel:6QCgWt9nG9T" resolve="non_linear_dynamics_model" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="6QCgWt9r8xY" role="3clFbx">
+                      <node concept="3clFbF" id="6QCgWt9rg9A" role="3cqZAp">
+                        <node concept="d57v9" id="6QCgWt9rgSp" role="3clFbG">
+                          <node concept="Xl_RD" id="6QCgWt9rgTO" role="37vLTx">
+                            <property role="Xl_RC" value="computed_torques_output_port.write(computed_torques_output_data + non_linear_terms_simulator_data - kv * qd);" />
+                          </node>
+                          <node concept="37vLTw" id="6QCgWt9rg9_" role="37vLTJ">
+                            <ref role="3cqZAo" node="6QCgWt9r8xN" resolve="ret" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="9aQIb" id="6QCgWt9r8yh" role="9aQIa">
+                      <node concept="3clFbS" id="6QCgWt9r8yi" role="9aQI4">
+                        <node concept="3clFbF" id="6QCgWt9r8yj" role="3cqZAp">
+                          <node concept="d57v9" id="6QCgWt9r8yk" role="3clFbG">
+                            <node concept="37vLTw" id="6QCgWt9r8ys" role="37vLTJ">
+                              <ref role="3cqZAo" node="6QCgWt9r8xN" resolve="ret" />
+                            </node>
+                            <node concept="Xl_RD" id="6QCgWt9raVy" role="37vLTx">
+                              <property role="Xl_RC" value="this-&gt;model-&gt;computeNonlinearTerm(non_linear_terms_model);\n\t" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbF" id="6QCgWt9r8yt" role="3cqZAp">
+                          <node concept="d57v9" id="6QCgWt9r8yu" role="3clFbG">
+                            <node concept="37vLTw" id="6QCgWt9r8yA" role="37vLTJ">
+                              <ref role="3cqZAo" node="6QCgWt9r8xN" resolve="ret" />
+                            </node>
+                            <node concept="Xl_RD" id="6QCgWt9rc7p" role="37vLTx">
+                              <property role="Xl_RC" value="this-&gt;model-&gt;computeGravityCompensation(gravity_model);\n\t" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbF" id="6QCgWt9rdjv" role="3cqZAp">
+                          <node concept="d57v9" id="6QCgWt9rduU" role="3clFbG">
+                            <node concept="Xl_RD" id="6QCgWt9rdPj" role="37vLTx">
+                              <property role="Xl_RC" value="computed_torques_output_port.write(computed_torques_output_data + non_linear_terms_model + gravity_model - kv * qd);" />
+                            </node>
+                            <node concept="37vLTw" id="6QCgWt9rdjt" role="37vLTJ">
+                              <ref role="3cqZAo" node="6QCgWt9r8xN" resolve="ret" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWs6" id="6QCgWt9r8yB" role="3cqZAp">
+                    <node concept="37vLTw" id="6QCgWt9r8yC" role="3cqZAk">
+                      <ref role="3cqZAo" node="6QCgWt9r8xN" resolve="ret" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2EixSi" id="6QCgWt9r6_3" role="2EinRH" />
         </node>
         <node concept="356sEK" id="IxQR1QenSa" role="383Ya9">
           <node concept="356sEF" id="IxQR1QenSb" role="356sEH">
@@ -6736,6 +7099,34 @@
                         <node concept="17QB3L" id="6BWy2ByKpQm" role="1tU5fm" />
                         <node concept="Xl_RD" id="6BWy2ByKpVO" role="33vP2m">
                           <property role="Xl_RC" value="robot_state_flow = robot_state_input_port.read(robot_state_input_data);\n" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbJ" id="6QCgWt9tckj" role="3cqZAp">
+                      <node concept="3clFbS" id="6QCgWt9tckl" role="3clFbx">
+                        <node concept="3clFbF" id="6QCgWt9teLR" role="3cqZAp">
+                          <node concept="d57v9" id="6QCgWt9tf5D" role="3clFbG">
+                            <node concept="Xl_RD" id="6QCgWt9tf7P" role="37vLTx">
+                              <property role="Xl_RC" value="\tnon_linear_terms_simulator_port.read(non_linear_terms_simulator_data);\n" />
+                            </node>
+                            <node concept="37vLTw" id="6QCgWt9teLP" role="37vLTJ">
+                              <ref role="3cqZAo" node="6BWy2ByKpQq" resolve="ret" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbC" id="6QCgWt9tdLR" role="3clFbw">
+                        <node concept="3clFbT" id="6QCgWt9teJM" role="3uHU7w" />
+                        <node concept="2OqwBi" id="6QCgWt9tcZv" role="3uHU7B">
+                          <node concept="2OqwBi" id="6QCgWt9tcEo" role="2Oq$k0">
+                            <node concept="30H73N" id="6QCgWt9tcm$" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="6QCgWt9tcOt" role="2OqNvi">
+                              <ref role="3Tt5mk" to="it9v:6UqSuuq7jYn" resolve="generator_data_sheet" />
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="6QCgWt9tdbo" role="2OqNvi">
+                            <ref role="3TsBF5" to="ciel:6QCgWt9nG9T" resolve="non_linear_dynamics_model" />
+                          </node>
                         </node>
                       </node>
                     </node>
